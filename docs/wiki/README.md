@@ -1,6 +1,6 @@
-<p align="center"><a href="https://imgur.com/ejvyphR.jpg" target="_blank"><img width="480" alt="JanusWeb" src="https://imgur.com/ejvyphR.jpg"></a></p>
+<p align="center"><a href="_media/ejvyphR.jpg" target="_blank"><img width="480" alt="JanusWeb" src="_media/ejvyphR.jpg"></a></p>
 
-<p align="center"><b>A web framework for building social virtual reality experiences.</b></p>
+<p align="center"><b>A web framework for building XR experiences for the immersive web.</b></p>
 
 <div align="center">
   <a href="https://github.com/jbaicoianu/janusweb">Github</a>

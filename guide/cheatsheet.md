@@ -247,7 +247,7 @@ sync = "true" -> synchronizes this object with other users
 ### [Image](https://vesta.janusvr.com/guide/image)
     <FireBoxRoom>
     <Assets>
-    <AssetImage id="imgur" src="http://i.imgur.com/cSTBoJM.jpg" />
+    <AssetImage id="imgur" src="_media/cSTBoJM.jpg" />
     </Assets>
     <Room>
     <Image id="imgur" js_id="0" pos="0 2 8" xdir="-1 0 0.000003" zdir="-0.000003 0 -1" scale="2 2 1" />
@@ -257,8 +257,8 @@ sync = "true" -> synchronizes this object with other users
 ### [Image3D](https://vesta.janusvr.com/guide/image3d)
     <FireBoxRoom>
     <Assets>
-    <AssetImage id="imgur1" src="http://i.imgur.com/MDM50wl.jpg" sbs3d="true" tex_compress="true" />
-    <AssetImage id="imgur2" src="http://i.imgur.com/sRShxpk.png" ou3d="true" tex_compress="true" />
+    <AssetImage id="imgur1" src="_media/MDM50wl.jpg" sbs3d="true" tex_compress="true" />
+    <AssetImage id="imgur2" src="_media/sRShxpk.png" ou3d="true" tex_compress="true" />
     </Assets>
     <Room>
     <Image id="imgur1" js_id="0" pos="-2 2 7" xdir="-1 0 0.000003" zdir="-0.000003 0 -1" scale="2 2 1" />
@@ -299,7 +299,7 @@ sync = "true" -> synchronizes this object with other users
 ### [Object](https://vesta.janusvr.com/guide/object)
     <FireBoxRoom>
     <Assets>
-    <AssetObject id="box" src="UVcubebox.obj" tex0="https://i.imgur.com/DNwR5wi.jpg" />
+    <AssetObject id="box" src="UVcubebox.obj" tex0="_media/DNwR5wi.jpg" />
     </Assets>
     <Room>
     <Object id="box" js_id="1" pos="4 0 10" xdir="-1 0 0" zdir="0 0 -1" scale="2 2 2" lighting="false" />
@@ -371,7 +371,7 @@ sync = "true" -> synchronizes this object with other users
 ### [Snow](https://vesta.janusvr.com/guide/snow)
     <FireBoxRoom>
     <Assets>
-    <AssetImage id="particle" src="https://i.imgur.com/99xXncY.png" tex_colorspace="sRGB" />
+    <AssetImage id="particle" src="_media/99xXncY.png" tex_colorspace="sRGB" />
     <AssetScript src="https://paradox.spyduck.net/rooms/landscapes/snow.js" />
     </Assets>
     <Room>

@@ -57,9 +57,9 @@ Regular shortcuts look like app icons, text links, or bookmark buttons. **Meta S
 
 Read more here: <https://github.com/smsithlord/MetaShortcutFormat>
 
-![Preview](https://i.imgur.com/28iXQJs.jpg)
+![Preview](../_media/28iXQJs.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/anarchy-arcade-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/anarchy-arcade-test)
 
 ```
 <aacabinet cabinet_id="arcademachine" controlpanel_part_name="cabinet-front" js_id="supersmashland" marquee_part_name="cabinet-marquee" msf='{"title":"SuperSmashLand","file":"SuperSmashLand.exe","screen":"http://www.supersmashland.com/imgs/screenshot1.png","marquee":"https://i.ytimg.com/vi/KVROb_FPZCc/maxresdefault.jpg","preview":"https://www.youtube.com/watch?v=351CO5_8fbM","download":"http://www.supersmashland.com/","reference":"http://en.wikipedia.org/wiki/Super_Smash_Land","description":"Super Smash Land is a demake of Super Smash Bros. released in September 14, 2011 by Dan Fornace. The game features 6 playable characters and 11 stages. The game visual design resembles the graphics from the Nintendo Game Boy. The game was developed with GameMaker 7.","keywords":"retro, nintendo","type":"pc"}' pos="0 0 -2" scale="1.25 1.25 1.25" screen_part_name="screen"/>
@@ -69,7 +69,7 @@ Read more here: <https://github.com/smsithlord/MetaShortcutFormat>
 
 ## [presentation](https://github.com/madjin/janus-custom-components/blob/master/media/presentation/presentation.js)
 
-![Preview](https://i.imgur.com/s55HNSs.jpg)
+![Preview](../_media/s55HNSs.jpg)
 
 ***
 
@@ -81,7 +81,7 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 ## [projector](https://github.com/madjin/janus-custom-components/blob/master/media/projector/projector.js)
 
-![Preview](https://i.imgur.com/OrXxiFs.jpg)
+![Preview](../_media/OrXxiFs.jpg)
 
 ```
 <AssetObject id="projector" src="http://assets.metacade.com/archive/models/projector/projector.dae" />
@@ -104,7 +104,7 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 ## [recordplayer](https://github.com/madjin/janus-custom-components/blob/master/media/recordplayer/recordplayer.js)
 
-![Preview](https://i.imgur.com/JSuAJRd.jpg)
+![Preview](../_media/JSuAJRd.jpg)
 
 ```
 <AssetObject id="table" src="http://assets.metacade.com/archive/models/table/RageTable.obj" />
@@ -122,9 +122,9 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 ## [search](https://github.com/madjin/janus-custom-components/blob/master/media/search/search.js)
 
-![Preview](https://i.imgur.com/nv8EUM9.jpg)
+![Preview](../_media/nv8EUM9.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](http://assets.metacade.com/internetarchive/)
+[![View Example](../_media/hPC9Ati.jpg)](http://assets.metacade.com/internetarchive/)
 
 ```
 <AssetObject id="crate" src="http://assets.metacade.com/internetarchive/crate/scene.gltf" />
@@ -139,7 +139,7 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 ## [stereosystem](https://github.com/madjin/janus-custom-components/blob/master/media/stereosystem/stereosystem.js)
 
-![Preview](https://i.imgur.com/wIPmZUQ.jpg)
+![Preview](../_media/wIPmZUQ.jpg)
 
 ```
 <AssetObject id="boombox" src="https://vesta.janusvr.com/files/bepis/obj/boombox/scene.gltf" />
@@ -162,9 +162,9 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 ## [videoscreen](https://github.com/madjin/janus-custom-components/blob/master/media/videoscreen/videoscreen.js)
 
-![Preview](https://i.imgur.com/USa1ELw.jpg)
+![Preview](../_media/USa1ELw.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bepis/cinema)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bepis/cinema)
 
 ```
 <AssetScript src="http://assets.metacade.com/flynns-theater/videoscreen.js"/>
@@ -186,23 +186,23 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=mlprVOze43A" target="_blank"><img src="http://img.youtube.com/vi/mlprVOze43A/0.jpg" alt="IMAGE ALT TEXT HERE" width="846" height="468" /></a>
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](http://demos.janusvr.com/bai/fireworks/)
+[![View Example](../_media/hPC9Ati.jpg)](http://demos.janusvr.com/bai/fireworks/)
 
 ***
 
 ## [forest](https://github.com/madjin/janus-custom-components/blob/master/scenery/forest/forest.js)
 
-![Preview](https://i.imgur.com/3ouXnJe.jpg)
+![Preview](../_media/3ouXnJe.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/forest-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/forest-test)
 
 ***
 
 ## [tree](https://github.com/madjin/janus-custom-components/blob/master/scenery/tree/tree.js)
 
-![Preview](https://i.imgur.com/JxIjq0u.jpg)
+![Preview](../_media/JxIjq0u.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/proctree-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/proctree-test)
 
 ```
 <tree json='{"seed":152, "segments":8, "levels":5, "vMultiplier":1.16, "twigScale":0.39, "initalBranchLength":0.49, "lengthFalloffFactor":0.85, "lengthFalloffPower":0.99, "clumpMax":0.454, "clumpMin":0.454, "branchFactor":3.2, "dropAmount":0.09, "growAmount":0.235, "sweepAmount":0.051, "maxRadius":0.105, "climbRate":0.322, "trunkKink":0, "treeSteps":5, "taperRate":0.964, "radiusFalloffRate":0.73, "twistRate":1.5, "trunkLength":2.25, "trunkMaterial":"TrunkType1", "twigMaterial":"BranchType2"}' pos="-6 0 -5"/>
@@ -212,9 +212,9 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 ## [water](https://github.com/madjin/janus-custom-components/blob/master/scenery/water/water.js)
 
-![Preview](https://i.imgur.com/9fatPKf.jpg)
+![Preview](../_media/9fatPKf.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/water)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/water)
 
 ```
 <AssetImage id="water" src="https://github.com/mrdoob/three.js/raw/master/examples/textures/waternormals.jpg"/>
@@ -227,9 +227,9 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 An experiment using JanusWeb's built-in physics force generators (N-body universal simulation). This also demonstrates some of JanusWeb's positional audio support.
 
-![Preview](https://i.imgur.com/DzJNeOk.jpg)
+![Preview](../_media/DzJNeOk.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/gravity-sim-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/gravity-sim-test)
 
 
 ## [asteroidbelt](https://github.com/madjin/janus-custom-components/blob/master/space/asteroidbelt/asteroidbelt.js)
@@ -289,9 +289,9 @@ An experiment using JanusWeb's built-in physics force generators (N-body univers
 
 ## [changemachine](https://github.com/madjin/janus-custom-components/blob/master/tools/changemachine/changemachine.js)
 
-![Preview](https://i.imgur.com/Mdfhf3d.jpg)
+![Preview](../_media/Mdfhf3d.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://www.metacade.com)
+[![View Example](../_media/hPC9Ati.jpg)](https://www.metacade.com)
 
 ```
 <AssetObject id="change-machine-high" src="http://assets.metacade.com/metacade/change-machine/change-machine.dae.gz"/><AssetObject id="change-machine-high_collider" src="http://assets.metacade.com/metacade/change-machine/change-machine-collider.dae.gz"/>
@@ -304,9 +304,9 @@ An experiment using JanusWeb's built-in physics force generators (N-body univers
 
 ## [streetlight](https://github.com/madjin/janus-custom-components/blob/master/tools/streetlight/streetlight.js)
 
-![Preview](https://i.imgur.com/NMjft9V.jpg)
+![Preview](../_media/NMjft9V.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
 
 ```
 <object pos="0 .2 0">
@@ -324,9 +324,9 @@ An experiment using JanusWeb's built-in physics force generators (N-body univers
 
 ## [torch](https://github.com/madjin/janus-custom-components/blob/master/tools/torch/torch.js)
 
-![Preview](https://i.imgur.com/VqfQmC1g.jpg)
+![Preview](../_media/VqfQmC1g.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/minecraft-torch-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/minecraft-torch-test)
 
 ```
 <AssetImage id="particle" src="https://vesta.janusvr.com/files/bepis/zelda/kokiri0/yellowparticle.png"/>
@@ -339,9 +339,9 @@ An experiment using JanusWeb's built-in physics force generators (N-body univers
 
 ## [vendingmachine](https://github.com/madjin/janus-custom-components/blob/master/tools/vendingmachine/vendingmachine.js)
 
-![Preview](https://i.imgur.com/TOvOwX9.jpg)
+![Preview](../_media/TOvOwX9.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/vending-machine-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/vending-machine-test)
 
 ```
 <AssetObject id="machine" src="https://vesta.janusvr.com/files/bai/vendingmachine/vendingmachine.obj"/>
@@ -361,9 +361,9 @@ These are room scripts that can be easily turned into janus components. One can 
 
 ## [minecraft](https://github.com/madjin/janus-custom-components/blob/master/tools/minecraft/minecraft2.js)
 
-![Preview](https://i.imgur.com/hQMLPnc.jpg)
+![Preview](../_media/hQMLPnc.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/nazrin/minecraft-sandbox)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/nazrin/minecraft-sandbox)
 
 
 ## [gta](https://github.com/madjin/janus-custom-components/blob/master/tools/gta/gta.js)
@@ -396,9 +396,9 @@ Pre-component example that could become the basis of a fps game.
 
 ## [instancedobject](https://github.com/madjin/janus-custom-components/blob/master/utils/instancedobject/instancedobject.js)
 
-![Preview](https://i.imgur.com/ESWkWxe.jpg)
+![Preview](../_media/ESWkWxe.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/instancing-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/instancing-test)
 
 ```
 <AssetObject id="milktruck" src="https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/CesiumMilkTruck/glTF/CesiumMilkTruck.gltf"/>
@@ -414,9 +414,9 @@ Pre-component example that could become the basis of a fps game.
 
 ## [layout](https://github.com/madjin/janus-custom-components/blob/master/utils/layout/layout.js)
 
-![Preview](https://i.imgur.com/rnQbzlH.jpg)
+![Preview](../_media/rnQbzlH.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/layout)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/layout)
 
 The id="" can be a relative or absolute link pointing to the location of an assetobject.
 
@@ -465,17 +465,17 @@ The id="" can be a relative or absolute link pointing to the location of an asse
 
 ## [pushbutton](https://github.com/madjin/janus-custom-components/blob/master/utils/pushbutton/pushbutton.js)
 
-![Preview](https://imgur.com/hxu1GKo.gif)
+![Preview](../_media/hxu1GKo.gif)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
 
 ***
 
 ## [showcase](https://github.com/madjin/janus-custom-components/blob/master/utils/showcase/showcase.js)
 
-![Preview](https://i.imgur.com/KRoeUQQ.jpg)
+![Preview](../_media/KRoeUQQ.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bepis/vrchat-hub)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bepis/vrchat-hub)
 
 ```
 <Showcase col="#ef2d5e" id="aframe" link_external="true" logo_url="https://aframe.io/aframe-school/media/img/aframe-logo.png" pos="-5.1 0.1 9.8" thumb_url="http://i.imgur.com/EHlQMRN.png" url="https://networked-aframe.glitch.me/" xdir="-1 0 0" zdir="0 0 -1"/>
@@ -485,9 +485,9 @@ The id="" can be a relative or absolute link pointing to the location of an asse
 
 ## [slider](https://github.com/madjin/janus-custom-components/blob/master/utils/slider/slider.js)
 
-![Preview](https://imgur.com/LUFicrn.gif)
+![Preview](../_media/LUFicrn.gif)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
 
 ```
 <Slider max="15" min="0" onchange="room.objects['mylamp'].setBrightness(this.value)" pos=".2 0 .5" value="8"/>
@@ -497,9 +497,9 @@ The id="" can be a relative or absolute link pointing to the location of an asse
 
 ## [speechtext](https://github.com/madjin/janus-custom-components/blob/master/utils/speechtext/speechtext.js)
 
-![Preview](https://i.imgur.com/lfDOUq8.jpg)
+![Preview](../_media/lfDOUq8.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/speechtext-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/speechtext-test)
 
 ```
 <AssetScript src="https://github.com/madjin/janus-custom-components/raw/master/utils/objectpool/objectpool.js"/>
@@ -512,9 +512,9 @@ The id="" can be a relative or absolute link pointing to the location of an asse
 
 ## [teleporter](https://github.com/madjin/janus-custom-components/blob/master/utils/teleporter/teleporter.js)
 
-![Preview](https://i.imgur.com/FV4aO4u.gif)
+![Preview](../_media/FV4aO4u.gif)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/teleporter)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/teleporter)
 
 ```
 <Teleporter col="#4cb96f" external="true" js_id="test" logo_scale="3.3 3 1" pos="-20 1.4 15.1" url="hifi://maker" xdir="0 0 -1" zdir="1 1 0"/>

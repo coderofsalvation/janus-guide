@@ -143,12 +143,12 @@ This instructs the server to load our default UI, and then load https://blah.com
 ## janus-ui-inventory
 An extensible UI for showing "asset palettes", allowing drag-and-drop object creation from multiple sources
 
-![Inventory Mockup](https://i.imgur.com/UYBBd1r.png)
+![Inventory Mockup](../_media/UYBBd1r.png)
 
 ## janus-ui-splash
 A splash screen to orient the user and give them some ideas about where to go.
 
-![Splash Screen Mockup](https://i.imgur.com/U680BCJ.png)
+![Splash Screen Mockup](../_media/U680BCJ.png)
 
 ## janus-ui-avatar
 UI for changing and viewing your avatar
@@ -159,7 +159,7 @@ Grid of bookmarked rooms
 ## janus-ui-navigation
 Main navigation element.  Contains a loading indicator, a URL bar, and notifications into one element.
 
-![Navigation Panel](https://i.imgur.com/xwOdhEo.png)
+![Navigation Panel](../_media/xwOdhEo.png)
 
 ## janus-ui-notifications
 A component for showing messages to the user, triggered by events in the client
@@ -170,7 +170,7 @@ A list of users whose locations are discoverable
 ## janus-ui-popular
 A grid of currently-popular rooms
 
-![Popular Rooms Mockup](https://i.imgur.com/8UQYT5c.png)
+![Popular Rooms Mockup](../_media/8UQYT5c.png)
 
 ## janus-ui-settings
 Dialog for changing client settings

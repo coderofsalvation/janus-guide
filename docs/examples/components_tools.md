@@ -2,9 +2,9 @@
 
 ## [changemachine](https://github.com/madjin/janus-custom-components/blob/master/tools/changemachine/changemachine.js)
 
-![Preview](https://i.imgur.com/Mdfhf3d.jpg)
+![Preview](../_media/Mdfhf3d.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://www.metacade.com)
+[![View Example](../_media/hPC9Ati.jpg)](https://www.metacade.com)
 
 ```
 <AssetObject id="change-machine-high" src="http://assets.metacade.com/metacade/change-machine/change-machine.dae.gz"/><AssetObject id="change-machine-high_collider" src="http://assets.metacade.com/metacade/change-machine/change-machine-collider.dae.gz"/>
@@ -17,9 +17,9 @@
 
 ## [streetlight](https://github.com/madjin/janus-custom-components/blob/master/tools/streetlight/streetlight.js)
 
-![Preview](https://i.imgur.com/NMjft9V.jpg)
+![Preview](../_media/NMjft9V.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
 
 ```
 <object pos="0 .2 0">
@@ -37,9 +37,9 @@
 
 ## [torch](https://github.com/madjin/janus-custom-components/blob/master/tools/torch/torch.js)
 
-![Preview](https://i.imgur.com/VqfQmC1g.jpg)
+![Preview](../_media/VqfQmC1g.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/minecraft-torch-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/minecraft-torch-test)
 
 ```
 <AssetImage id="particle" src="https://vesta.janusvr.com/files/bepis/zelda/kokiri0/yellowparticle.png"/>
@@ -52,9 +52,9 @@
 
 ## [vendingmachine](https://github.com/madjin/janus-custom-components/blob/master/tools/vendingmachine/vendingmachine.js)
 
-![Preview](https://i.imgur.com/TOvOwX9.jpg)
+![Preview](../_media/TOvOwX9.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/vending-machine-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/vending-machine-test)
 
 ```
 <AssetObject id="machine" src="https://vesta.janusvr.com/files/bai/vendingmachine/vendingmachine.obj"/>
@@ -74,9 +74,9 @@ These are room scripts that can be easily turned into janus components. One can 
 
 ## [minecraft](https://github.com/madjin/janus-custom-components/blob/master/tools/minecraft/minecraft2.js)
 
-![Preview](https://i.imgur.com/hQMLPnc.jpg)
+![Preview](../_media/hQMLPnc.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/nazrin/minecraft-sandbox)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/nazrin/minecraft-sandbox)
 
 
 ## [gta](https://github.com/madjin/janus-custom-components/blob/master/tools/gta/gta.js)

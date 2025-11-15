@@ -1,6 +1,16 @@
+<p align="center"><a href="_media/ejvyphR.jpg" target="_blank"><img width="100%" style="max-width:1000px" alt="JanusWeb" src="_media/ejvyphR.jpg"></a></p>
+
+<p align="center"><b>A web framework for building XR experiences for the immersive web.</b></p>
+
 # About
 
 JanusVR combines the power of the internet with the potential of virtual reality. Websites become immersing spaces linked by portals, where users can explore, collaborate and create content on a platform that builds upon the open internet.
+
+> It allows embedding an <b>XR twin</b> into existing webpages, and translates popular websites into a spatial version:
+
+<p align="center">
+<img style="max-width:900px" src="_media/reddit.jpg"/>
+</p>
 
 The internet is a flexible, integral part of everyone's life, and is used by most everyone on a daily basis. Through it, we are able to connect to our favourite websites, and experience content owned by various third parties across the world. This system has evolved over the decades, and with increases in processing power, it has taken the next step into the world of three dimensional content. JanusVR is one of the first practical attempts at utilizing the existing infrastructure of the internet as a content base for 3D environments.
 

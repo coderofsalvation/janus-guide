@@ -40,21 +40,21 @@ If you're familiar with other first person experiences, you'll recognise the WAS
 
 Editing in Janus native is currently all powered by the keyboard and mouse. This graphic should help you out, we understand it takes some practice to get used to and aim to simplify things with a future version that also includes the classic gizmo.
 
-![Edit mode keyboard/mouse](https://i.imgur.com/ktHmFnL.jpg)
+![Edit mode keyboard/mouse](../_media/ktHmFnL.jpg)
 
 
 ### Gamepad
 
 This control scheme is slightly dated as the portal (Y button) opens the 3D menu instead of a portal, and the start button doesn't do anything right now.
 
-![Gamepad controls](https://i.imgur.com/NGWNphL.png)
+![Gamepad controls](../_media/NGWNphL.png)
 
 ### Oculus Rift
 
-![Rift Controls](https://i.imgur.com/yCnU6mu.png)
+![Rift Controls](../_media/yCnU6mu.png)
 
 
 ### HTC Vive
 
-![Vive Controls](https://i.imgur.com/K4nV1NV.png)
+![Vive Controls](../_media/K4nV1NV.png)
 

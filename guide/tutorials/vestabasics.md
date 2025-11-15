@@ -26,7 +26,7 @@ Here are some online assets to get you started:
 
 First, make sure you are logged into [Vesta](https://vesta.janusvr.com/) and then click this link <https://vesta.janusvr.com/guide/sandbox> to open the template site and hit **clone**. You'll be in the builder page for Vesta but the site will not work until you hit save. Feel free to edit the name and description to your liking then hit save.
 
-![Fork a Vesta site with the clone button](https://i.imgur.com/UT0FAG9.jpg)
+![Fork a Vesta site with the clone button](_media/UT0FAG9.jpg)
 
 #### Step 3: Upload into your Inventory
 
@@ -39,7 +39,7 @@ Good folder management will go a long way to expanding your collection of ready 
 
 The janus native browser is currently the best editor for building the webvr site so we're going to open it and go over basic commands. Quick tip: if you have janusvr installed from steam, a quick way to launch the site in native from Vesta is to click the small icon on the top left of the Vesta widget underneath popout. 
 
-![Click the janus icon on the top left](https://i.imgur.com/jp1kwwn.jpg)
+![Click the janus icon on the top left](_media/jp1kwwn.jpg)
 
 The other way is to open the site is to simply open janusvr, and drag the url into the window or copy paste it into the address bar.
 
@@ -58,11 +58,11 @@ The keys for movement are also used for editing when you select objects. I recom
 
 You can drag and drop a file from any external window into Janus, try dragging this url <> into the janus window.
 
-![Drag and drop links into the Janus scene](https://i.imgur.com/aWYzrFP.gif)
+![Drag and drop links into the Janus scene](_media/aWYzrFP.gif)
 
 Now lets go over some basic keycommands for editing [rmb/lmb + wasdqe + tab + 1234]: <http://janusvr.com/docs/build/interactiveediting/index.html>
 
-![Keyboard map for interactive editing](https://i.imgur.com/ktHmFnL.jpg)
+![Keyboard map for interactive editing](_media/ktHmFnL.jpg)
 
 To manipulate an object, right click to select (sometimes it's easier to hold down right click and let go when its over the object you want to select) then try pressing the keys QWEASD to move it around. The mouse can also be used to move things around but is usually less accurate.
 
