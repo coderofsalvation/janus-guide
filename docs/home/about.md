@@ -1,6 +1,16 @@
+<p align="center"><a href="_media/ejvyphR.jpg" target="_blank"><img width="100%" style="max-width:1000px" alt="JanusWeb" src="_media/ejvyphR.jpg"></a></p>
+
+<p align="center"><b>A web framework for building XR experiences for the immersive web.</b></p>
+
 # About
 
 JanusVR combines the power of the internet with the potential of virtual reality. Websites become immersing spaces linked by portals, where users can explore, collaborate and create content on a platform that builds upon the open internet.
+
+> It allows embedding an <b>XR twin</b> into existing webpages, and translates popular websites into a spatial version:
+
+<p align="center">
+<img width="100%" style="max-width:1000px" src="_media/reddit.jpg"/>
+</p>
 
 The internet is a flexible, integral part of everyone's life, and is used by most everyone on a daily basis. Through it, we are able to connect to our favourite websites, and experience content owned by various third parties across the world. This system has evolved over the decades, and with increases in processing power, it has taken the next step into the world of three dimensional content. JanusVR is one of the first practical attempts at utilizing the existing infrastructure of the internet as a content base for 3D environments.
 
@@ -9,6 +19,10 @@ The internet is a flexible, integral part of everyone's life, and is used by mos
 Most engines out there require that you compile your project and send copies of the executable to anyone who wishes to experience it. While this is an effective way of creating experiences if one has experience in programming, it is a very time consuming process that requires the end user to have the patience to sit down and wait until the experience finishes downloading both the content and its engine.
 
 Another issue that comes out of this paradigm is the lack of interconnectivity between different projects, requiring that one launch separate executables in order to experience their content. JanusVR solves the problem of isolation in the digital age by bringing different, unique projects together in a seamless, multi-user environment. Essentially, JanusVR is a web browser for 3D content that allows people to add Javascript interactivity much in the same was as a traditional 2D browser.
+
+<p align="center">
+<img width="100%" style="max-width:1000px" src="_media/the-deep-immersive-web.svg"/>
+</p>
 
 ## Content in JanusVR
 

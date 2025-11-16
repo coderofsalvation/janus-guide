@@ -19,7 +19,7 @@ The keys for movement are also used for editing when you select objects. I recom
 
 Now lets go over some basic keycommands for editing [rmb/lmb + wasdqe + tab + 1234]: <http://janusvr.com/docs/build/interactiveediting/index.html>
 
-![Keyboard map for interactive editing](https://i.imgur.com/ktHmFnL.jpg)
+![Keyboard map for interactive editing](../_media/ktHmFnL.jpg)
 
 To manipulate an object, right click to select (sometimes it's easier to hold down right click and let go when its over the object you want to select) then try pressing the keys QWEASD to move it around. The mouse can also be used to move things around but is usually less accurate.
 

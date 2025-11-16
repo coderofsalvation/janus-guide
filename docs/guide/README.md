@@ -8,7 +8,7 @@ Tutorials to help you get started faster. Check out [Examples](https://madjin.gi
 
 The Unity plugin for JanusVR allows you to export scenes to a folder with the FBX models and JML.
 
-![Unity to Janus](https://i.imgur.com/mvIJLg4.jpg)
+![Unity to Janus](../_media/mvIJLg4.jpg)
 
 ---
 
@@ -16,7 +16,7 @@ The Unity plugin for JanusVR allows you to export scenes to a folder with the FB
 
 Vesta is a platform with free hosting and building tools for creating immersive web content. Learn how to design your own WebVR ideas or bootstrap by cloning a template from the site.
 
-![Vesta](https://i.imgur.com/MjHrleD.jpg)
+![Vesta](../_media/MjHrleD.jpg)
 
 ---
 
@@ -24,7 +24,7 @@ Vesta is a platform with free hosting and building tools for creating immersive 
 
 This experimental feature allows for Janus scenes to be converted to Decentraland SDK compatible parcels.
 
-![Janus to Decentraland](https://i.imgur.com/MTt93vc.jpg)
+![Janus to Decentraland](../_media/MTt93vc.jpg)
 
 ---
 
@@ -32,7 +32,7 @@ This experimental feature allows for Janus scenes to be converted to Decentralan
 
 FireVR is a Blender plugin for importing and exporting Janus sites with options for publishing to Vesta and IPFS.
 
-![Blender to Janus](https://i.imgur.com/DGVSbor.jpg)
+![Blender to Janus](../_media/DGVSbor.jpg)
 
 ---
 
@@ -40,6 +40,6 @@ FireVR is a Blender plugin for importing and exporting Janus sites with options 
 
 Dat is a peer-to-peer protocol that makes it possible to distribute your WebVR content without a web server or central authority.
 
-![Share to Dat](https://i.imgur.com/vpwLMrT.jpg)
+![Share to Dat](../_media/vpwLMrT.jpg)
 
 

@@ -18,9 +18,9 @@
 
 ## [instancedobject](https://github.com/madjin/janus-custom-components/blob/master/utils/instancedobject/instancedobject.js)
 
-![Preview](https://i.imgur.com/ESWkWxe.jpg)
+![Preview](../_media/ESWkWxe.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/instancing-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/instancing-test)
 
 ```
 <AssetObject id="milktruck" src="https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/CesiumMilkTruck/glTF/CesiumMilkTruck.gltf"/>
@@ -36,9 +36,9 @@
 
 ## [layout](https://github.com/madjin/janus-custom-components/blob/master/utils/layout/layout.js)
 
-![Preview](https://i.imgur.com/rnQbzlH.jpg)
+![Preview](../_media/rnQbzlH.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/layout)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/layout)
 
 The id="" can be a relative or absolute link pointing to the location of an assetobject.
 
@@ -87,17 +87,17 @@ The id="" can be a relative or absolute link pointing to the location of an asse
 
 ## [pushbutton](https://github.com/madjin/janus-custom-components/blob/master/utils/pushbutton/pushbutton.js)
 
-![Preview](https://imgur.com/hxu1GKo.gif)
+![Preview](../_media/hxu1GKo.gif)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
 
 ***
 
 ## [showcase](https://github.com/madjin/janus-custom-components/blob/master/utils/showcase/showcase.js)
 
-![Preview](https://i.imgur.com/KRoeUQQ.jpg)
+![Preview](../_media/KRoeUQQ.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bepis/vrchat-hub)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bepis/vrchat-hub)
 
 ```
 <Showcase col="#ef2d5e" id="aframe" link_external="true" logo_url="https://aframe.io/aframe-school/media/img/aframe-logo.png" pos="-5.1 0.1 9.8" thumb_url="http://i.imgur.com/EHlQMRN.png" url="https://networked-aframe.glitch.me/" xdir="-1 0 0" zdir="0 0 -1"/>
@@ -107,9 +107,9 @@ The id="" can be a relative or absolute link pointing to the location of an asse
 
 ## [slider](https://github.com/madjin/janus-custom-components/blob/master/utils/slider/slider.js)
 
-![Preview](https://imgur.com/LUFicrn.gif)
+![Preview](../_media/LUFicrn.gif)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
 
 ```
 <Slider max="15" min="0" onchange="room.objects['mylamp'].setBrightness(this.value)" pos=".2 0 .5" value="8"/>
@@ -119,9 +119,9 @@ The id="" can be a relative or absolute link pointing to the location of an asse
 
 ## [speechtext](https://github.com/madjin/janus-custom-components/blob/master/utils/speechtext/speechtext.js)
 
-![Preview](https://i.imgur.com/lfDOUq8.jpg)
+![Preview](../_media/lfDOUq8.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/speechtext-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/speechtext-test)
 
 ```
 <AssetScript src="https://github.com/madjin/janus-custom-components/raw/master/utils/objectpool/objectpool.js"/>
@@ -134,9 +134,9 @@ The id="" can be a relative or absolute link pointing to the location of an asse
 
 ## [teleporter](https://github.com/madjin/janus-custom-components/blob/master/utils/teleporter/teleporter.js)
 
-![Preview](https://i.imgur.com/FV4aO4u.gif)
+![Preview](../_media/FV4aO4u.gif)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/teleporter)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/teleporter)
 
 ```
 <Teleporter col="#4cb96f" external="true" js_id="test" logo_scale="3.3 3 1" pos="-20 1.4 15.1" url="hifi://maker" xdir="0 0 -1" zdir="1 1 0"/>

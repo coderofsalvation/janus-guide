@@ -19,9 +19,9 @@ Regular shortcuts look like app icons, text links, or bookmark buttons. **Meta S
 
 Read more here: <https://github.com/smsithlord/MetaShortcutFormat>
 
-![Preview](https://i.imgur.com/28iXQJs.jpg)
+![Preview](../_media/28iXQJs.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/anarchy-arcade-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/anarchy-arcade-test)
 
 ```
 <aacabinet cabinet_id="arcademachine" controlpanel_part_name="cabinet-front" js_id="supersmashland" marquee_part_name="cabinet-marquee" msf='{"title":"SuperSmashLand","file":"SuperSmashLand.exe","screen":"http://www.supersmashland.com/imgs/screenshot1.png","marquee":"https://i.ytimg.com/vi/KVROb_FPZCc/maxresdefault.jpg","preview":"https://www.youtube.com/watch?v=351CO5_8fbM","download":"http://www.supersmashland.com/","reference":"http://en.wikipedia.org/wiki/Super_Smash_Land","description":"Super Smash Land is a demake of Super Smash Bros. released in September 14, 2011 by Dan Fornace. The game features 6 playable characters and 11 stages. The game visual design resembles the graphics from the Nintendo Game Boy. The game was developed with GameMaker 7.","keywords":"retro, nintendo","type":"pc"}' pos="0 0 -2" scale="1.25 1.25 1.25" screen_part_name="screen"/>
@@ -31,7 +31,7 @@ Read more here: <https://github.com/smsithlord/MetaShortcutFormat>
 
 ## [presentation](https://github.com/madjin/janus-custom-components/blob/master/media/presentation/presentation.js)
 
-![Preview](https://i.imgur.com/s55HNSs.jpg)
+![Preview](../_media/s55HNSs.jpg)
 
 ***
 
@@ -43,7 +43,7 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 ## [projector](https://github.com/madjin/janus-custom-components/blob/master/media/projector/projector.js)
 
-![Preview](https://i.imgur.com/OrXxiFs.jpg)
+![Preview](../_media/OrXxiFs.jpg)
 
 ```
 <AssetObject id="projector" src="http://assets.metacade.com/archive/models/projector/projector.dae" />
@@ -66,7 +66,7 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 ## [recordplayer](https://github.com/madjin/janus-custom-components/blob/master/media/recordplayer/recordplayer.js)
 
-![Preview](https://i.imgur.com/JSuAJRd.jpg)
+![Preview](../_media/JSuAJRd.jpg)
 
 ```
 <AssetObject id="table" src="http://assets.metacade.com/archive/models/table/RageTable.obj" />
@@ -84,9 +84,9 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 ## [search](https://github.com/madjin/janus-custom-components/blob/master/media/search/search.js)
 
-![Preview](https://i.imgur.com/nv8EUM9.jpg)
+![Preview](../_media/nv8EUM9.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](http://assets.metacade.com/internetarchive/)
+[![View Example](../_media/hPC9Ati.jpg)](http://assets.metacade.com/internetarchive/)
 
 ```
 <AssetObject id="crate" src="http://assets.metacade.com/internetarchive/crate/scene.gltf" />
@@ -101,7 +101,7 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 ## [stereosystem](https://github.com/madjin/janus-custom-components/blob/master/media/stereosystem/stereosystem.js)
 
-![Preview](https://i.imgur.com/wIPmZUQ.jpg)
+![Preview](../_media/wIPmZUQ.jpg)
 
 ```
 <AssetObject id="boombox" src="https://vesta.janusvr.com/files/bepis/obj/boombox/scene.gltf" />
@@ -124,9 +124,9 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 ## [videoscreen](https://github.com/madjin/janus-custom-components/blob/master/media/videoscreen/videoscreen.js)
 
-![Preview](https://i.imgur.com/USa1ELw.jpg)
+![Preview](../_media/USa1ELw.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bepis/cinema)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bepis/cinema)
 
 ```
 <AssetScript src="http://assets.metacade.com/flynns-theater/videoscreen.js"/>

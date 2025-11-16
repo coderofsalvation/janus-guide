@@ -64,12 +64,12 @@ What if we have a bunch of images, and we want to lay them out in a circle?  Jan
   </Assets>
   <Room use_local_asset="room1">
     <CircularLayout radius="2.5" pos="0 1 0">
-      <Image id="http://i.imgur.com/ff3Wn06.png" />
-      <Image id="http://i.imgur.com/rtCeOEs.png" />
-      <Image id="http://i.imgur.com/ByExCaO.png" />
-      <Image id="http://i.imgur.com/dYBH57H.png" />
-      <Image id="http://i.imgur.com/2PQlhdB.png" />
-      <Image id="http://i.imgur.com/xNEw11S.png" />
+      <Image id="_media/ff3Wn06.png" />
+      <Image id="_media/rtCeOEs.png" />
+      <Image id="_media/ByExCaO.png" />
+      <Image id="_media/dYBH57H.png" />
+      <Image id="_media/2PQlhdB.png" />
+      <Image id="_media/xNEw11S.png" />
     </CircularLayout>
   </Room>
 </FireBoxRoom>
@@ -84,9 +84,9 @@ Our markup will look like this
     <AssetScript src="captionedimage.js" />
   </Assets>
   <Room use_local_asset="room1">
-    <CaptionedImage image_id="http://i.imgur.com/ff3Wn06.png" caption="WebVR Fireworks Experiment" pos="-2 0 4" />
-    <CaptionedImage image_id="http://i.imgur.com/ByExCaO.png" caption="Teleporters" pos="0 0 4" />
-    <CaptionedImage image_id="http://i.imgur.com/2PQlhdB.png" caption="Sliders and Buttons" pos="2 0 4" />
+    <CaptionedImage image_id="_media/ff3Wn06.png" caption="WebVR Fireworks Experiment" pos="-2 0 4" />
+    <CaptionedImage image_id="_media/ByExCaO.png" caption="Teleporters" pos="0 0 4" />
+    <CaptionedImage image_id="_media/2PQlhdB.png" caption="Sliders and Buttons" pos="2 0 4" />
   </Room>
 </FireBoxRoom>
 ```
@@ -118,12 +118,12 @@ Our markup looks a lot like the ```<CircularLayout>``` example above, but here w
   </Assets>
   <Room use_local_asset="room2">
     <SlideShow pos="0 1.8 5">
-      <Image id="http://i.imgur.com/ff3Wn06.png" />
-      <Image id="http://i.imgur.com/rtCeOEs.png" />
-      <Image id="http://i.imgur.com/ByExCaO.png" />
-      <Image id="http://i.imgur.com/dYBH57H.png" />
-      <Image id="http://i.imgur.com/2PQlhdB.png" />
-      <Image id="http://i.imgur.com/xNEw11S.png" />
+      <Image id="_media/ff3Wn06.png" />
+      <Image id="_media/rtCeOEs.png" />
+      <Image id="_media/ByExCaO.png" />
+      <Image id="_media/dYBH57H.png" />
+      <Image id="_media/2PQlhdB.png" />
+      <Image id="_media/xNEw11S.png" />
     </SlideShow>
   </Room>
 </FireBoxRoom>

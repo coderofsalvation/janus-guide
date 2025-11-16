@@ -19,7 +19,7 @@ JanusVR is a 3D internet browser and editor where users can meet and create VR c
 
 Native C++ client for browsing and editing the immersive web.
 
-![Janus client](https://i.imgur.com/xVguGZb.jpg)
+![Janus client](../_media/xVguGZb.jpg)
 
 ---
 
@@ -29,7 +29,7 @@ Native C++ client for browsing and editing the immersive web.
 
 Port of the native client to Android devices.
 
-![Android client in Vesta lobby](https://i.imgur.com/KCHf0b9.jpg)
+![Android client in Vesta lobby](../_media/KCHf0b9.jpg)
 
 ---
 
@@ -50,23 +50,23 @@ Web client built from the ground up with feature parity to native Janus to run o
 - Support for 2d, sbs3d/ou3d, and 360 degree video textures using HTML5 Video
 - Scriptable client enables many customized uses
 
-<a href="https://i.imgur.com/mw0Um3C.gif">
-  <img alt="Crystalball" target="_blank" src="https://i.imgur.com/mw0Um3C.gif" height="190" width="32%">
+<a href="_media/mw0Um3C.gif">
+  <img alt="Crystalball" target="_blank" src="_media/mw0Um3C.gif" height="190" width="32%">
 </a>
-<a href="https://i.imgur.com/V6fqjVG.gif">
-  <img alt="Augmented Perception" target="_blank" src="https://i.imgur.com/V6fqjVG.gif" height="190" width="32%">
+<a href="_media/V6fqjVG.gif">
+  <img alt="Augmented Perception" target="_blank" src="_media/V6fqjVG.gif" height="190" width="32%">
 </a>
-<a href="https://i.imgur.com/i1nIXI8.gif">
-  <img alt="Cinema" target="_blank" src="https://i.imgur.com/i1nIXI8.gif" height="190" width="32%">
+<a href="_media/i1nIXI8.gif">
+  <img alt="Cinema" target="_blank" src="_media/i1nIXI8.gif" height="190" width="32%">
 </a>
-<a href="https://i.imgur.com/FX3skXb.gif">
-  <img alt="Drag n' Drop" target="_blank" src="https://i.imgur.com/FX3skXb.gif" height="190" width="32%">
+<a href="_media/FX3skXb.gif">
+  <img alt="Drag n' Drop" target="_blank" src="_media/FX3skXb.gif" height="190" width="32%">
 </a>
-<a href="https://i.imgur.com/9CqBKV5.gif">
-  <img alt="Metacade" target="_blank" src="https://i.imgur.com/9CqBKV5.gif" height="190" width="32%">
+<a href="_media/9CqBKV5.gif">
+  <img alt="Metacade" target="_blank" src="_media/9CqBKV5.gif" height="190" width="32%">
 </a>
-<a href="https://imgur.com/pQAQ4yt.gif">
-  <img alt="Mansion" target="_blank" src="https://imgur.com/pQAQ4yt.gif" height="190" width="32%">
+<a href="_media/pQAQ4yt.gif">
+  <img alt="Mansion" target="_blank" src="_media/pQAQ4yt.gif" height="190" width="32%">
 </a>
 
 ---
@@ -82,7 +82,7 @@ Import and Export scenes between different game engines and development environm
 - Build maps 10x faster with your team using Janus
 - Recycle content back into your favorite development environments
 
-![Janus Tools](https://i.imgur.com/VpsamZV.jpg)
+![Janus Tools](../_media/VpsamZV.jpg)
 
 ---
 
@@ -92,9 +92,9 @@ Import and Export scenes between different game engines and development environm
 
 Social network for WebVR: Discover, build, and easily embed virtual worlds to your website! You can follow other creators, leave comments, and fork projects to remix other creations. Vesta is like the Neocities / Myspace / Glitch / Newgrounds of WebVR content.
 
-![Vesta 2D frontend with world select and building](https://i.imgur.com/xVPUoEK.jpg)
+![Vesta 2D frontend with world select and building](../_media/xVPUoEK.jpg)
 
-![JS spatializer for exploring Vesta in 3D (Early Access)](https://i.imgur.com/sXT0CiU.jpg)
+![JS spatializer for exploring Vesta in 3D (Early Access)](../_media/sXT0CiU.jpg)
 
 ---
 
@@ -109,9 +109,9 @@ Lightweight networking server to enable multiplayer interaction and real-time co
 - Syncs text, voice, and editing in-world per site
 - Private/Public/Party mode and local network support
 
-![Group of players gathering together](https://i.imgur.com/fnNmqKK.jpg)
+![Group of players gathering together](../_media/fnNmqKK.jpg)
 
-![Multiplayer support in Janus is open source](https://i.imgur.com/6RXHCGB.jpg)
+![Multiplayer support in Janus is open source](../_media/6RXHCGB.jpg)
 
 ---
 
@@ -121,12 +121,12 @@ Lightweight networking server to enable multiplayer interaction and real-time co
 
 Extensible Markup language and Entity Component System for authoring VR sites. 
 
-![XML and JSON versions of JML](https://i.imgur.com/DOgVDEa.jpg)
+![XML and JSON versions of JML](../_media/DOgVDEa.jpg)
 
 - Markup language examples: <https://madjin.github.io/janus-guide/#/examples/markup>
 - Custom component examples: <https://madjin.github.io/janus-guide/#/examples/components?id=janus-custom-components>
 
-![JML and the result 3D site](https://i.imgur.com/oTsRSIp.jpg)
+![JML and the result 3D site](../_media/oTsRSIp.jpg)
 
 ---
 
@@ -140,9 +140,9 @@ JML is a language for defining immersive experiences on websites, while the JSsp
 
 Source to Reddit site translator: <https://github.com/jbaicoianu/janusweb/tree/master/media/assets/translator/reddit>
 
-![Reddit site translator](https://i.imgur.com/i25kRic.jpg)
+![Reddit site translator](../_media/i25kRic.jpg)
 
-![Error code translators](https://i.imgur.com/eHj1VE3.jpg)
+![Error code translators](../_media/eHj1VE3.jpg)
 
 ---
 

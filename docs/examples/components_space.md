@@ -2,9 +2,9 @@
 
 An experiment using JanusWeb's built-in physics force generators (N-body universal simulation). This also demonstrates some of JanusWeb's positional audio support.
 
-![Preview](https://i.imgur.com/DzJNeOk.jpg)
+![Preview](../_media/DzJNeOk.jpg)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/gravity-sim-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/gravity-sim-test)
 
 
 ## [asteroidbelt](https://github.com/madjin/janus-custom-components/blob/master/space/asteroidbelt/asteroidbelt.js)

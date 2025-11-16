@@ -2,14 +2,14 @@
 
 # Janus Guide
 
-> The Internet of Experiences
+> The Internet of Experiences (the spatial web within the web)
 
 - Powerful features out of the box for collaboration
 - Lightweight and extensible web framework
 - VR/AR made with open standards
 
 [GitHub](https://github.com/madjin/janus-guide/)
-[Get Started](build/README.md#build-introduction)
+[Get Started](home/about.md)
 
 <!-- background image -->
 

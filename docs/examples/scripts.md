@@ -16,7 +16,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/appendchild)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/appendchild)
 
 ---
 
@@ -25,7 +25,7 @@
 ```html
 <FireBoxRoom>
 <Assets>
-<AssetImage id="particle" src="https://i.imgur.com/99xXncY.png" tex_colorspace="sRGB" />
+<AssetImage id="particle" src="_media/99xXncY.png" tex_colorspace="sRGB" />
 <AssetScript src="https://paradox.spyduck.net/rooms/landscapes/snow.js" />
 </Assets>
 <Room>
@@ -34,7 +34,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/snow)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/snow)
 
 ---
 
@@ -53,7 +53,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/av-functions)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/av-functions)
 
 ---
 
@@ -67,7 +67,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/boundingbox)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/boundingbox)
 
 ---
 
@@ -81,7 +81,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/clickball1)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/clickball1)
 
 ---
 
@@ -95,7 +95,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/collider1)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/collider1)
 
 ---
 
@@ -108,7 +108,7 @@
 </Assets>
 </FireBoxRoom>
 ```
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/create-destroy)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/create-destroy)
 
 ---
 
@@ -125,7 +125,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/door1)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/door1)
 
 ---
 
@@ -143,7 +143,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/fbx-animations)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/fbx-animations)
 
 ---
 
@@ -161,7 +161,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/flashlight)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/flashlight)
 
 ---
 
@@ -178,7 +178,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/gaze-detection)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/gaze-detection)
 
 ---
 
@@ -195,7 +195,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/gaze-teleport)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/gaze-teleport)
 
 ---
 
@@ -210,7 +210,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/hoverover)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/hoverover)
 
 ---
 
@@ -228,7 +228,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/jediforce)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/jediforce)
 
 ---
 
@@ -245,7 +245,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/js-debugger)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/js-debugger)
 
 ---
 
@@ -259,7 +259,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/js-performance-timer)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/js-performance-timer)
 
 ---
 
@@ -273,7 +273,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/js-keymapping)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/js-keymapping)
 
 ---
 
@@ -292,17 +292,17 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/lamp)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/lamp)
 
 ---
 
 ### [Master JS Attribute Stress Test](https://github.com/madjin/janus-guide/blob/master/docs/examples/scripts/MasterJS.js)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/masterjs1)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/masterjs1)
 
 ### Master JS One-of-Everything
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/masterjs2)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/masterjs2)
 
 ### [Master Weapons Script](https://github.com/madjin/janus-guide/blob/master/docs/examples/scripts/MasterWeapons.js)
 
@@ -314,13 +314,13 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/master-weapons-script)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/master-weapons-script)
 
 ---
 
 ### [Morph Targets](https://github.com/madjin/janus-guide/blob/master/docs/examples/scripts/blendjs.js)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/morph-targets)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/morph-targets)
 
 ---
  
@@ -334,7 +334,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/move-object)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/move-object)
 
 ---
 
@@ -348,7 +348,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/object-list)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/object-list)
 
 ---
 
@@ -362,7 +362,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/paragraph-html)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/paragraph-html)
 
 ---
 
@@ -383,7 +383,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/player-hand-functions)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/player-hand-functions)
 
 ---
 
@@ -397,7 +397,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/programmatic-mesh)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/programmatic-mesh)
 
 ---
 
@@ -416,7 +416,7 @@
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/quadcopter)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/quadcopter)
 
 ---
 
@@ -436,7 +436,7 @@ Note: Review [EditJS](https://github.com/madjin/janus-guide/blob/master/docs/exa
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/realtime-lights)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/realtime-lights)
 
 ---
 
@@ -454,7 +454,7 @@ Note: Review [EditJS](https://github.com/madjin/janus-guide/blob/master/docs/exa
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/rotation-to-euler)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/rotation-to-euler)
 
 ---
 
@@ -484,7 +484,7 @@ Note: Review [EditJS](https://github.com/madjin/janus-guide/blob/master/docs/exa
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/shotgun)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/shotgun)
 
 ---
 
@@ -498,13 +498,13 @@ Note: Review [EditJS](https://github.com/madjin/janus-guide/blob/master/docs/exa
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/timer)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/timer)
 
 ---
 
 ### [TrackpadGrid](https://github.com/madjin/janus-guide/blob/master/docs/examples/scripts/GridCSVScript.js)
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/trackpadgrid)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/trackpadgrid)
 
 ---
 
@@ -518,7 +518,7 @@ Note: Review [EditJS](https://github.com/madjin/janus-guide/blob/master/docs/exa
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/videoseek)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/videoseek)
 
 ---
 
@@ -536,7 +536,7 @@ Note: Review [EditJS](https://github.com/madjin/janus-guide/blob/master/docs/exa
 </FireBoxRoom>
 ```
 
-[![View Example](https://i.imgur.com/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/syncedseek)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/syncedseek)
 
 ---
 
