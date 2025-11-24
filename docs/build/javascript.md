@@ -221,7 +221,7 @@ room.onKeyDown = function(event)
 
 ## Script Objects
 
-Script Objects are essentially the contents of any given webspace. These objects contain attributes that define their styling and other various aspects of their existence. All script objects can be accessed via the room.objects dictionary. Any room content may be marked with a "js_id" attribute that will allow it to be referenced and altered in the Javascript. You can find more on this dictionary in the [Room Object](http://janusvr.com/docs/build/roomobject/index.html) portion of the documentation.
+Script Objects are essentially the contents of any given webspace. These objects contain attributes that define their styling and other various aspects of their existence. All script objects can be accessed via the room.objects dictionary. Any room content may be marked with a "js_id" attribute that will allow it to be referenced and altered in the Javascript. You can find more on this dictionary in the [Room Object](http://janusxr.org/docs/build/roomobject/index.html) portion of the documentation.
 
 Example:
 
@@ -409,7 +409,7 @@ Example:
 function getLastViewed() {
  var xhr = new XMLHttpRequest();
  xhr.addEventListener('load', parseLastViewed);
- xhr.open('GET', 'https://vesta.janusvr.com/api/top_rooms?limit=5&orderBy=last_viewed');
+ xhr.open('GET', 'https://vesta.janusxr.org/api/top_rooms?limit=5&orderBy=last_viewed');
  xhr.send();
 }
 

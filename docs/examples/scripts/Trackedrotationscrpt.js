@@ -1,5 +1,5 @@
 // see this website for details on player and hand  JS objects
-//http://www.janusvr.com/guide/playerobject/index.html
+//http://www.janusxr.org/guide/playerobject/index.html
 
 
 

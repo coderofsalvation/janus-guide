@@ -18,7 +18,7 @@ This guide is more useful after having already made a world already because it i
 - [dat command line tool](https://try-dat.com/01-install.html)
 - [JanusWeb](https://github.com/jbaicoianu/janusweb)
 - [Hashbase account](https://hashbase.io/) - OPTIONAL
-- [JanusVR](http://www.janusvr.com/download.php) - OPTIONAL
+- [JanusVR](http://www.janusxr.org/download.php) - OPTIONAL
 
 
 ---
@@ -49,7 +49,7 @@ Make a new folder and then copy the project files over to it. All that is needed
 </Room>
 </FireBoxRoom>
  -->
-<script src="https://web.janusvr.com/janusweb.js"></script>
+<script src="https://web.janusxr.org/janusweb.js"></script>
 <script>elation.janusweb.init({url: document.location.href})</script>
 </body>
 </html>

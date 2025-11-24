@@ -5,11 +5,11 @@
 <div align="center">
   <a href="https://github.com/jbaicoianu/janusweb">Github</a>
   &mdash;
-  <a href="https://vesta.janusvr.com">Vesta</a>
+  <a href="https://vesta.janusxr.org">Vesta</a>
   &mdash;
   <a href="https://github.com/janusvr/janusvr-examples">Examples</a>
   &mdash;
-  <a href="https://web.janusvr.com">Demo</a>
+  <a href="https://web.janusxr.org">Demo</a>
   &mdash;
   <a href="https://madjin.github.io/janus-guide/#/">Docs</a>
 </div>
@@ -34,8 +34,8 @@ There are several different ways to use JanusWeb, depending on how much control 
 have over the whole system.
 
 ### Use our viewer
-Our default viewer is always available at https://web.janusvr.com/.  You can write an HTML
-page with your [JanusVR Markup](http://janusvr.com/guide/markuplanguage/index.html) and host
+Our default viewer is always available at https://web.janusxr.org/.  You can write an HTML
+page with your [JanusVR Markup](http://janusxr.org/guide/markuplanguage/index.html) and host
 it anywhere you would normally host a static website.  Any regular webhost, AWS S3 static
 sites, CDNs, or even more exotic locations like [IPFS distributed filesystems](https://ipfs.io) will work.
 You can even put your mark-up onto sites like PasteBin or PiratePad.  Then just load the URL
@@ -61,7 +61,7 @@ client via its API.  This looks something like this:
         <Text col="1 0 0" pos="0 2 4">My First Room</Text>
       </Room>
     </FireBoxRoom>
-    <script src="https://web.janusvr.com/janusweb.js"></script>
+    <script src="https://web.janusxr.org/janusweb.js"></script>
     <script>elation.janusweb.init({url: document.location.href})</script>
   </body>
 </html>
@@ -93,7 +93,7 @@ JanusWeb supports several arguments at initialization time to control how it beh
   <tr><td> crosshair      </td><td> Show player crosshair                  </td><td> true                     </td></tr>
 
   <tr><td> homepage       </td><td> Default page to go to when user presses
-                                    home button                            </td><td> https://web.janusvr.com/ </td></tr>
+                                    home button                            </td><td> https://web.janusxr.org/ </td></tr>
 
   <tr><td> networking     </td><td> Enable networking                      </td><td> true                     </td></tr>
 
@@ -102,7 +102,7 @@ JanusWeb supports several arguments at initialization time to control how it beh
   <tr><td> resolution     </td><td> If specified, restrict the renderer to
                                     the specified size                     </td><td> (none)                   </td></tr>
 
-  <tr><td> server         </td><td> Presence server to connect to          </td><td> wss://presence.janusvr.com:5567/</td></tr>
+  <tr><td> server         </td><td> Presence server to connect to          </td><td> wss://presence.janusxr.org:5567/</td></tr>
 
   <tr><td> shownavigation </td><td> Control visibility of navigation bar   </td><td> true                     </td></tr>
 
@@ -132,7 +132,7 @@ var pageinfo = elation.utils.parseURL(document.location.href),
     urlargs = pageinfo.args || {},
     hashargs = pageinfo.hash || {};
 
-var url = elation.utils.any(hashargs.url, urlargs.url, 'http://www.janusvr.com/index.html'),
+var url = elation.utils.any(hashargs.url, urlargs.url, 'http://www.janusxr.org/index.html'),
     delay = elation.utils.any(hashargs.delay, urlargs.delay, 1000);
 
 elation.janusweb.init({

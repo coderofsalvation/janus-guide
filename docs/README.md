@@ -88,7 +88,7 @@ Import and Export scenes between different game engines and development environm
 
 ### Vesta 
 
-**<https://vesta.janusvr.com/>** 
+**<https://vesta.janusxr.org/>** 
 
 Social network for WebVR: Discover, build, and easily embed virtual worlds to your website! You can follow other creators, leave comments, and fork projects to remix other creations. Vesta is like the Neocities / Myspace / Glitch / Newgrounds of WebVR content.
 
@@ -132,7 +132,7 @@ Extensible Markup language and Entity Component System for authoring VR sites.
 
 ### JS Spatializers
 
-Demo: **<https://web.janusvr.com/sites/https/reddit.com/r/pics>**
+Demo: **<https://web.janusxr.org/sites/https/reddit.com/r/pics>**
 
 Javascript translators dynamically generate 3D sites from data.
 
@@ -157,4 +157,4 @@ Source to Reddit site translator: <https://github.com/jbaicoianu/janusweb/tree/m
 
 ---
 
-Legacy manual: <https://web.archive.org/web/20160328012318/http://www.janusvr.com/manual.html>
+Legacy manual: <https://web.archive.org/web/20160328012318/http://www.janusxr.org/manual.html>

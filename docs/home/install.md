@@ -11,7 +11,7 @@ The open-source networking server handles interaction between users from both Ja
 [**JanusWeb**](https://github.com/jbaicoianu/janusweb)
 
 * **Online**: use [https://web.janusxr.org](https://web.janusxr.org) to browse the deep immersive web from device.
-* **Local**: see installation instructions at the [git repository](https://web.archive.org/web/20240324033051/https://builds.janusvr.com/janusvr_linux.tar.gz)
+* **Local**: see installation instructions at the [git repository](https://web.archive.org/web/20240324033051/https://builds.janusxr.org/janusvr_linux.tar.gz)
 
 [**Janus**](https://github.com/janusvr/janus)
 
@@ -21,6 +21,6 @@ The open-source networking server handles interaction between users from both Ja
 - [Oculus](https://www.oculus.com/experiences/rift/883825681716606/)
 - [Viveport](https://www.viveport.com/apps/089021e5-d296-4f02-ae25-55e959cb56b2)
 - [Android](https://play.google.com/store/apps/details?id=org.janusvr)
-- [Windows](http://builds.janusvr.com/janusvr_windows.exe)
-- [Linux](http://builds.janusvr.com/janusvr_linux.tar.gz)
-- [OSX](http://downloads.janusvr.com/janusvr.dmg)
+- [Windows](http://builds.janusxr.org/janusvr_windows.exe)
+- [Linux](http://builds.janusxr.org/janusvr_linux.tar.gz)
+- [OSX](http://downloads.janusxr.org/janusvr.dmg)

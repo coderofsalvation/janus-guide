@@ -98,7 +98,7 @@ elation.elements.define('janus.ui.splash', class extends elation.elements.base {
 apps/splash/splash.html:
 ```html
 <header>
-  <img class="logo" src="https://janusvr.com/images/logos/logoonly.png"/>
+  <img class="logo" src="https://janusxr.org/images/logos/logoonly.png"/>
   <h1>JanusWeb</h1>
   <p>This is the splash screen.  It's got some information about stuff, and helps to orient the player about what is going on.</p>
 </header>
@@ -124,7 +124,7 @@ customui.json:
 ```json
 {
   "includes": [
-    "https://web.janusvr.com/media/assets/webui/default.json",
+    "https://web.janusxr.org/media/assets/webui/default.json",
     "./mystuff/customapp.json"
   ],
   "templates": {

@@ -2,14 +2,14 @@
 
 **Note**: This guide is a WIP
 
-[FireVR](https://github.com/spyduck/firevr) is a [Blender](https://www.blender.org/) add-on that can import Janus sites from a URL into Blender and export scenes to JML. It generates the XML description of the room automatically, exports the objects and provides instant publication over the [IPFS](https://ipfs.io) network (no server needed!). It can also export the room to a local destination (no ipfs required) and [Vesta](https://vesta.janusvr.com) - a free hosting site for webvr.
+[FireVR](https://github.com/spyduck/firevr) is a [Blender](https://www.blender.org/) add-on that can import Janus sites from a URL into Blender and export scenes to JML. It generates the XML description of the room automatically, exports the objects and provides instant publication over the [IPFS](https://ipfs.io) network (no server needed!). It can also export the room to a local destination (no ipfs required) and [Vesta](https://vesta.janusxr.org) - a free hosting site for webvr.
 
 #### Pre-requisites:
 
-- [JanusVR](http://www.janusvr.com/download.php)
+- [JanusVR](http://www.janusxr.org/download.php)
 - [Blender](https://www.blender.org/)
 - [FireVR zip](https://github.com/Spyduck/FireVR/archive/master.zip)
-- [Vesta account](https://vesta.janusvr.com/) - OPTIONAL
+- [Vesta account](https://vesta.janusxr.org/) - OPTIONAL
 - [IPFS](https://ipfs.io) - OPTIONAL
 
 To use IPFS:
@@ -72,7 +72,7 @@ To make the configuration permanent, save the user settings again.
 
 Check the JanusVR docs for more details:
 
-<http://www.janusvr.com/guide/markuplanguage/index.html>
+<http://www.janusxr.org/guide/markuplanguage/index.html>
 
 #### Firebox
 

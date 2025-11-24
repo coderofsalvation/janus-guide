@@ -1,6 +1,6 @@
 ## ----------- Assets ----------- ##
 
-http://janusvr.com/docs/build/introtojml/index.html 
+http://janusxr.org/docs/build/introtojml/index.html 
 
 # Room
 
@@ -47,7 +47,7 @@ http://janusvr.com/docs/build/introtojml/index.html
 
 ## ----------- CONTENT ----------- ##
 
-http://janusvr.com/docs/build/roomtag/index.html
+http://janusxr.org/docs/build/roomtag/index.html
 
 ## ----------- Objects -----------##
 Common attributes:
@@ -66,7 +66,7 @@ sync = "true" -> synchronizes this object with other users
 <Paragraph js_id="0" pos="0 2.6 5" xdir="-1 0 -0.000002" zdir="0.000002 0 -1" scale="4 4 4">The Paragraph tag allows the addition a generated image which contains text, use this instead of "Text" when you want to display a large amount of text within the room (either this, or create your own image with text in it)</Paragraph>
 
 # Link
-<Link pos="0 0 8" url="http://janusvr.com/index.html" scale="1.8 3.2 1" title="Home" />
+<Link pos="0 0 8" url="http://janusxr.org/index.html" scale="1.8 3.2 1" title="Home" />
 
 # Image
 <AssetImage id="imgur" src="http://i.imgur.com/cSTBoJM.jpg" />
@@ -123,7 +123,7 @@ sync = "true" -> synchronizes this object with other users
 
 ## ----------- ROOMS ----------- ##
 
-http://janusvr.com/docs/build/roomtag/index.html
+http://janusxr.org/docs/build/roomtag/index.html
 
 # Skybox
 <AssetImage id="sky_down"  src="sky_down.jpg" tex_clamp="true" />
@@ -134,7 +134,7 @@ http://janusvr.com/docs/build/roomtag/index.html
 <AssetImage id="sky_left"  src="sky_left.jpg" tex_clamp="true" />
 <Room skybox_down_id="sky_down"  skybox_right_id="sky_right" skybox_front_id="sky_front" skybox_back_id="sky_back" skybox_up_id="sky_up" skybox_left_id="sky_left" >
 
-# Room Template [http://janusvr.com/docs/build/roomtag/img/templates.png]
+# Room Template [http://janusxr.org/docs/build/roomtag/img/templates.png]
 <Room use_local_asset="room_plane" pos="0 0 0" xdir="1 0 0" ydir="0 1 0" zdir="0 0 1">
 
 # Near Far Plane
@@ -157,7 +157,7 @@ http://janusvr.com/docs/build/roomtag/index.html
 <Room shader_id="room_shader">
 
 # Multiplayer Server
-<Room server="presence.janusvr.com" port="5567" >
+<Room server="presence.janusxr.org" port="5567" >
 
 # Reset Volume (??)
 

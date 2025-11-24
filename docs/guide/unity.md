@@ -3,7 +3,7 @@
 ### What you'll need:
 
 - [Unity 5.6](https://unity3d.com/get-unity/download)
-- [JanusVR](http://janusvr.com/download.php)
+- [JanusVR](http://janusxr.org/download.php)
 - [Exporter](https://github.com/JamesMcCrae/janusvr_utils/releases/tag/unity-latest)
 
 #### **Watch this first!!**

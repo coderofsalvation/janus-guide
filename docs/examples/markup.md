@@ -1,6 +1,6 @@
 ## **Intro to JML**
 
-<http://janusvr.com/docs/build/introtojml/index.html> 
+<http://janusxr.org/docs/build/introtojml/index.html> 
 
 Common attributes:
     
@@ -29,7 +29,7 @@ sync = "true" -> synchronizes this object with other users
 </Room>
 </FireBoxRoom>
  -->
-<script src="https://web.janusvr.com/janusweb.js"></script>
+<script src="https://web.janusxr.org/janusweb.js"></script>
 <script>elation.janusweb.init({url: document.location.href})</script>
 </body>
 </html>
@@ -45,7 +45,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/assets)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/assets)
 
 ### Image
 
@@ -59,7 +59,7 @@ sync = "true" -> synchronizes this object with other users
 </Room>
 </FireBoxRoom>
 ```
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/assetimage) 
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/assetimage) 
     
 ### Sound
     
@@ -74,7 +74,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/assetsound)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/assetsound)
 
 ### Video
 
@@ -90,7 +90,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/assetvideo)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/assetvideo)
 
 ### Object
 
@@ -105,7 +105,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/assetobject)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/assetobject)
 
 ### Shader
 
@@ -120,7 +120,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/assetshader)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/assetshader)
 
 ### Ghost
 
@@ -135,7 +135,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/assetghost)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/assetghost)
 
 ### Websurface
 
@@ -150,7 +150,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/assetwebsurface)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/assetwebsurface)
 
 ### Scripts
 
@@ -162,13 +162,13 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/assetscript)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/assetscript)
 
 ***
 
 ## **ROOMS**
 
-<http://janusvr.com/docs/build/roomtag/index.html>
+<http://janusxr.org/docs/build/roomtag/index.html>
 
 ### Skybox
 
@@ -187,7 +187,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/skybox)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/skybox)
 
 ### Room Template
 
@@ -200,7 +200,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/room-template)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/room-template)
 
 ### Near Far Plane
 
@@ -213,7 +213,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/near-far-plane)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/near-far-plane)
 
 ### Gravity, Jump, Run, Walk
 
@@ -226,7 +226,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/movement)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/movement)
 
 ### Cursor Visible
 
@@ -239,7 +239,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/multiplayer-privacy)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/multiplayer-privacy)
 
 ### Fog
 
@@ -252,7 +252,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/fog)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/fog)
 
 ### Teleport Distance
 
@@ -265,7 +265,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/teleportation)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/teleportation)
 
 ### Global Shader
 
@@ -279,7 +279,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/global-shader)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/global-shader)
 
 ### Multiplayer Server
 
@@ -287,12 +287,12 @@ sync = "true" -> synchronizes this object with other users
 <FireBoxRoom>
 <Assets>
 </Assets>
-<Room server="presence.janusvr.com" port="5567" >
+<Room server="presence.janusxr.org" port="5567" >
 </Room>
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/multiplayer-server)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/multiplayer-server)
 
 ### Reset Volume
 
@@ -305,7 +305,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/reset-volume)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/reset-volume)
 
 
 ### Global Env Probe
@@ -321,13 +321,13 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/global-environment-probe)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/global-environment-probe)
 
 ***
 
 ## **CONTENT**
 
-<http://janusvr.com/docs/build/roomtag/index.html>
+<http://janusxr.org/docs/build/roomtag/index.html>
 
 ### Text
 
@@ -339,7 +339,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/text)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/text)
 
 ### Paragraph
 
@@ -351,19 +351,19 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/paragraph)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/paragraph)
 
 ### Link
 
 ```html
 <FireBoxRoom>
 <Room>
-<Link pos="0 0 8" url="http://janusvr.com/index.html" scale="1.8 3.2 1" title="Home" />
+<Link pos="0 0 8" url="http://janusxr.org/index.html" scale="1.8 3.2 1" title="Home" />
 </Room>
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/link)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/link)
 
 ### Image
 
@@ -378,7 +378,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/image)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/image)
 
 ### Image3D
 
@@ -407,7 +407,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/image3d)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/image3d)
 
 ### Particle
 
@@ -434,7 +434,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/particle)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/particle)
 
 ### Light
 
@@ -447,7 +447,7 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/light)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/light)
 
 ### Light with Shadow
 
@@ -459,5 +459,5 @@ sync = "true" -> synchronizes this object with other users
 </FireBoxRoom>
 ```
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/light-shadow)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/light-shadow)
 

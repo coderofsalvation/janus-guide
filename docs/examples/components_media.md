@@ -21,7 +21,7 @@ Read more here: <https://github.com/smsithlord/MetaShortcutFormat>
 
 ![Preview](../_media/28iXQJs.jpg)
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/anarchy-arcade-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/bai/anarchy-arcade-test)
 
 ```
 <aacabinet cabinet_id="arcademachine" controlpanel_part_name="cabinet-front" js_id="supersmashland" marquee_part_name="cabinet-marquee" msf='{"title":"SuperSmashLand","file":"SuperSmashLand.exe","screen":"http://www.supersmashland.com/imgs/screenshot1.png","marquee":"https://i.ytimg.com/vi/KVROb_FPZCc/maxresdefault.jpg","preview":"https://www.youtube.com/watch?v=351CO5_8fbM","download":"http://www.supersmashland.com/","reference":"http://en.wikipedia.org/wiki/Super_Smash_Land","description":"Super Smash Land is a demake of Super Smash Bros. released in September 14, 2011 by Dan Fornace. The game features 6 playable characters and 11 stages. The game visual design resembles the graphics from the Nintendo Game Boy. The game was developed with GameMaker 7.","keywords":"retro, nintendo","type":"pc"}' pos="0 0 -2" scale="1.25 1.25 1.25" screen_part_name="screen"/>
@@ -104,7 +104,7 @@ This component isn't used directly, it's the base class for projector, cassettep
 ![Preview](../_media/wIPmZUQ.jpg)
 
 ```
-<AssetObject id="boombox" src="https://vesta.janusvr.com/files/bepis/obj/boombox/scene.gltf" />
+<AssetObject id="boombox" src="https://vesta.janusxr.org/files/bepis/obj/boombox/scene.gltf" />
 <AssetObject id="tapedeck" src="https://github.com/jbaicoianu/internetVRchive/raw/master/media/models/audio/technics-rs-bx404.dae" />
 <AssetObject id="speaker" src="https://github.com/jbaicoianu/internetVRchive/raw/master/media/models/audio/speaker.dae" />
 <AssetObject id="cassette" src="https://github.com/jbaicoianu/internetVRchive/raw/master/media/models/audio/cassette.dae" />
@@ -126,7 +126,7 @@ This component isn't used directly, it's the base class for projector, cassettep
 
 ![Preview](../_media/USa1ELw.jpg)
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bepis/cinema)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/bepis/cinema)
 
 ```
 <AssetScript src="http://assets.metacade.com/flynns-theater/videoscreen.js"/>

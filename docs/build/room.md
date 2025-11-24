@@ -1,6 +1,6 @@
 # Room
 
-Having defined a list of assets via the [Assets Tag](http://janusvr.com/docs/build/assetstag/index.html), we are now ready to place them within the webspace. The `</room>` section declares global attributes such as `run_speed` and `gravity` and also how `</assets>` are represented in the webspace.
+Having defined a list of assets via the [Assets Tag](http://janusxr.org/docs/build/assetstag/index.html), we are now ready to place them within the webspace. The `</room>` section declares global attributes such as `run_speed` and `gravity` and also how `</assets>` are represented in the webspace.
 
 Example:
 
@@ -21,7 +21,7 @@ The following example defines an AssetImage named "tree" and then places a copy 
 
 **Skybox** - By default, a "sky" for the Room will be randomly selected amongst a small set which are packaged with JanusVR. Optionally, one can define a custom skybox for the Room. 
 
-![skybox](http://janusvr.com/docs/build/roomtag/img/sky.png)
+![skybox](http://janusxr.org/docs/build/roomtag/img/sky.png)
 
 **skybox_left_id** - The AssetImage to use as the left skybox.
 
@@ -41,7 +41,7 @@ The following example defines an AssetImage named "tree" and then places a copy 
 
 To help users quickly begin building, JanusVR offers "template rooms", which are geometry that can be used to define a structure and boundary for a Room.
 
-![Room templates](http://janusvr.com/docs/build/roomtag/img/templates.png)
+![Room templates](http://janusxr.org/docs/build/roomtag/img/templates.png)
 
 **use_local_asset** - By entering any of the strings from the above image as a value, the associated default room geometry will be used.
 
@@ -159,7 +159,7 @@ Users may apply an AssetShader to the entirety of the room's contents, portals a
 
 Janus VR allows the use of custom multiplayer servers for any room. The Janus VR client will create a new connection to the specified multiplayer server if a connection does not exist, and in addition subscribe to the URL on that server (to listen to and broadcast user events which happen in the room). The custom multiplayer server is specified by adding server and port for the Room.
 
-**server** - (default "presence.janusvr.com") Set to the domain name or IP of the custom multiplayer server for the room.
+**server** - (default "presence.janusxr.org") Set to the domain name or IP of the custom multiplayer server for the room.
 
 **port** - (default "5566") Set to the port of the custom multiplayer server for the room.
 
@@ -219,7 +219,7 @@ Below is an example of a custom radiance and irradiance map being defined.
 
 An Object refers to an instance of 3D geometry placed in the room. Objects can be used to define both the geometry of the room, as well as the boundary for the room, by using the collision_id attribute, detailed below.
 
-![tree](http://janusvr.com/docs/build/roomtag/img/object.jpg)
+![tree](http://janusxr.org/docs/build/roomtag/img/object.jpg)
 
 Example:
 
@@ -309,7 +309,7 @@ Here is an example Object, which is an instance of an AssetObject with id "room_
 
 The Text tag allows the addition of 3D text to the room.
 
-![Drunken Surfer](http://janusvr.com/docs/build/roomtag/img/text.jpg)
+![Drunken Surfer](http://janusxr.org/docs/build/roomtag/img/text.jpg)
 
 Example:
 
@@ -352,7 +352,7 @@ The following example shows a user placing text in the world.
 
 The Paragraph tag allows the addition a generated image which contains text, use this instead of "Text" when you want to display a large amount of text within the room (either this, or create your own image with text in it).
 
-![Paragraph](http://janusvr.com/docs/build/roomtag/img/paragraph.jpg)
+![Paragraph](http://janusxr.org/docs/build/roomtag/img/paragraph.jpg)
 
 Example:
 
@@ -398,7 +398,7 @@ Like with the text tag, the paragraph's text content is placed between the openi
 
 A Link creates a portal which can be used to connect to another FireBoxRoom, or any other webpage specified with a URL.
 
-![Portal links](http://janusvr.com/docs/build/roomtag/img/link.jpg)
+![Portal links](http://janusxr.org/docs/build/roomtag/img/link.jpg)
 
 Example:
 
@@ -444,7 +444,7 @@ Here is an example Link.
 
 An Image is represented in 3D as a rectangular shape with thickness 1/10 of the maximum width or height. The appearance is much like art done on canvas wrapped around a wooden frame. The dimensions are such that the aspect ratio of the image is preserved. Transparent images are supported and can be used to interesting effect.
 
-![Images inside JanusVR](http://janusvr.com/docs/build/roomtag/img/image.jpg)
+![Images inside JanusVR](http://janusxr.org/docs/build/roomtag/img/image.jpg)
 
 Example:
 
@@ -516,7 +516,7 @@ Here is an example Sound, which plays "music_sound" on loop when the player's X 
 
 A Video plays a specific AssetVideo. The video can be controlled by left clicking on it (stop and play). You can specify whether the video should loop once playing, and whether the video should start playing automatically when the room is entered. Multiple Video's can be associated with one AssetVideo without any extra performance penalty (useful if you want the same video to appear at multiple locations in the room). The video will appear in the room as a rectangle, and the ratio of the height and width dimensions will match that of the video itself, preserving aspect ratio. All videos in a room are stopped automatically when the user leaves the room.
 
-![AssetVideo](http://janusvr.com/docs/build/roomtag/img/video.jpg)
+![AssetVideo](http://janusxr.org/docs/build/roomtag/img/video.jpg)
 
 Example:
 
@@ -560,7 +560,7 @@ Here is an example Video, which plays "vid_id" within a rectangle positioned at 
 
 A Ghost refers to an instance of a recorded avatar within the room. Properties for the ghost invariant to the recording, such as scale, colour, and custom geometry used to represent the ghost can all be specified. When no geometry is specified for the "head" and "body" parts of the ghost, a default boxy appearance is used. Since a Ghost is a recording, there are options to set the recording to loop and to auto_play on room entry.
 
-![AssetGhost](http://janusvr.com/docs/build/roomtag/img/ghost.jpg)
+![AssetGhost](http://janusxr.org/docs/build/roomtag/img/ghost.jpg)
 
 Example:
 
@@ -633,7 +633,7 @@ Here is a more complicated and complete example, where AssetObjects are used to 
 
 Particle creates a particle system, where each particle is most often a quad rotated to face the user, but each particle can be any kind of geometry defined by specifying an AssetObject. To set the texture for the quad, set the image_id attribute. To specify geometry other than a quad to use for each particle, specify the id attribute which matches an AssetObject. For each particle, it's initial position, velocity, acceleration, colour and scale can be specified, as well as an additional random attribute which will be added, covered below.
 
-![Particles](http://janusvr.com/docs/build/roomtag/img/particle.jpg)
+![Particles](http://janusxr.org/docs/build/roomtag/img/particle.jpg)
 
 Example:
 

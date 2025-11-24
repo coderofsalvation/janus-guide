@@ -19,7 +19,7 @@
 
 ![Preview](../_media/NMjft9V.jpg)
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/guide/streetlight)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/guide/streetlight)
 
 ```
 <object pos="0 .2 0">
@@ -28,7 +28,7 @@
      <Text col="#4cb96f" font_scale="false" font_size=".05" pos=".2 .15 .2" scale="1 1 .2">&lt;slider&gt;</Text>
      <Slider max="15" min="0" onchange="room.objects['mylamp'].setBrightness(this.value)" pos=".2 0 .5" value="8"/>
      <Text col="#4cb96f" font_scale="false" font_size=".05" pos=".8 1.0 -.2" scale="1 1 .2">&lt;streetLight&gt;</Text>
-     <StreetLight col="#ff5" js_id="mylamp" light_pos=".25 1.5 0" model_id="https://vesta.janusvr.com/files/bepis/obj/blocks/streetlamp2.obj.gz" model_pos="0 .5 0" pos=".5 0 0"/>
+     <StreetLight col="#ff5" js_id="mylamp" light_pos=".25 1.5 0" model_id="https://vesta.janusxr.org/files/bepis/obj/blocks/streetlamp2.obj.gz" model_pos="0 .5 0" pos=".5 0 0"/>
      <object col="#ccc" collision_id="cube" id="cube" pos="0 0 0" scale="2.5 .05 .8"/>
     </object>
 ```
@@ -39,10 +39,10 @@
 
 ![Preview](../_media/VqfQmC1g.jpg)
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/minecraft-torch-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/bai/minecraft-torch-test)
 
 ```
-<AssetImage id="particle" src="https://vesta.janusvr.com/files/bepis/zelda/kokiri0/yellowparticle.png"/>
+<AssetImage id="particle" src="https://vesta.janusxr.org/files/bepis/zelda/kokiri0/yellowparticle.png"/>
 
 <Particle col="#666666" count="500" duration="10" id="1140" image_id="particle" lighting="false" loop="true" pos="-40 0 -40" rand_accel="0.1 0.1 0.1" rand_pos="70 6 70" rand_vel="0.2 0.2 0.2" rate="80" scale="0.02 0.02 0.02" vel="-0.1 -0.1 -0.1"/>
 <Torch pos="0 0 2"/>
@@ -54,11 +54,11 @@
 
 ![Preview](../_media/TOvOwX9.jpg)
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/bai/vending-machine-test)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/bai/vending-machine-test)
 
 ```
-<AssetObject id="machine" src="https://vesta.janusvr.com/files/bai/vendingmachine/vendingmachine.obj"/>
-<AssetObject id="coin" src="https://vesta.janusvr.com/files/bai/vendingmachine/coin.obj"/>
+<AssetObject id="machine" src="https://vesta.janusxr.org/files/bai/vendingmachine/vendingmachine.obj"/>
+<AssetObject id="coin" src="https://vesta.janusxr.org/files/bai/vendingmachine/coin.obj"/>
 
 <VendingMachine pos="0 0 2" xdir="-1 0 0" zdir="0 0 -1"/>
 <Coin pos="-1.04 1.2 1.1"/>
@@ -76,7 +76,7 @@ These are room scripts that can be easily turned into janus components. One can 
 
 ![Preview](../_media/hQMLPnc.jpg)
 
-[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusvr.com/nazrin/minecraft-sandbox)
+[![View Example](../_media/hPC9Ati.jpg)](https://vesta.janusxr.org/nazrin/minecraft-sandbox)
 
 
 ## [gta](https://github.com/madjin/janus-custom-components/blob/master/tools/gta/gta.js)

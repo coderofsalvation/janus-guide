@@ -75,7 +75,7 @@ WebVR fireworks demo
 
 ![fireworks](../_media/0X1kKiS.jpg)
 
-View demo: <https://demos.janusvr.com/bai/fireworks/>
+View demo: <https://demos.janusxr.org/bai/fireworks/>
 
 ---
 
@@ -115,7 +115,7 @@ Example of using physically based rendering techniques
 
 ![PBR in JanusWeb](../_media/L4DUEGN.jpg)
 
-View a demo: <https://vesta.janusvr.com/firefoxg/physically-based-rendering-pbr-metallic-demo>
+View a demo: <https://vesta.janusxr.org/firefoxg/physically-based-rendering-pbr-metallic-demo>
 
 Dat demo: <https://pbr-demo.hashbase.io>
 
@@ -127,7 +127,7 @@ Flickering torch and flashlight example
 
 ![Torch](../_media/VqfQmC1g.jpg)
 
-View demo: <https://vesta.janusvr.com/bai/minecraft-torch-test>
+View demo: <https://vesta.janusxr.org/bai/minecraft-torch-test>
 
 Dat demo: <dat://9a8fe22a4c2007283a9b7a9378da1bc628dfd395366cd3df6b8da57d6a88fd73/>
 
@@ -191,7 +191,7 @@ Example of positional audio. There are 4 audio sources in this room.
 
 ![soundtest](../_media/0xPTxXg.jpg)
 
-View demo: <https://vesta.janusvr.com/guide/soundtest>
+View demo: <https://vesta.janusxr.org/guide/soundtest>
 
 ---
 

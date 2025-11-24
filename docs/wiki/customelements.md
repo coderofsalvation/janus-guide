@@ -17,7 +17,7 @@ A key part of being able to build reusable components for VR and the web is to b
  - [janus-script-video](https://github.com/jbaicoianu/janus-script-video/): a collection of components for building advanced players for various media types
  - [janus-script-audio](https://github.com/jbaicoianu/janus-script-audio/): a collection of components for wiring up positional audio and audio processing for your room
 
-So what is a Custom Element?  Well, first let's look at a super-basic Janus room.  Following the markup reference at janusvr.com/guide/markuplanguage/index.html we start with a basic room:
+So what is a Custom Element?  Well, first let's look at a super-basic Janus room.  Following the markup reference at janusxr.org/guide/markuplanguage/index.html we start with a basic room:
 ```xml
 <FireBoxRoom>
   <Room use_local_asset="room1">

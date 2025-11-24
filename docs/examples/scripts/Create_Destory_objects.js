@@ -5,7 +5,7 @@ room.onLoad = function()
 {
 room.removeObject("testobj");
 
-room.loadNewAsset("Image", {id:"assetmadeimage", src:"http://janusvr.com/images/logo.png"})
+room.loadNewAsset("Image", {id:"assetmadeimage", src:"http://janusxr.org/images/logo.png"})
 room.createObject("Image", {id:"assetmadeimage", js_id:"imageinjs", pos:Vector(0, 4, 0), scale:Vector(4, 4, 4)});
 }
 

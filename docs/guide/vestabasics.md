@@ -6,8 +6,8 @@ IMPORTANT! It is recommended to read the entire tutorial before you start!
 
 You will need:
 
-- Janus native, [download here for windows/linux](http://janusvr.com/download.php)
-- Vesta account, [sign up here](https://vesta.janusvr.com/plans)
+- Janus native, [download here for windows/linux](http://janusxr.org/download.php)
+- Vesta account, [sign up here](https://vesta.janusxr.org/plans)
 - Some 3D models such as (.dae, .obj, .gltf, .fbx)
 
 #### Step 1: Organize your ingrediants
@@ -24,7 +24,7 @@ Here are some online assets to get you started:
 
 #### Step 2: Clone the template site
 
-First, make sure you are logged into [Vesta](https://vesta.janusvr.com/) and then click this link <https://vesta.janusvr.com/guide/sandbox> to open the template site and hit **clone**. You'll be in the builder page for Vesta but the site will not work until you hit save. Feel free to edit the name and description to your liking then hit save.
+First, make sure you are logged into [Vesta](https://vesta.janusxr.org/) and then click this link <https://vesta.janusxr.org/guide/sandbox> to open the template site and hit **clone**. You'll be in the builder page for Vesta but the site will not work until you hit save. Feel free to edit the name and description to your liking then hit save.
 
 ![Fork a Vesta site with the clone button](../_media/UT0FAG9.jpg)
 
@@ -43,7 +43,7 @@ The janus native browser is currently the best editor for building the webvr sit
 
 The other way is to open the site is to simply open janusvr, and drag the url into the window or copy paste it into the address bar.
 
-Then make sure you've enabled edit-mode in settings: <http://janusvr.com/docs/learn/application/index.html#settings>
+Then make sure you've enabled edit-mode in settings: <http://janusxr.org/docs/learn/application/index.html#settings>
 
 
 
@@ -51,7 +51,7 @@ Then make sure you've enabled edit-mode in settings: <http://janusvr.com/docs/le
 
 The keys for movement are also used for editing when you select objects. I recommend first getting used to moving around with WASD, then try holding shift while walking to run and tap F to go into flight mode. While you are in flight mode, shift will lower you while space will fly you upwards.
 
-<http://janusvr.com/docs/learn/keyboardcontrols/index.html>
+<http://janusxr.org/docs/learn/keyboardcontrols/index.html>
 
 
 #### Step 5: Drag n Drop Editing
@@ -60,7 +60,7 @@ You can drag and drop a file from any external window into Janus, try dragging t
 
 ![Drag and drop links into the Janus scene](../_media/aWYzrFP.gif)
 
-Now lets go over some basic keycommands for editing [rmb/lmb + wasdqe + tab + 1234]: <http://janusvr.com/docs/build/interactiveediting/index.html>
+Now lets go over some basic keycommands for editing [rmb/lmb + wasdqe + tab + 1234]: <http://janusxr.org/docs/build/interactiveediting/index.html>
 
 ![Keyboard map for interactive editing](../_media/ktHmFnL.jpg)
 

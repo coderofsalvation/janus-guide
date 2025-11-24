@@ -17,7 +17,7 @@ The keys for movement are also used for editing when you select objects. I recom
 
 #### **Editing Controls**
 
-Now lets go over some basic keycommands for editing [rmb/lmb + wasdqe + tab + 1234]: <http://janusvr.com/docs/build/interactiveediting/index.html>
+Now lets go over some basic keycommands for editing [rmb/lmb + wasdqe + tab + 1234]: <http://janusxr.org/docs/build/interactiveediting/index.html>
 
 ![Keyboard map for interactive editing](../_media/ktHmFnL.jpg)
 
@@ -32,8 +32,8 @@ Movement keys are slightly different for JanusWeb. When you right click to selec
 Need some help getting started? We've got some templates for you to take advantage of. Feel free to use these templates on your personal website!
 
 - <https://github.com/janusvr-examples>
-- <https://vesta.janusvr.com/search/template/1>
-- <http://janusvr.com/docs/build/templates/index.html>
+- <https://vesta.janusxr.org/search/template/1>
+- <http://janusxr.org/docs/build/templates/index.html>
 
 ---
 

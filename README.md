@@ -21,8 +21,8 @@ Table of Contents:
 
 :mount_fuji: **[JanusWeb](https://github.com/jbaicoianu/janusweb)**: Web framework for building interconnected 3D experiences
 
-- [Demo](https://web.janusvr.com/) - Walk through the Vesta frontpage in a procedural 3D world 
-- [Vesta](https://vesta.janusvr.com/) - Social network for people to build and share WebVR content 
+- [Demo](https://web.janusxr.org/) - Walk through the Vesta frontpage in a procedural 3D world 
+- [Vesta](https://vesta.janusxr.org/) - Social network for people to build and share WebVR content 
 - [Examples](https://github.com/janusvr/janusvr-examples) - Download example janusweb files locally
 - [Wiki](https://github.com/jbaicoianu/janusweb/wiki) - The janusweb wiki located on the Github repo
 - [Custom Components](https://github.com/madjin/janus-custom-components) - The current collection of ready to use janusweb custom components
@@ -30,11 +30,11 @@ Table of Contents:
 
 :pushpin: **Useful links**
 
-- [JML Documentation](http://janusvr.com/docs/build/introtojml/index.html) - **Official** documentation site for JML
+- [JML Documentation](http://janusxr.org/docs/build/introtojml/index.html) - **Official** documentation site for JML
 - [JML Cheat sheet](https://github.com/madjin/janus-guide/blob/master/guide/cheatsheet.md) - Cheatsheet for mastering JML with code snippets
 - [Janus Examples](https://github.com/janusvr/janusvr-examples) - Example rooms for people to download and test locally
 - [Interactive Tutorials](https://github.com/jbaicoianu/janusvr-tutorials) - Prototype of an interactive tutorial for learning JML
-- [Vesta Templates](https://vesta.janusvr.com/search/template/1) - Search through JML templates you can clone on Vesta
+- [Vesta Templates](https://vesta.janusxr.org/search/template/1) - Search through JML templates you can clone on Vesta
 - [FireVR](https://github.com/spyduck/firevr) - Blender to JML Import/Export Addon with IPFS and Vesta support
 
 
