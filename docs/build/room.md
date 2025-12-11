@@ -554,6 +554,8 @@ Here is an example Video, which plays "vid_id" within a rectangle positioned at 
 
 **gain** (default "1.0") - gain setting for audio emitted by video.
 
+**auto_play** (default "false") - play automatically
+
 ***
 
 ## Ghost
