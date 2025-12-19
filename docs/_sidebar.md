@@ -7,6 +7,7 @@
   * [Controls](home/controls.md)
   * [Gallery](home/gallery.md)
   * [Use Cases](home/usecases.md)
+  * [Federation and Security](wiki/security.md)
 * [Build](build/README.md)
   * [Assets](build/assets.md)
   * [Room](build/room.md)
