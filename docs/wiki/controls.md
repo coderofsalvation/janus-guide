@@ -4,6 +4,17 @@ JanusWeb is built on top of Elation Engine, and uses its control mapping system.
 
 ## Controller Types
 
+### Hand-tracking (Meta Quest e.g.)
+
+Clicking
+* point to an object
+* pinch to click (right-hand)
+
+XRmenu:
+* look at your left palm
+* pinch thumb-index (left-hand)
+* profit!
+
 ### Oculus Touch / HTC Vive
  * left_trigger
  * left_grip
