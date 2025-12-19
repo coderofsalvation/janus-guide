@@ -2,7 +2,7 @@
 
 <center><img src="_media/73KaQJ3.jpg"/></center>
 
-> Any JanusXR room can contain portals to other JanusXR room.
+> Any JanusXR room can link to any JanusXR room, full stop.
 
 JanusXR pioneers a **permissionless frontier** for spatial web-clusters,<br>
 operating on the principle that security must **never rely on naive assumptions**,<br>
@@ -10,7 +10,11 @@ but rather on robust, protocol-level enforcement.<br>
 By treating the web as an open canvas, it empowers creators to build without gatekeepers,<br>
 allowing protocols (like HTTP) to enforce W3C Content Security Policies to define granular trust boundaries for every federated asset. 
 
-> below are examples on using [CSP3 (W3C Content Security Policy)](https://www.w3.org/TR/CSP3/) of the HTTP protocol 
+<center><img style="width:100%; max-width:900px" src="_media/Mdfhf3d.jpg"/></center>
+
+> **Important**: JanusXR mirrors a [Content-Federation-model](https://en.wikipedia.org/wiki/Fediverse) by reversing the table,<br>shifting security from restrictive [CORS blocking](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) to a decentralized federation-model,<br>centered on [W3C's CSP3](https://www.w3.org/TR/CSP3/).<br><br>This removes the burden from content creators/hosters,<br>who no longer need to configure `Access-Control-Allow-Origin` on every asset host, instead centralizing that technical overhead for JanusWeb admins who manage trust via W3C CSP Level 3 headers.
+
+Below are examples on using [CSP3 (W3C Content Security Policy)](https://www.w3.org/TR/CSP3/) of the HTTP protocol 
 
 ## Via metatags 
 
