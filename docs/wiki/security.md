@@ -10,9 +10,12 @@ but rather on robust, protocol-level enforcement.<br>
 By treating the web as an open canvas, it empowers creators to build without gatekeepers,<br>
 allowing protocols (like HTTP) to enforce W3C Content Security Policies to define granular trust boundaries for every federated asset. 
 
+## Content-hosting vs Viewer-hosting
+
 <center><img style="width:100%; max-width:900px" src="_media/Mdfhf3d.jpg"/></center>
 
-> **Important**: [JanusWeb](#/wiki/README) mirrors a [Content-Federation-model](https://en.wikipedia.org/wiki/Fediverse) by shifting security from restrictive [CORS blocking](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) to a decentralized federation-model, where janusweb **selfhosters** (not the content) add restrictions via [cors-anywhere](https://github.com/Rob--W/cors-anywhere) or [W3C's CSP3](https://www.w3.org/TR/CSP3/).<br><br>This removes the burden from content creators/hosters,<br>who no longer need to configure `Access-Control-Allow-Origin` on every asset host, instead centralizing that technical overhead for JanusWeb admins who manage trust via W3C CSP Level 3 headers.
+JanusXR **content** is typically hosted **apart from** from JanusXR **viewers**, so they are 2 different things.<br>
+The [JanusWeb](#/wiki/README) **viewer** mirrors a [Content-Federation-model](https://en.wikipedia.org/wiki/Fediverse) by shifting security from restrictive [CORS blocking](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) to a decentralized federation-model, where janusweb **selfhosters** add restrictions via [cors-anywhere](https://github.com/Rob--W/cors-anywhere) or [W3C's CSP3](https://www.w3.org/TR/CSP3/).<br><br>This removes the burden from **content** creators/hosters,<br>who no longer need to configure `Access-Control-Allow-Origin` on every asset host, instead centralizing that technical overhead for JanusWeb admins who manage trust via W3C CSP Level 3 headers.
 
 Below are examples on using [CSP3 (W3C Content Security Policy)](https://www.w3.org/TR/CSP3/) of the HTTP protocol 
 
