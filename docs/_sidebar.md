@@ -25,6 +25,7 @@
   * [JanusWeb UI](wiki/januswebui.md)
     * [Create a UI app](wiki/createuiapp.md)
     * [Extend the UI](wiki/extendui.md)
+    * [Wearables](wiki/wearables.md)
 * [Examples](examples/README.md)
   * [Janus Markup](examples/markup.md)
   * [Janus Scripts](examples/scripts.md)

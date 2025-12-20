@@ -3,8 +3,10 @@
 How about an object which is anchored to the player?<br>
 There are two ways to make such wearables:
 
-* room-specific
+* room-specific (use `player.head.add( yourobject )`)
 * persists across rooms (wrist-audioplayer e.g.)
+
+### persistence: webui apps
 
 The janus webui apps xrmenu and [teleporter](https://github.com/jbaicoianu/janusweb/blob/b2d13290490c9282134fef27ac6e9f259a3b195e/media/assets/webui/apps/locomotion/teleporter.js) come to mind. <br>
 
