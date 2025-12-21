@@ -1,6 +1,6 @@
 ## **Janus Script Examples**
 
-<http://demos.janusxr.org/JavaScript/index.html>
+<a href="http://demos.janusxr.org/JavaScript/index.html"><img src="../_media/demos.jpg" style="width:100%; max-width:800px"/></a>
 
 ### [AppendChild](https://github.com/madjin/janus-guide/blob/master/docs/examples/scripts/AppendChildJS.js)
 
