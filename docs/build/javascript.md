@@ -18,6 +18,8 @@ Specifies the name of a script or function to run when an object is clicked. If 
 
 <img src="../_media/click-collide-events.svg" style="max-width:600px"/>
 
+> Important: click-events only work once an object is collidable
+
 **Understanding the oncollision Attribute**
 
 Specifies the name of a script or function to run when an object is collided with. If you reference a function, the function should take two arguments, the first being the object containing the oncollision attribute, and the second being the object it is colliding with.
