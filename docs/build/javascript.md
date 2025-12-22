@@ -2,7 +2,7 @@
 
 JanusVR's Javascript engine allows developers to add a layer of depth and creativity to their websites. Users have created experiences ranging from games and demonstrations to educational experiences and collaborative experiences. This guide will help you get up to date with Janus' current capabilities.
 
-![](_media/javascript-ids.svg)
+![](../_media/javascript-ids.svg)
 
 **Understanding the js_id Attribute**
 
@@ -16,7 +16,7 @@ Placing an AssetScript within the section of the JanusVR Markup Language will al
 
 Specifies the name of a script or function to run when an object is clicked. If you reference a function, the function should not take any arguments.
 
-![](_media/click-collide-events.svg")
+![](../_media/click-collide-events.svg")
 
 **Understanding the oncollision Attribute**
 
