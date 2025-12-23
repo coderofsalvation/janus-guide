@@ -223,46 +223,30 @@ room.onKeyDown = function(event)
 
 **Events**
 
-> you can listen to events via the `room.addEventListener( eventname, ...)` and `room.dispatchEvent({type: eventname})` (also works for janus objects)
-
-Room events:
+> you can listen to events via the `room.addEventListener( eventname, ...)` and `room.dispatchEvent({type: eventname})`
 
 | eventname | info |
 |-----------|------|
-| click | fired for mouse, but also webxr handtracking (pinch `select`) webxr-controller trigger-release |
-| janus_room_mousedown | fired for mouse, but also webxr handtracking (pinch `selectstart`) webxr-controller trigger-hold |
-| janus_room_mouseup | fired for mouse, but also webxr handtracking (pinch `selectend`) webxr-controller trigger-release |
-| janus_room_mousedrag | fired for mouse |
-| janus_room_keydown | keyboard |
-| janus_room_keyup | keyboard |
-| janus_room_load  | new room is loaded |
-| room_edit | room is being edited |
-| janusweb_script_frame | frame tick start |
-| janusweb_script_frame-end | frame tick end |
-| join | user join |
-| part | user leave |
-| registerelement | element being registered |
-| janus_room_unload | room being unloaded before loading a new one |
-| skybox_update | skybox change |
-| room_load_start | new room URL is being requested |
-| room_load_queued | new room about to be processed (before translators) |
-| room_load_processed | after new room is processed |
-| room_active | room + assets are loaded + scripts started |
-| room_load_complete_customelements | all elements are registered |
-
-Object events:
-
-| eventname | info |
-|-----------|------|
-| objectchange | object was changed |
-| start | objects starts receiving frame updates |
-| stop  | object stops receiving frame updates |
-| update | object is updated |
-| trigger |  object is triggered by collision |
-| collision | object is colliding with another collidable object |
-| thing_collider_rejected | object is colliding with too high-poly object |
-
-
+| `click` | fired for mouse, but also webxr handtracking (pinch `select`) webxr-controller trigger-release |
+| `janus_room_mousedown` | fired for mouse, but also webxr handtracking (pinch `selectstart`) webxr-controller trigger-hold |
+| `janus_room_mouseup` | fired for mouse, but also webxr handtracking (pinch `selectend`) webxr-controller trigger-release |
+| `janus_room_mousedrag` | fired for mouse |
+| `janus_room_keydown` | keyboard |
+| `janus_room_keyup` | keyboard |
+| `janus_room_load`  | new room is loaded |
+| `room_edit` | room is being edited |
+| `janusweb_script_frame` | frame tick start |
+| `janusweb_script_frame`-end | frame tick end |
+| `join` | user join |
+| `part` | user leave |
+| `registerelement` | element being registered |
+| `janus_room_unload` | room being unloaded before loading a new one |
+| `skybox_update` | skybox change |
+| `room_load_start` | new room URL is being requested |
+| `room_load_queued` | new room about to be processed (before translators) |
+| `room_load_processed` | after new room is processed |
+| `room_active` | room + assets are loaded + scripts started |
+| `room_load_complete_customelements` | all elements are registered |
 
 ---
 
@@ -361,7 +345,19 @@ Each vector attribute contains an "x", "y" and "z" property.
 - .appendChild(string js_id) - Attaches a child object to the node calling this function. The first argument of this function is the string js_id associated with the object you want to attach.
 - .removeChild(string js_id) - Removes a child object from the node calling this function. The first argument of this function is the string js_id associated with the object you want to remove.
 
-***
+**Events**
+
+> you can listen to events via the `room.objects["testObject"].addEventListener( eventname, ...)` and `room.objects["testObject"].dispatchEvent({type: eventname})` 
+
+| eventname | info |
+|-----------|------|
+| `objectchange` | object was changed |
+| `start` | objects starts receiving frame updates |
+| `stop`  | object stops receiving frame updates |
+| `update` | object is updated |
+| `trigger` |  object is triggered by collision |
+| `collision` | object is colliding with another collidable object |
+| `thing_collider_rejected` | object is colliding with too high-poly object |
 
 ---
 
