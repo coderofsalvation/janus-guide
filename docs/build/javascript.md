@@ -223,7 +223,7 @@ room.onKeyDown = function(event)
 
 **Events**
 
-> you can listen to events via the `room.addEventListener( eventname, ...)` and `room.dispatchEvent({type: eventname})`
+> you can listen to events via the `room.addEventListener( eventname, (ev) => ...)` and `room.dispatchEvent({type: eventname})`
 
 | eventname | info |
 |-----------|------|
@@ -347,7 +347,7 @@ Each vector attribute contains an "x", "y" and "z" property.
 
 **Events**
 
-> you can listen to events via the `room.objects["testObject"].addEventListener( eventname, ...)` and `room.objects["testObject"].dispatchEvent({type: eventname})` 
+> you can listen to events via the `room.objects["testObject"].addEventListener( eventname, (ev) => ...)` and `room.objects["testObject"].dispatchEvent({type: eventname})` 
 
 | eventname | info |
 |-----------|------|
@@ -383,6 +383,25 @@ The "player" object is another global object. Similar to objects within "room.ob
 - **player.hmd_type** - Read-only. String. Returns a string that indicates which hardware the user is viewing the webspace with. Possible values are: "sbs/sbs_reverse/ou3d/cube/equi/rift/vive/osvr/2d"
 - **player.cursor_active** - Read-only. Boolean. True if user left clicking the mouse, otherwise false.
 - **player.cursor_object** - Read-only. Returns the js_id of the object being hovered over by the cursor. Always readable regardless of player.cursor_active state.
+
+**Events**
+
+> you can listen to events via the `player.addEventListener( eventname, (ev) => ...)` and `player.dispatchEvent({type: eventname})`
+
+| eventname | info | 
+|-|-|
+| `player_enable` | triggered when `player.enable()` is called |
+| `player_disable` | triggered when `player.disable()` is called |
+| `gazeenter` | when object is gazed first time |
+| `gazeprogress` | when object is gazed |
+| `gazeactivate` | when object is gazed + activated |
+| `gazeleave` | when object is gazed but not long enough to get activated |
+| `username_change` | |
+| `janus_voip_start` | user can talk |
+| `janus_voip_stop` | user no longer part of audio session |
+| `janus_voip_error` |  |
+| `start` | user becomes part of scene (receives frame-updates) |
+| `stop` | user stops being part of scene |
 
 #### Motion Controller Specific Properties
 
