@@ -27,6 +27,7 @@
     * [Extend the UI](wiki/extendui.md)
     * [Wearables](wiki/wearables.md)
 * [Examples](examples/README.md)
+  * [Janus Experiences](examples/clusters.md)
   * [Janus Markup](examples/markup.md)
   * [Janus Scripts](examples/scripts.md)
   * [Janus Components](examples/components.md#janus-custom-components)
