@@ -2,7 +2,7 @@
 
 JanusVR's Javascript engine allows developers to add a layer of depth and creativity to their websites. Users have created experiences ranging from games and demonstrations to educational experiences and collaborative experiences. This guide will help you get up to date with Janus' current capabilities.
 
-<img src="../_media/javascript-ids.svg" style="max-width:600px"/>
+<img src="_media/javascript-ids.svg" style="max-width:600px"/>
 
 **Understanding the js_id Attribute**
 
@@ -16,7 +16,7 @@ Placing an AssetScript within the section of the JanusVR Markup Language will al
 
 Specifies the name of a script or function to run when an object is clicked. If you reference a function, the function should not take any arguments.
 
-<img src="../_media/click-collide-events.svg" style="max-width:600px"/>
+<img src="_media/click-collide-events.svg" style="max-width:600px"/>
 
 > Important: click-events only work once an object is collidable
 
@@ -221,7 +221,48 @@ room.onKeyDown = function(event)
 
 **room.onKeyUp(event)** - The equivalent onKeyDown, but invoked when the user lets go of a key.
 
-***
+**Events**
+
+> you can listen to events via the `room.addEventListener( eventname, ...)` and `room.dispatchEvent({type: eventname})` (also works for janus objects)
+
+Room events:
+
+| eventname | info |
+|-----------|------|
+| click | fired for mouse, but also webxr handtracking (pinch `select`) webxr-controller trigger-release |
+| janus_room_mousedown | fired for mouse, but also webxr handtracking (pinch `selectstart`) webxr-controller trigger-hold |
+| janus_room_mouseup | fired for mouse, but also webxr handtracking (pinch `selectend`) webxr-controller trigger-release |
+| janus_room_mousedrag | fired for mouse |
+| janus_room_keydown | keyboard |
+| janus_room_keyup | keyboard |
+| janus_room_load  | new room is loaded |
+| room_edit | room is being edited |
+| janusweb_script_frame | frame tick start |
+| janusweb_script_frame-end | frame tick end |
+| join | user join |
+| part | user leave |
+| registerelement | element being registered |
+| janus_room_unload | room being unloaded before loading a new one |
+| skybox_update | skybox change |
+| room_load_start | new room URL is being requested |
+| room_load_queued | new room about to be processed (before translators) |
+| room_load_processed | after new room is processed |
+| room_active | room + assets are loaded + scripts started |
+| room_load_complete_customelements | all elements are registered |
+
+Object events:
+
+| eventname | info |
+|-----------|------|
+| objectchange | object was changed |
+| start | objects starts receiving frame updates |
+| stop  | object stops receiving frame updates |
+| update | object is updated |
+| trigger |  object is triggered by collision |
+| collision | object is colliding with another collidable object |
+| thing_collider_rejected | object is colliding with too high-poly object |
+
+
 
 ---
 
