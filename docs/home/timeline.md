@@ -13,4 +13,4 @@
 * February 2020: JanusVR corp closes/transitions to opensource, rebrands as JanusXR.
 * 2020–Present: Community-led development via open source.
 * 2021: 8 years after JanusXR, Facebook starts centralized 'metaverse'-attempt,rebrands to 'Meta'
-* 2025: [xrfragment spec](https://xrfragment.org) endorses JanusXR as first significant adopter (before the XRF spec existed)
+* 2025: [xrfragment spec](https://xrfragment.org) acknowledges JanusXR as first adopter of XR URI fragments
