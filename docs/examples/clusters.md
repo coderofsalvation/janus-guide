@@ -13,4 +13,15 @@
 
 > To get a sense of various JanusXR clusters, check the visualisations and/or check some videos from [VR dudes](https://www.youtube.com/@Thevrdudes)
 
+# Videos
+
+### The VR dudes channels
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=CV0ziJ9KlhUo3P3H&amp;list=PLEuHe1UbFLjev_RdO7YL3F3qI0YGi9mAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Internet detectives
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=j67_1oqXj1YS3Lht&amp;list=PLK0p2_jZP7Kj87JtdwPq1dz4Prt0LU9vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
