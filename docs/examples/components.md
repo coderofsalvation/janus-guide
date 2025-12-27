@@ -34,6 +34,7 @@ Check the [Reference](https://github.com/jbaicoianu/janusweb/wiki/Scripting-Supp
   - [Slider](/examples/components.md#slider)
   - [Speech Text](/examples/components.md#speechtext)
   - [Teleporter](/examples/components.md#teleporter) 
+  - [JJQ syntax](/examples/components.md#jjqsyntax) 
 
 ---
 
@@ -529,4 +530,36 @@ The id="" can be a relative or absolute link pointing to the location of an asse
 <Teleporter col="#4cb96f" external="true" js_id="test" logo_scale="3.3 3 1" pos="-20 1.4 15.1" url="hifi://maker" xdir="0 0 -1" zdir="1 1 0"/>
 ```
 
+## [JJQ syntax](https://codeberg.org/coderofsalvation/janus-script-jjq)
 
+Jquery syntax in JanusXR spaces, JanusXR assetscripts on steroids 
+
+```
+els = $$(/paragraph/).toArray()                  // get anything matching 'paragraph'
+els = $$('paragraph',{in:['tag']})               // finetune property match: <paragraph> only
+
+$$('text').set('col', '1 0 0')                   // set property for all matches 
+$$('text').get('col', '0 1 0')                   // get property (fallback value if not exist)
+$$('text').set('visible', false)                 // hide all matches 
+
+$$('text')
+.set('col', '1 0 0')                             // chained version of above 
+.set('visible', '1 0 0')                         // 
+
+$$('text').each( (text) => text.alpha += 0.1 ) ) // call func for each match
+
+$$( mycomponent.children ).set('col','1 0 0')    // use `mycomponent.children`
+$$('player',{from: room.children})               // use `room.children` instead of `room.objects` 
+
+$$('text').addEventListener(function(ev){})      // add listener for each match 
+$$('text').emit({type:'foo',value:'bar'})        // emit event for each match 
+
+muted = true                                 
+$$.wrap( room, 'playSound',                      // patch room.playSound(assetid)
+  function(playSound,assetid){
+    if( muted ){         
+      playSound(assetid) // original function
+    }
+  }
+)
+```
