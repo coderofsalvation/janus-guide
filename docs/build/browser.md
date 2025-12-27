@@ -1,6 +1,6 @@
 # Build a JanusXR browser
 
-> Anyone can build a JanusXR browser with just a teaspoon of XML and 5 drops of 3D knowledge.<br> 
+> Anyone can build a JanusXR browser with just 3 ingredients: a XML-parser, a [media-parser](https://ffmpeg.org), and a [3d-parser](https://assimp.org).
 
 JanusXR features can vary based on device- and browser-capabilities:
 
@@ -18,7 +18,7 @@ JanusXR features can vary based on device- and browser-capabilities:
 
 ↔️ = depends on underlying OS/browser. Safe videoformats are `.webm` and `.mp4`. ECMAScript v3 is the lowest common denominator.
  
-Most JanusXR browsers support (but not require) a **public** presence-server which handles interaction between users from both Janus and JanusWeb across 2D displays and VR HMDs.
+Most JanusXR browsers support (but not require) presence-servers (like [janus-server](https://github.com/janusvr/janus-server)) which handles interaction between users from both Janus and JanusWeb across 2D displays and VR HMDs, via a network-agnostic open [JSON protocol](https://github.com/janusvr/janus-server/blob/master/API%20Documentation.md)
 
 ## Browser (non)standards
 
