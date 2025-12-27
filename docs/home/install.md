@@ -10,7 +10,7 @@ JanusXR transforms the internet into a place you can visit, complete with real-t
 
 | JanusXR Browser | `<assetscript>` | `<websurface>` | `<assetvideo>` |  `.glb` | `.dae` | `.obj` | `.dds` | `.mp3` | `.ogg` | shaders | portals | AR |
 |-----------------|-----------------|----------------|----------------|---------|--------|--------|--------|--------|--------|---------|---------|----|
-| [**JanusWeb**](https://github.com/jbaicoianu/janusweb) | ↔️ |  | ↔️<br>mp4/webm | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ jumplinks | ✅ |
+| [**JanusWeb**](https://github.com/jbaicoianu/janusweb) | ↔️ |  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ jumplinks | ✅ |
 | [**Janus**](https://github.com/janusvr/janus) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ immersive | | 
 | [Steam](http://store.steampowered.com/app/602090/Janus_VR/)| ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ immersive | |
 | [Oculus](https://www.oculus.com/experiences/rift/883825681716606/) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ immersive | |
