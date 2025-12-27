@@ -9,15 +9,14 @@
 
 JanusXR transforms the internet into a place you can visit, complete with real-time physics, physically based rendering, spatialized audio, and a customizable interface. 
 
-| JanusXR Browser                                                                  |
-|----------------------------------------------------------------------------------|
-| [❤️JanusWeb](https://github.com/jbaicoianu/janusweb)                             |
-| [Janus](https://github.com/janusvr/janus)                                        |
-| [Steam](http://store.steampowered.com/app/602090/Janus_VR/)                      |
-| [Oculus](https://www.oculus.com/experiences/rift/883825681716606/)               |
-| [🪦Viveport](https://www.viveport.com/apps/089021e5-d296-4f02-ae25-55e959cb56b2) |
-| [🪦Android](https://play.google.com/store/apps/details?id=org.janusvr)           |
-| [🪦Windows](http://builds.janusxr.org/janusvr_windows.exe)                       |
-| [🪦Linux](http://builds.janusxr.org/janusvr_linux.tar.gz)                        |
-| [🪦OSX](http://downloads.janusxr.org/janusvr.dmg)                                |
+* [❤️JanusWeb](https://github.com/jbaicoianu/janusweb)                             
+* [Janus](https://github.com/janusvr/janus)                                        
+* [Steam](http://store.steampowered.com/app/602090/Janus_VR/)                      
+* [Oculus](https://www.oculus.com/experiences/rift/883825681716606/)              
+* [🪦Viveport](https://www.viveport.com/apps/089021e5-d296-4f02-ae25-55e959cb56b2)
+* [🪦Android](https://play.google.com/store/apps/details?id=org.janusvr)           
+* [🪦Windows](http://builds.janusxr.org/janusvr_windows.exe)                       
+* [🪦Linux](http://builds.janusxr.org/janusvr_linux.tar.gz)                        
+* [🪦OSX](http://downloads.janusxr.org/janusvr.dmg)                                
 
+> See [#/build/browser] for a feature-matrix
