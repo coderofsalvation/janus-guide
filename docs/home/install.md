@@ -10,15 +10,15 @@ JanusXR transforms the internet into a place you can visit, complete with real-t
 
 | JanusXR Browser | `<assetscript>` | `<websurface>` | `<assetvideo>` |  `.glb` | `.dae` | `.obj` | `.dds` | `.mp3` | `.ogg` | shaders | portals | AR |
 |-----------------|-----------------|----------------|----------------|---------|--------|--------|--------|--------|--------|---------|---------|----|
-| [**JanusWeb**](https://github.com/jbaicoianu/janusweb) | ↔️ |  | ↔️<br>mp4/webm | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | glsl | ✅ jumplinks | ✅ |
-| [**Janus**](https://github.com/janusvr/janus) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | glsl | ✅ immersive | | 
-- [Steam](http://store.steampowered.com/app/602090/Janus_VR/)| ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | glsl | ✅ immersive | |
-- [Oculus](https://www.oculus.com/experiences/rift/883825681716606/) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | glsl | ✅ immersive | |
-- [🪦Viveport](https://www.viveport.com/apps/089021e5-d296-4f02-ae25-55e959cb56b2) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | glsl | ✅ immersive | |
-- [🪦Android](https://play.google.com/store/apps/details?id=org.janusvr) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | glsl | ✅ immersive | |
-- [🪦Windows](http://builds.janusxr.org/janusvr_windows.exe) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | glsl | ✅ immersive | | 
-- [🪦Linux](http://builds.janusxr.org/janusvr_linux.tar.gz) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | glsl | ✅ immersive | |
-- [🪦OSX](http://downloads.janusxr.org/janusvr.dmg) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | glsl | ✅ immersive | |
+| [**JanusWeb**](https://github.com/jbaicoianu/janusweb) | ↔️ |  | ↔️<br>mp4/webm | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ jumplinks | ✅ |
+| [**Janus**](https://github.com/janusvr/janus) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ immersive | | 
+| [Steam](http://store.steampowered.com/app/602090/Janus_VR/)| ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ immersive | |
+| [Oculus](https://www.oculus.com/experiences/rift/883825681716606/) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ immersive | |
+| [🪦Viveport](https://www.viveport.com/apps/089021e5-d296-4f02-ae25-55e959cb56b2) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ immersive | |
+| [🪦Android](https://play.google.com/store/apps/details?id=org.janusvr) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ immersive | |
+| [🪦Windows](http://builds.janusxr.org/janusvr_windows.exe) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ immersive | | 
+| [🪦Linux](http://builds.janusxr.org/janusvr_linux.tar.gz) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ immersive | |
+| [🪦OSX](http://downloads.janusxr.org/janusvr.dmg) | ↔️ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ immersive | |
 
 ↔️ = depends on underlying OS/browser. Safe videoformats are `.webm` and `.mp4`
  
