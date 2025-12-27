@@ -19,4 +19,4 @@ JanusXR transforms the internet into a place you can visit, complete with real-t
 * [🪦Linux](http://builds.janusxr.org/janusvr_linux.tar.gz)                        
 * [🪦OSX](http://downloads.janusxr.org/janusvr.dmg)                                
 
-> See [#/build/browser] for a feature-matrix
+> See [build a JanusXR browser](#/build/browser) for a feature-matrix
