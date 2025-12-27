@@ -41,9 +41,9 @@ Check the [Reference](https://github.com/jbaicoianu/janusweb/wiki/Scripting-Supp
 
 ## [peertube](https://codeberg.org/coderofsalvation/janus-script-peertube)
 
-<img src="_media/peertube.gif" style="max-width:400px"/>
+Takes a peertube-link as a source, and displays an interactive videoplayer. Peertube is a popular decentralized alternative to Youtube.
 
-Takes a peertube-link as a source, and presents an interactive videoplayer. Peertube is a popular decentralized alternative to Youtube.
+<img src="_media/peertube.gif" style="max-width:400px"/>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=2zDDcD0Xwpk" target="_blank"><img src="http://img.youtube.com/vi/2zDDcD0Xwpk/0.jpg" alt="IMAGE ALT TEXT HERE" width="846" height="468" /></a>
 

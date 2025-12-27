@@ -3,7 +3,7 @@
 * [Home](/)
   * [Table of Contents](home/toc.md)
   * [About](home/about.md)
-  * [Install](home/install.md)
+  * [Install Browser](home/install.md)
   * [Controls](home/controls.md)
   * [Gallery](home/gallery.md)
   * [Use Cases](home/usecases.md)
