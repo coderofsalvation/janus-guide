@@ -9,25 +9,41 @@
 
 JanusXR transforms the internet into a place you can visit, complete with real-time physics, physically based rendering, spatialized audio, and a customizable interface. 
 
+| JanusXR Browser                                                                  |
+|----------------------------------------------------------------------------------|
+| [❤️JanusWeb](https://github.com/jbaicoianu/janusweb)                             |
+| [Janus](https://github.com/janusvr/janus)                                        |
+| [Steam](http://store.steampowered.com/app/602090/Janus_VR/)                      |
+| [Oculus](https://www.oculus.com/experiences/rift/883825681716606/)               |
+| [🪦Viveport](https://www.viveport.com/apps/089021e5-d296-4f02-ae25-55e959cb56b2) |
+| [🪦Android](https://play.google.com/store/apps/details?id=org.janusvr)           |
+| [🪦Windows](http://builds.janusxr.org/janusvr_windows.exe)                       |
+| [🪦Linux](http://builds.janusxr.org/janusvr_linux.tar.gz)                        |
+| [🪦OSX](http://downloads.janusxr.org/janusvr.dmg)                                |
+
+## Features 
+
 > NOTE: JanusXR features can vary based on device- and browser-capabilities. 
 
-| JanusXR Browser | `<assetscript>` | `<websurface>` | `<assetvideo>` | `<assetghost>` | `.glb` | `.dae` | `.obj` | `.dds` | `.mp3` | `.ogg` | shaders | portals | AR |
-|-----------------|-----------------|----------------|----------------|----------------|--------|--------|--------|--------|--------|--------|---------|---------|----|
-| [❤️JanusWeb](https://github.com/jbaicoianu/janusweb) | ↔️ evergreen |  | ↔️ |   | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | glsl | ✅ jumplinks | ✅ |
-| [Janus](https://github.com/janusvr/janus) | ↔️ | ✅  | ↔️ ES3| ✅  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | | 
-| [Steam](http://store.steampowered.com/app/602090/Janus_VR/)| ↔️ ES3| ✅  | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils| |
-| [Oculus](https://www.oculus.com/experiences/rift/883825681716606/) | ↔️ ES3 | ✅ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |
-| [🪦Viveport](https://www.viveport.com/apps/089021e5-d296-4f02-ae25-55e959cb56b2) | ↔️ ES3 | ✅ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |
-| [🪦Android](https://play.google.com/store/apps/details?id=org.janusvr) | ↔️ | ✅  | ↔️ ES3 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |
-| [🪦Windows](http://builds.janusxr.org/janusvr_windows.exe) | ↔️ ES3 | ✅ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | | 
-| [🪦Linux](http://builds.janusxr.org/janusvr_linux.tar.gz) | ↔️ ES3 | ✅ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |
-| [🪦OSX](http://downloads.janusxr.org/janusvr.dmg) | ↔️ ES3 | ✅ | ✅  | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |
+| JanusXR Browser                                                                  | `<assetscript>` | `<websurface>` | `<assetvideo>` | `<assetghost>` | `.glb` | `.dae` | `.obj` | `.dds` | `.mp3` | `.ogg` | shaders | portals | AR |
+|----------------------------------------------------------------------------------|-----------------|----------------|----------------|----------------|--------|--------|--------|--------|--------|--------|---------|---------|----|
+| [❤️JanusWeb](https://github.com/jbaicoianu/janusweb)                             | ↔️ evergreen    |                | ↔️             |                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | glsl | ✅ jumplinks | ✅ |
+| [Janus](https://github.com/janusvr/janus)                                        | ↔️ ES3          | ✅             | ↔️             | ✅  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | | 
+| [Steam](http://store.steampowered.com/app/602090/Janus_VR/)                      | ↔️ ES3          | ✅             | ↔️             | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils| |
+| [Oculus](https://www.oculus.com/experiences/rift/883825681716606/)               | ↔️ ES3          | ✅             | ↔️             | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |
+| [🪦Viveport](https://www.viveport.com/apps/089021e5-d296-4f02-ae25-55e959cb56b2) | ↔️ ES3          | ✅             | ↔️             | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |
+| [🪦Android](https://play.google.com/store/apps/details?id=org.janusvr)           | ↔️ ES3          | ✅             | ↔️             | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |
+| [🪦Windows](http://builds.janusxr.org/janusvr_windows.exe)                       | ↔️ ES3          | ✅             | ✅             | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | | 
+| [🪦Linux](http://builds.janusxr.org/janusvr_linux.tar.gz)                        | ↔️ ES3          | ✅             | ✅             | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |
+| [🪦OSX](http://downloads.janusxr.org/janusvr.dmg)                                | ↔️ ES3          | ✅             | ✅             | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |
 
 ↔️ = depends on underlying OS/browser. Safe videoformats are `.webm` and `.mp4`. ECMAScript v3 is the lowest common denominator.
  
 Most JanusXR browsers support (but not require) a **public** presence-server which handles interaction between users from both Janus and JanusWeb across 2D displays and VR HMDs.
 
 ## Browser (non)standards
+
+> Anyone can build a JanusXR browser with just a teaspoon of XML and 5 drops of 3D knowledge.<br> 
 
 JanusXR prioritizes **flexibility** over rigid standards (W3C e.g.) to prevent the technical bloat seen in modern HTML.<br>
 By emphasizing **browser flexibility** (not browser-wars), JanusXR ensures that developers can always build new JML browsers without managing excessive complexity.<br>
