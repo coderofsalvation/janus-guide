@@ -15,6 +15,7 @@
   * [Javascript](build/javascript.md)
   * [Server](build/server.md) 
   * [Tools](build/tools.md) 
+  * [JanusXR Browsers](build/browser.md)
 * [JanusWeb](wiki/README.md)
   * [Controls](wiki/controls.md)
   * [Loading Anatomy](wiki/anatomy.md)
