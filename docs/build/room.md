@@ -1,3 +1,18 @@
+- [Skybox](build/room.md#skybox)
+- [Room Templates](build/room.md#roomtemplates)
+- [Entrance Portal](build/room.md#entranceportal)
+- [Near and Far Plane](build/room.md#nearandfarplane)
+- [Movement](build/room.md#movement)
+- [Environmental](build/room.md#environmental)
+- [Multiplayer Privacy](build/room.md#multiplayerprivacy)
+- [Fog](build/room.md#fog)
+- [Teleportation](build/room.md#teleportation)
+- [Global Shader](build/room.md#globalshader)
+- [Multiplayer Server](build/room.md#multiplayerserver)
+- [Manipulation](build/room.md#manipulation)
+- [Reset Volume](build/room.md#resetvolume)
+- [Global Environmental Probe](build/room.md#globalenvironmentalprobe)
+
 # Room
 
 Having defined a list of assets via the [Assets Tag](http://janusxr.org/docs/build/assetstag/index.html), we are now ready to place them within the webspace. The `</room>` section declares global attributes such as `run_speed` and `gravity` and also how `</assets>` are represented in the webspace.
@@ -17,7 +32,7 @@ The following example defines an AssetImage named "tree" and then places a copy 
 </FireBoxRoom>
 ```
 
-#### Attributes
+### Skybox
 
 **Skybox** - By default, a "sky" for the Room will be randomly selected amongst a small set which are packaged with JanusVR. Optionally, one can define a custom skybox for the Room. 
 
