@@ -10,6 +10,7 @@
   * [Timeline](home/timeline.md)
   * [Federation and Security](wiki/security.md)
 * [Build](build/README.md)
+  * [📜 Cheatsheet](build/cheatsheet.md)
   * [Assets](build/assets.md)
   * [Room](build/room.md)
   * [Javascript](build/javascript.md)
