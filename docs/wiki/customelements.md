@@ -129,6 +129,25 @@ Our markup looks a lot like the ```<CircularLayout>``` example above, but here w
 </FireBoxRoom>
 ``` 
 
+## dependencies
+
+Sometimes multiple `<assetscript>` depend on eachother.<br>
+In that case this pattern is useful:
+
+```javascript
+function register(){
+  if( register.triggered ) return // ignore on-the-fly-loaded assetscripts
+  register.triggered = true
+
+  // do stuff which depends on other assetscripts being loaded
+  room.registerElement('foo',{
+    ...
+  })
+}
+room.addEventListener('janus_room_scriptload', register )
+```
+
+> 
 
 
 ## janusbase

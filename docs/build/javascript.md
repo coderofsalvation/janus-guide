@@ -241,8 +241,17 @@ room.onKeyDown = function(event)
 | `room_load_start` | new room URL is being requested |
 | `room_load_queued` | new room about to be processed (before translators) |
 | `room_load_processed` | after new room is processed |
-| `room_active` | room + assets are loaded + scripts started |
+| `janus_room_scriptload` | triggered when assets are loaded. **NOTE**: might fire multiple times when loading on-the-fly `<assetscript>` | 
 | `room_load_complete_customelements` | all elements are registered |
+| `room_active` | room + assets are loaded + scripts started |
+| `physics_collide` | triggered on collision |
+| `janus_room_collider_enter` | triggered on collision start |
+| `janus_room_collider_exit` | triggered on collision stop |
+| `click` `touchstart` | triggered when clicked |
+| `mousedown` | | 
+| `mouseup` | |
+| `mousemove` |  |
+| `mousedrag` | |
 
 ---
 
