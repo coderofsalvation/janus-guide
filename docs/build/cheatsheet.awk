@@ -1,5 +1,5 @@
 #
-# Usage: awk -f docs/build/cheatsheet.awk path/to/janusweb/scripts/{room,janusbase,object,text,image,janusparagraph,video,sound,januslight,websurface}.js > docs/build/cheatsheet.md
+# Usage: awk -f docs/build/cheatsheet.awk path/to/janusweb/scripts/{room,janusbase,object,text,image,portal,janusparagraph,video,sound,januslight,websurface}.js > docs/build/cheatsheet.md
 #
 BEGIN                       { 
                               out=""
@@ -9,6 +9,7 @@ BEGIN                       {
                               gsub(/.*\//,"",tag);
                               gsub(/\..*/,"",tag);
                               gsub(/^janus/,"",tag);
+                              gsub(/^portal$/,"link",tag)
                               out = out "\n\n### &lt;"tag"&gt;\n\n"
                               if( tag == "base" ){
                                 out = out "\n`<base>` does not exist, but all elements inside `<room>` inherit from it (and its attributes).\n\n> **NOTE**: `<base>` does not exist, not all of these are part of (all) JML (browsers). Use with care!\n\n"

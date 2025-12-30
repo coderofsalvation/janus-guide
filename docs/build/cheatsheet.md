@@ -1,9 +1,8 @@
 # Cheatsheet
 
-
 > Jump to section:
 
-[&lt;room&gt;](build/cheatsheet.md#ltroomgt) &nbsp;&nbsp;&nbsp;[&lt;base&gt;](build/cheatsheet.md#ltbasegt) &nbsp;&nbsp;&nbsp;[&lt;object&gt;](build/cheatsheet.md#ltobjectgt) &nbsp;&nbsp;&nbsp;[&lt;text&gt;](build/cheatsheet.md#lttextgt) &nbsp;&nbsp;&nbsp;[&lt;image&gt;](build/cheatsheet.md#ltimagegt) &nbsp;&nbsp;&nbsp;[&lt;paragraph&gt;](build/cheatsheet.md#ltparagraphgt) &nbsp;&nbsp;&nbsp;[&lt;video&gt;](build/cheatsheet.md#ltvideogt) &nbsp;&nbsp;&nbsp;[&lt;sound&gt;](build/cheatsheet.md#ltsoundgt) &nbsp;&nbsp;&nbsp;[&lt;light&gt;](build/cheatsheet.md#ltlightgt) &nbsp;&nbsp;&nbsp;[&lt;websurface&gt;](build/cheatsheet.md#ltwebsurfacegt) &nbsp;&nbsp;&nbsp;
+[&lt;room&gt;](build/cheatsheet.md#ltroomgt) &nbsp;&nbsp;&nbsp;[&lt;base&gt;](build/cheatsheet.md#ltbasegt) &nbsp;&nbsp;&nbsp;[&lt;object&gt;](build/cheatsheet.md#ltobjectgt) &nbsp;&nbsp;&nbsp;[&lt;text&gt;](build/cheatsheet.md#lttextgt) &nbsp;&nbsp;&nbsp;[&lt;image&gt;](build/cheatsheet.md#ltimagegt) &nbsp;&nbsp;&nbsp;[&lt;link&gt;](build/cheatsheet.md#ltlinkgt) &nbsp;&nbsp;&nbsp;[&lt;paragraph&gt;](build/cheatsheet.md#ltparagraphgt) &nbsp;&nbsp;&nbsp;[&lt;video&gt;](build/cheatsheet.md#ltvideogt) &nbsp;&nbsp;&nbsp;[&lt;sound&gt;](build/cheatsheet.md#ltsoundgt) &nbsp;&nbsp;&nbsp;[&lt;light&gt;](build/cheatsheet.md#ltlightgt) &nbsp;&nbsp;&nbsp;[&lt;websurface&gt;](build/cheatsheet.md#ltwebsurfacegt) &nbsp;&nbsp;&nbsp;
 
 > **NOTE:** generated from [janusweb](https://github.com/jbaicoianu/janusweb) (via [cheatsheet.awk](https://github.com/coderofsalvation/janus-guide/blob/master/docs/build/cheatsheet.awk)), so some attributes might be [janusweb](https://github.com/jbaicoianu/janusweb)-specific and not work in all JML-browsers
 
@@ -239,6 +238,37 @@
 | `onloadstart`| type: `callback` |
 | `onloadprogress`| type: `callback` |
 | `onload`| type: `callback` |
+
+
+### &lt;link&gt;
+
+|attribute | type |
+|----------|------|
+| `url`| type: `string`, set: this.updateTitle |
+| `title`| type: `string`, set: this.updateTitle |
+| `janus`| type: `object` |
+| `room`| type: `object` |
+| `//`color`| type: `color`, default: new Color(0xffffff), set: this.updateMaterial |
+| `size`| type: `vector3`, default: new Vector3(1.4,2.2,1), set: this.updateGeometry |
+| `open`| type: `boolean`, default: false |
+| `collision_id`| type: `string`, default: `cube`, set: this.updateCollider |
+| `collision_scale`| type: `vector3`, set: this.updateCollider |
+| `seamless`| type: `boolean`, default: false |
+| `draw_text`| type: `boolean`, default: true, set: this.updateTitle |
+| `draw_glow`| type: `boolean`, default: true, refreshGeometry: true|
+| `auto_load`| type: `boolean`, default: false |
+| `thumb_id`| type: `string`, set: this.updateMaterial |
+| `shader_id`| type: `string`, set: this.updateMaterial, default: `lava` |
+| `mirror`| type: `boolean`, default: false, set: this.updateGeometry |
+| `mirror_recursion`| type: `integer`, default: 2, set: this.updateGeometry |
+| `mirror_texturesize`| type: `integer`, default: 1024, set: this.updateGeometry |
+| `external`| type: `boolean`, default: false |
+| `preload`| type: `boolean`, default: false |
+| `target`| type: `string`, default: "" |
+| `round`| type: `boolean`, default: false |
+| `cooldown`| type: `float`, default: 1000 |
+| `font`| type: `string`, default: `impact` |
+| `font_weight`| type: `string`, default: `bold` |
 
 
 ### &lt;paragraph&gt;
