@@ -5,7 +5,7 @@
 
 [&lt;room&gt;](build/cheatsheet.md#ltroomgt) &nbsp;&nbsp;&nbsp;[&lt;base&gt;](build/cheatsheet.md#ltbasegt) &nbsp;&nbsp;&nbsp;[&lt;object&gt;](build/cheatsheet.md#ltobjectgt) &nbsp;&nbsp;&nbsp;[&lt;text&gt;](build/cheatsheet.md#lttextgt) &nbsp;&nbsp;&nbsp;[&lt;image&gt;](build/cheatsheet.md#ltimagegt) &nbsp;&nbsp;&nbsp;[&lt;paragraph&gt;](build/cheatsheet.md#ltparagraphgt) &nbsp;&nbsp;&nbsp;[&lt;video&gt;](build/cheatsheet.md#ltvideogt) &nbsp;&nbsp;&nbsp;[&lt;sound&gt;](build/cheatsheet.md#ltsoundgt) &nbsp;&nbsp;&nbsp;[&lt;light&gt;](build/cheatsheet.md#ltlightgt) &nbsp;&nbsp;&nbsp;[&lt;websurface&gt;](build/cheatsheet.md#ltwebsurfacegt) &nbsp;&nbsp;&nbsp;
 
-> **NOTE:** generated from [janusweb](https://github.com/jbaicoianu/janusweb) (via [cheatsheet.awk](build/cheatsheet.awk)), so some attributes might be janusweb](https://github.com/jbaicoianu/janusweb)-specific and not work in all JML-browsers
+> **NOTE:** generated from [janusweb](https://github.com/jbaicoianu/janusweb) (via [cheatsheet.awk](https://github.com/coderofsalvation/janus-guide/blob/master/docs/build/cheatsheet.awk)), so some attributes might be [janusweb](https://github.com/jbaicoianu/janusweb)-specific and not work in all JML-browsers
 
 
 ### &lt;room&gt;

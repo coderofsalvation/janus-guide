@@ -41,6 +41,6 @@ END                         {
                               for( i = 1; i <= ntags; i++){
                                 printf "[&lt;"tags[i]"&gt;](build/cheatsheet.md#lt"tags[i]"gt) &nbsp;&nbsp;&nbsp;"
                               }
-                              print "\n\n> **NOTE:** generated from [janusweb](https://github.com/jbaicoianu/janusweb) (via [cheatsheet.awk](build/cheatsheet.awk)), so some attributes might be janusweb](https://github.com/jbaicoianu/janusweb)-specific and not work in all JML-browsers"
+                              print "\n\n> **NOTE:** generated from [janusweb](https://github.com/jbaicoianu/janusweb) (via [cheatsheet.awk](https://github.com/coderofsalvation/janus-guide/blob/master/docs/build/cheatsheet.awk)), so some attributes might be [janusweb](https://github.com/jbaicoianu/janusweb)-specific and not work in all JML-browsers"
                               print out
                             }
