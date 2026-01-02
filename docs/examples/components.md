@@ -35,6 +35,7 @@ Check the [Reference](https://github.com/jbaicoianu/janusweb/wiki/Scripting-Supp
   - [Speech Text](/examples/components.md#speechtext)
   - [Teleporter](/examples/components.md#teleporter) 
   - [JJQ syntax](/examples/components.md#jjqsyntax) 
+  - [dialog](/examples/components.md#dialog)
 
 ---
 
@@ -534,7 +535,7 @@ The id="" can be a relative or absolute link pointing to the location of an asse
 
 Jquery syntax in JanusXR spaces, JanusXR assetscripts on steroids 
 
-```
+```javascript
 els = $$(/paragraph/).toArray()                  // get anything matching 'paragraph'
 els = $$('paragraph',{in:['tag']})               // finetune property match: <paragraph> only
 
@@ -563,3 +564,34 @@ $$.wrap( room, 'playSound',                      // patch room.playSound(assetid
   }
 )
 ```
+
+### [dialog)(https://codeberg.org/coderofsalvation/janus-script-dialog)
+
+![Preview](../_media/dialog.jpg)
+
+* easy reactive dialogs in JML
+* naive markdown support
+* hand-tracking support (great for AR)
+* infinite scaleable AR-menu (via URLs)
+* template variables
+* theme-able
+* dialog can intialize/watch objects and updates the dialog when keyvalues change
+* redirects window.alert(...) to immersive dialog
+
+```html
+<dialog content_id="menu1" pos="0 1.3 0.4" rotation="0 35 0" js_id="mydialog"/>
+
+<object js_id="menu1" watch="foo,bar" visible="false">
+  <paragraph width="300px" height="200px" lighting="false">
+    # example1.xml
+
+    Hello **world** was clicked ${room.foo.clicks = room.foo.clicks || 0} times 
+    > this is markdown btw
+  </paragraph>
+  <button pos="-0.33 0.98 0.21" text="hello"        fontscale="0.23" onclick="room.foo.clicks++"/>
+  <button pos="0.33 0.98 0.21"  text="alert()"      fontscale="0.29" onclick="alert('hello world')"/>
+  <button pos="-0.33 0.69 0.21" text="example2.xml" fontscale="0.47" onclick="room.openLink('example2')"/>
+  <link url="example2.xml" js_id="example2" auto_load="true" scale="0 0 0"/>
+</object>
+```
+
