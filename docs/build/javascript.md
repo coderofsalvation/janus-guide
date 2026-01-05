@@ -605,6 +605,13 @@ room.addEventListener("registerelement", function(e){
   if( e.data == "pushbutton") createRoom()
 })
 
+// wait for a combination of custom elements
+room.addEventListener("registerelement", function(e){
+  room.has = room.has || []
+  room.has[e.data] = true
+  if( room.has.dialog && room.has.button ) init()
+})
+
 // wait for events of certain script [janus-script-jjq](https://codeberg.org/coderofsalvation/janus-script-jjq) e.g.
 room.addEventListener('$ready', createRoom )
 
