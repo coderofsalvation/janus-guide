@@ -129,48 +129,6 @@ Our markup looks a lot like the ```<CircularLayout>``` example above, but here w
 </FireBoxRoom>
 ``` 
 
-## dependencies
-
-Sometimes multiple `<assetscript>` depend on eachother.<br>
-However, to ensure highperformance,  scripts run as soon as they are loaded.<br>
-In that case these patterns are useful:
-
-#### wait for all scripts
-
-```javascript
-function createRoom(){
-  if( register.triggered ) return // ignore on-the-fly-loaded assetscripts
-  register.triggered = true
-
-  // do stuff which depends on other assetscripts being loaded
-  room.registerElement('foo',{
-    ...
-  })
-}
-room.addEventListener('janus_room_scriptload', createRoom )
-```
-
-#### wait for specific element/script/object
-
-```
-// fired for each loaded custom element
-room.addEventListener("registerelement", function(e){
-  if( e.data == "pushbutton") createRoom()
-})
-
-// wait for events of certain script [janus-script-jjq](https://codeberg.org/coderofsalvation/janus-script-jjq) e.g.
-room.addEventListener('$ready', createRoom )
-
-// last-resort: variable-polling
-function poll(){
-  if( typeof $$ == 'undefined' ){ 
-      console.warn("dialog: waiting for jjq to be loaded..")
-      return setTimeout( poll, 500 )
-  }
-  createRoom()
-}
-```
-
 ## janusbase
 All scripting objects inherit from the ```janusbase``` type.  This class, and all those that inherit from it, expose the following API:
 

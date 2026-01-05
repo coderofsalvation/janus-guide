@@ -1,3 +1,13 @@
+* [intro](#/build/javascript?id=)
+* [room object](#/build/javascript?id=the-quotroomquot-object)
+    * [methods](#/build/javascript?id=methods)
+    * [callback](#/build/javascript?id=callbacks)
+    * [script objects](#/build/javascript?id=script-objects)
+* [player object](#/build/javascript?id=the-quotplayerquot-object)
+* [vector & misc functions](#/build/javascript?id=vector-functions-amp-misc)
+* [site translators](#/build/javascript?id=site-translators)
+* [dependencies](#/build/javascript?id=dependencies)
+
 # Javascript Intro
 
 JanusVR's Javascript engine allows developers to add a layer of depth and creativity to their websites. Users have created experiences ranging from games and demonstrations to educational experiences and collaborative experiences. This guide will help you get up to date with Janus' current capabilities.
@@ -92,7 +102,7 @@ room.update = function(dt) {
 } 
 ```
 
-#### Methods
+## Methods
 
 **room.loadNewAsset(element, {attributes})** - Loads a new asset into memory that can be referenced in the room markup. "element" must be one of the elements that can be placed within a room, like Object, Sound, Video, Text, etc. "attributes" is a dictionary that specifies the initial attributes of the loaded object.
 
@@ -177,7 +187,7 @@ room.onClick = function()
  }
 ```
 
-**Callbacks**
+## Callbacks
 
 Using the callback functions, you can create behaviour that is triggered when certain events happen.
 
@@ -217,7 +227,7 @@ room.onKeyDown = function(event)
 
 **room.onKeyUp(event)** - The equivalent onKeyDown, but invoked when the user lets go of a key.
 
-**Events**
+## Events
 
 > you can listen to events via the `room.addEventListener( eventname, (ev) => ...)` and `room.dispatchEvent({type: eventname})`
 
@@ -559,10 +569,52 @@ You can also define other script asset functions in the same file as usual, such
 
 ---
 
-#### Miscellaneous Functions
+## Miscellaneous Functions
 
 - **removeKey(dictionary, key)** - Removes a key-value pair from the given dictionary by key.
 - **print(value)** - Prints the value to the chat log and debugger output.
 - **debug(value)** - Logs the given value in the debugger output and returns it. Useful for examinining results of expressions without having to abstract them into a variable and print them.
 - **uniqueId()** - returns a unique number that you can use, say in specifying the js_id of a new object.
+
+## Dependencies
+
+Sometimes multiple `<assetscript>` depend on eachother.<br>
+However, to ensure highperformance,  scripts run as soon as they are loaded.<br>
+In that case these patterns are useful:
+
+#### wait for all scripts
+
+```javascript
+function createRoom(){
+  if( register.triggered ) return // ignore on-the-fly-loaded assetscripts
+  register.triggered = true
+
+  // do stuff which depends on other assetscripts being loaded
+  room.registerElement('foo',{
+    ...
+  })
+}
+room.addEventListener('janus_room_scriptload', createRoom )
+```
+
+#### wait for specific element/script/object
+
+```
+// fired for each loaded custom element
+room.addEventListener("registerelement", function(e){
+  if( e.data == "pushbutton") createRoom()
+})
+
+// wait for events of certain script [janus-script-jjq](https://codeberg.org/coderofsalvation/janus-script-jjq) e.g.
+room.addEventListener('$ready', createRoom )
+
+// last-resort: variable-polling
+function poll(){
+  if( typeof $$ == 'undefined' ){ 
+      console.warn("dialog: waiting for jjq to be loaded..")
+      return setTimeout( poll, 500 )
+  }
+  createRoom()
+}
+```
 
