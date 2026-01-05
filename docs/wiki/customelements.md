@@ -132,10 +132,13 @@ Our markup looks a lot like the ```<CircularLayout>``` example above, but here w
 ## dependencies
 
 Sometimes multiple `<assetscript>` depend on eachother.<br>
-In that case this pattern is useful:
+However, to ensure highperformance,  scripts run as soon as they are loaded.<br>
+In that case these patterns are useful:
+
+#### wait for all scripts
 
 ```javascript
-function register(){
+function createRoom(){
   if( register.triggered ) return // ignore on-the-fly-loaded assetscripts
   register.triggered = true
 
@@ -144,11 +147,29 @@ function register(){
     ...
   })
 }
-room.addEventListener('janus_room_scriptload', register )
+room.addEventListener('janus_room_scriptload', createRoom )
 ```
 
-> 
+#### wait for specific element/script/object
 
+```
+// fired for each loaded custom element
+room.addEventListener("registerelement", function(e){
+  if( e.data == "pushbutton") createRoom()
+})
+
+// wait for events of certain script [janus-script-jjq](https://codeberg.org/coderofsalvation/janus-script-jjq) e.g.
+room.addEventListener('$ready', createRoom )
+
+// last-resort: variable-polling
+function poll(){
+  if( typeof $$ == 'undefined' ){ 
+      console.warn("dialog: waiting for jjq to be loaded..")
+      return setTimeout( poll, 500 )
+  }
+  createRoom()
+}
+```
 
 ## janusbase
 All scripting objects inherit from the ```janusbase``` type.  This class, and all those that inherit from it, expose the following API:
@@ -171,6 +192,7 @@ All scripting objects inherit from the ```janusbase``` type.  This class, and al
           object.rotation_order // euler angle order
           object.sync           // Sync object over network when changed
           object.visible        // Show or hide object
+
 
 ### Event callbacks
           // Mouse events
