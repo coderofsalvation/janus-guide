@@ -1,12 +1,12 @@
-* [intro](#/build/javascript?id=)
-* [room object](#/build/javascript?id=the-quotroomquot-object)
-    * [methods](#/build/javascript?id=methods)
-    * [callback](#/build/javascript?id=callbacks)
-    * [script objects](#/build/javascript?id=script-objects)
-* [player object](#/build/javascript?id=the-quotplayerquot-object)
-* [vector & misc functions](#/build/javascript?id=vector-functions-amp-misc)
-* [site translators](#/build/javascript?id=site-translators)
-* [dependencies](#/build/javascript?id=dependencies)
+* [intro](/build/javascript.md#)
+* [room object](/build/javascript.md#the-quotroomquot-object)
+    * [methods](/build/javascript.md#methods)
+    * [callback](/build/javascript.md#callbacks)
+    * [script objects](/build/javascript.md#script-objects)
+* [player object](/build/javascript.md#the-quotplayerquot-object)
+* [vector & misc functions](/build/javascript.md#vector-functions-amp-misc)
+* [site translators](/build/javascript.md#site-translators)
+* [dependencies](/build/javascript.md#dependencies)
 
 # Javascript Intro
 
