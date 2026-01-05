@@ -608,8 +608,11 @@ room.addEventListener("registerelement", function(e){
 // wait for a combination of custom elements
 room.addEventListener("registerelement", function(e){
   room.has = room.has || {}
-  room.has[e.data] = true
-  if( room.has.dialog && room.has.button ) init()
+  room.has[e.data] = true // 'dialog', 'button', ... e.g.
+  if( room.has.dialog && room.has.button && !room.has.inited){ 
+    init()
+    room.has.inited = true
+  }
 })
 
 // wait for events of certain script [janus-script-jjq](https://codeberg.org/coderofsalvation/janus-script-jjq) e.g.
