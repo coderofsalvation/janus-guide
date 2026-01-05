@@ -607,7 +607,7 @@ room.addEventListener("registerelement", function(e){
 
 // wait for a combination of custom elements
 room.addEventListener("registerelement", function(e){
-  room.has = room.has || []
+  room.has = room.has || {}
   room.has[e.data] = true
   if( room.has.dialog && room.has.button ) init()
 })
