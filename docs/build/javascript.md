@@ -7,6 +7,7 @@
 * [vector & misc functions](/build/javascript.md#vector-functions-amp-misc)
 * [site translators](/build/javascript.md#site-translators)
 * [dependencies](/build/javascript.md#dependencies)
+* [debugging WebXR](/build/javascript.md#debugging-webxr)
 
 # Javascript Intro
 
@@ -110,6 +111,13 @@ Example:
 
 ```javascript
 room.loadNewAsset("Object",{id:"block",src:"test.dae",tex0:"test.png"})
+```
+
+This will create the following equivalent:
+
+```
+<assetobject id="block" src="test.dae" tex0="test.png"/>
+<object id="block"/>
 ```
 
 **Generating Procedural Content (v59.5+)**
@@ -530,6 +538,8 @@ for (var i = 0; i < tumblr_posts.length; i++) {
 
 #### Creating Assets and Objects
 
+> **NOTE**: this only works inside translators, roomscripts should always use [room.loadNewAsset()](/build/javascript.md#methods) instead
+
 You can create the same kinds of assets and objects you can create in JML pages, only using a different syntax. The syntax for creating assets is as follows:
 
 ```javascript
@@ -628,3 +638,25 @@ function poll(){
 }
 ```
 
+## Debugging WebXR
+
+Use a browser-console to debug JanusXR spaces for WebXR (devices).<br>
+The browser's the builtin javascript console is great, but mobile devices don't have that.<br>
+Instead use a portable browser console putting vConsole into your [janusweb](https://github.com/jbaicoianu/janusweb) `build/1.x.x/index.html` file:
+
+```
+<script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+<script>
+  const vConsole = new VConsole({ theme: 'dark', target:"#target" });
+  setTimeout( () => {
+    vConsole.$switch = document.querySelector('.vc-switch')
+    vConsole.$switch.style.right = '50%'
+    vConsole.$switch.style.bottom = '7px'
+  },100)
+</script>
+```
+
+There are also immersive emulators for desktop, but debugging on actual devices is always superior:
+
+* https://github.com/MozillaReality/WebXR-emulator-extension
+* https://github.com/meta-quest/immersive-web-emulator/
