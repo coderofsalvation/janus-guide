@@ -26,6 +26,9 @@ Check the [Reference](https://github.com/jbaicoianu/janusweb/wiki/Scripting-Supp
   - [Street Light](/examples/components.md#streetlight)
   - [Torch](/examples/components.md#torch)
   - [Vending Machine](/examples/components.md#vendingmachine)
+- [Spatial web](/examples/components.md#spatialweb)
+  - [rss](/examples/components.md#rss)
+  - [fetch](/examples/components.md#fetch)
 - [Utils](/examples/components.md#utils)
   - [Instanced Object](/examples/components.md#instancedobject)
   - [Layout](/examples/components.md#layout)
@@ -595,3 +598,107 @@ $$.wrap( room, 'playSound',                      // patch room.playSound(assetid
 </object>
 ```
 
+# Spatial Web
+
+JanusXR allows for a **true spatial web** which is seamless and permissive.<br>
+JanusXR Rooms can live **inside the web**, but also the other way around with these components:
+
+### [rss](https://codeberg.org/coderofsalvation/janus-script-rss)
+
+Render RSS feeds in JanusXR spaces 
+
+![Preview](../_media/janus-script-rss.png)
+
+> What is RSS?
+
+RSS basically allows reading online content elsewhere.<br>
+A very important building block of the open web.<br>
+How to get feeds?
+
+* [rsshub instances](https://docs.rsshub.app/guide/instances) convert popular sites into RSSfeeds
+* [fediverse platforms](https://hyperborea.org/tech-tips/fediverse-feeds/)
+
+```
+<FireBoxRoom>
+  <Assets>
+    <assetscript src="janus-script-rss.js"/>
+  </Assets>
+  <Room showavatar="false">
+    
+    <!-- last rss post -->
+    <rss url="https://mastodon.online/@lvk.rss">
+      <paragraph visible="false" cull_face="none" lighting="false"/>
+    </rss>
+
+    <!-- 4x4 grid starting from item 0 -->
+    <rss url="https://mastodon.online/@lvk.rss" rotation="0 180 0" columns="2" rows="2" pos="0 1.3 0">
+      <paragraph visible="false" cull_face="none" lighting="false"/>
+    </rss>
+
+    <!-- 4x4 grid starting from index 4 -->
+    <rss url="https://mastodon.online/@lvk.rss" index="4" rotation="-180 45 -180" columns="2" rows="2" pos="-1.61 1.3 -0.73">
+      <paragraph visible="false" cull_face="none" lighting="false"/>
+    </rss>
+
+  </Room>
+</FireBoxRoom>
+```
+
+
+### [fetch](https://codeberg.org/coderofsalvation/janus-script-fetch)
+
+Fetch webcontent into JML elements.
+
+* inject remote/local content into JML properties
+* make `<paragraph>` elements content-manageable (edit in wordpress e.g.)
+* import remote stats into `<paragraph>`
+
+![Preview](../_media/janus-script-fetch.png)
+
+```
+
+<html>
+  <body>
+
+    <div id="foo">
+      <b>hello world</b>
+    </div>
+
+    <!--
+    <fireboxroom>
+      <assets>
+        <assetscript src="janus-script-fetch.js"/>
+      </assets>
+      <room selfavatar="false" showavatar="false" skybox="false" walk_speed="0.8">
+    
+        <!-- basic textfile example -->
+        <fetch url="https://pastebin.com/raw/3UeS4xWb" to="text">
+          <paragraph transparent="true" lighting="false" rotation="0 0 0" scale="1.5 1.5 1" pos="6.7 1.75 -2.1"/>
+        </fetch>
+
+        <!-- polyglot example: extract partial (hello world) of current HTML document -->
+        <fetch selector="#foo" to="text">
+          <paragraph transparent="true" lighting="false" rotation="0 0 0" scale="1.5 1.5 1" pos="6.7 1.75 -2.1"/>
+        </fetch>
+    
+        <!-- basic text example -->
+        <fetch url="https://pastebin.com/raw/3UeS4xWb" to="text">
+          <paragraph transparent="true" lighting="false" rotation="0 0 0" scale="1.5 1.5 1" pos="6.7 1.75 -2.1"/>
+        </fetch>
+    
+        <!-- partial of HTML page via css selector -->
+        <fetch url="https://nlnet.nl/foundation/" to="text" selector="#maincolumn">
+          <paragraph transparent="true" lighting="false" rotation="0 0 0" scale="1.5 1.5 1" pos="6.7 1.75 -2.1"/>
+        </fetch>
+       
+        <!-- stats: append + refresh every 30 seconds -->
+        <fetch url="https://my.org/onlineusers.php" to="text" selector="#maincolumn" append="true" interval="30">
+          <text transparent="true" lighting="false" text="online users: " />
+        </fetch>
+    
+      </room>
+    </fireboxroom>
+    -->
+  </body>
+</html>
+```
