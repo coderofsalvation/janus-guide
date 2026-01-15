@@ -1,3 +1,8 @@
+> Jump to tag: 
+
+[&lt;text&gt](build/room.md#text) &nbsp;&nbsp;&nbsp;[&lt;paragraph&gt](build/room.md#paragraph) &nbsp;&nbsp;&nbsp;[&lt;link&gt](build/room.md#link) &nbsp;&nbsp;&nbsp;[&lt;image&gt](build/room.md#image) &nbsp;&nbsp;&nbsp;[&lt;sound&gt](build/room.md#sound) &nbsp;&nbsp;&nbsp;[&lt;video&gt](build/room.md#video) &nbsp;&nbsp;&nbsp;[&lt;ghost&gt](build/room.md#ghost) &nbsp;&nbsp;&nbsp;[&lt;particle&gt](build/room.md#particle) &nbsp;&nbsp;&nbsp;[&lt;light&gt](build/room.md#light)
+
+- [rendering HTML](build/room#paragraph)
 - [Skybox](build/room.md#skybox)
 - [Room Templates](build/room.md#roomtemplates)
 - [Entrance Portal](build/room.md#entranceportal)
@@ -12,6 +17,7 @@
 - [Manipulation](build/room.md#manipulation)
 - [Reset Volume](build/room.md#resetvolume)
 - [Global Environmental Probe](build/room.md#globalenvironmentalprobe)
+
 
 # Room
 
@@ -378,6 +384,22 @@ Like with the text tag, the paragraph's text content is placed between the openi
  <Paragraph pos="5 5 5" fwd="0 0 1" col="0.5 0.8 0.5" scale="2 2 2" locked="false">example paragraph's text</Paragraph>
 </Room>
 ```
+
+But you can also include basic HTML like this:
+
+```
+<Room>
+ <paragraph pos="0 1.3 -2" rotation="0 180 0" transparent="true">
+      <![CDATA[
+        <h1>hello world</h1>
+        <br>
+        <img src="https://janusxr.org/images/janusxr-logo.png" width="400"/>
+      ]]>
+ </paragraph>
+</Room>
+```
+
+> NOTE: html-support is basic and read-only
 
 #### Attributes
 
