@@ -28,28 +28,28 @@ By emphasizing **browser flexibility** (not browser-wars), JanusXR ensures that 
 > There is no single 'true' JanusXR browser, support **level1** is enough to call something a **JanusXR browser**. That way, embedding JanusXR inside a smartwatch-app or game is stays very cheap.
  
 | tag                 | JML level1 | JML level2  | `fileformat` priority  | fallback |
-|---------------------|--------|---------|------------------------|------------------|
-| `<assets>`          | ✅     |         |                        |                  |
-| `<assetimage>`      | ✅ png |         | `.png`>`.jpg`>`.gif`   | poll supported extensions or fallback image |
-| `<assetsound>`      | ✅ ogg |         | `.ogg`>`.mp3`>`.wav`   | poll supported extensions    |
-| `<assetobject>`     | ✅ glb |         | `.glb`>`.dae`>`.obj`>`.stl` | poll supported extensions  |
-| `<assetvideo>`      |        | ✅ mp4  | `.mp4`>`.webm`>`...`   | poll supported extensions |
-| `<assetshader>`     |        | ✅      | glsl                   | fallback shader |
-| `<assetghost>`      |        | ✅      |                        |  |
-| `<assetwebsurface>` |        | ✅      |                        | room-translator or open in new tab/browser |
-| `<assetscript>`     |        | ✅      | ES2024 > ES3           |  |
-| `<assetrecording>`  |        | ✅      |                        |  |
-| `<room>`            | ✅     |         |                        |  |
-| `<object>`          | ✅     |         |                        |  |
-| `<text>`            | ✅     |         |                        |  |
-| `<image>`           | ✅     |         |                        |  |
-| `<paragraph>`       | ✅     | html    | strip html-tags        |  |
-| `<link>`            | ✅ jump| stencils|                        |  |
-| `<sound>`           |        | ✅      |                        |  |
-| `<video>`           |        | ✅      |                        |  |
-| `<ghost>`           |        | ✅      |                        |  |
-| `<particle>`        |        | ✅      |                        |  |
-| `<light>`           |        | ✅      |                        |  |
+|---------------------|------------|---------|------------------------|------------------|
+| `<assets>`          | ✅         |         |                        |                  |
+| `<assetimage>`      | ✅ png     |         | `.png`>`.jpg`>`.gif`   | poll supported extensions or fallback image |
+| `<assetsound>`      | ✅ ogg     |         | `.ogg`>`.mp3`>`.wav`   | poll supported extensions    |
+| `<assetobject>`     | ✅ glb     |         | `.glb`>`.dae`>`.obj`>`.stl` | poll supported extensions  |
+| `<assetvideo>`      |            | ✅ mp4  | `.mp4`>`.webm`>`...`   | poll supported extensions |
+| `<assetshader>`     |            | ✅      | glsl                   | fallback shader |
+| `<assetghost>`      |            | ✅      |                        |  |
+| `<assetwebsurface>` |            | ✅      |                        | room-translator or open in new tab/browser |
+| `<assetscript>`     |            | ✅      | ES2024 > ES3           |  |
+| `<assetrecording>`  |            | ✅      |                        |  |
+| `<room>`            | ✅         |         |                        |  |
+| `<object>`          | ✅         | XR Fragments |                   | support [XR URI Fragments](https://xrfragment.org) for `js_id` of unnested `<object>`  |
+| `<text>`            | ✅         |         |                        |  |
+| `<image>`           | ✅         |         |                        |  |
+| `<paragraph>`       | ✅ text    | html+domselector   | `.txt`>`.html`>`.rss`  | `strip html-tags |  |
+| `<link>`            | ✅ jumplink| stencils|                        |  |
+| `<sound>`           |            | ✅      |                        |  |
+| `<video>`           |            | ✅      |                        |  |
+| `<ghost>`           |            | ✅      |                        |  |
+| `<particle>`        |            | ✅      |                        |  |
+| `<light>`           |            | ✅      |                        |  |
 
 Projects like JanusXR avoid "hardcoded standards" to prevent a Browser Monoculture.<br>
 This:
