@@ -5,6 +5,7 @@
 | URL | health | view online |
 |--------|--------|---------|
 | vesta.janusxr.org | ✅ | [janusweb link](https://web.janusxr.org/#janus.url=http%3A%2F%2Fvesta.janusxr.org) |
+| spyduck.net | ✅ | [janusweb link](https://web.janusxr.org/#janus.url=http%3A%2F%2Fspyduck.net) |
 | danielmeeks.com | ✅ | [janusweb links](https://www.danieldmeeks.com/janusxr) |
 | nazrin.net/Hub | ✅ | [janusweb link](https://web.janusxr.org/#janus.url=https%3A%2F%2Fnazrin.net%2FHub) | 
 | gathervr.com | ❤️‍🩹 | [janusweb link](https://web.janusxr.org/#janus.url=https%3A%2F%2Fwww.gathervr.com) |
