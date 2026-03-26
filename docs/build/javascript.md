@@ -102,6 +102,21 @@ room.registerElement('custom', {
 })
 ```
 
+You can view it by entering your `scene.txt` URL in [janusweb online](https://web.janusxr.org) or<br>
+locally on a webserver via this `index.html`:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://web.janusxr.org/janusweb.js"></script>
+  </head>
+  <body>
+    <janus-viewer src="https://localhost:8080/test.html"></janus-viewer>
+  </body>
+</html>
+```
+
 ***
 
 ---

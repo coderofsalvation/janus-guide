@@ -7,6 +7,8 @@ JanusVR allows you to both browse and build immersive content. With an HTML-like
 3. Learn to build JML and JS with a live coding editor in Janus.
 4. Export content from various popular 3D game engines and modeling software.
 
+> Or in case you like scripting [see this](/build/javascript.md#example)
+
 ---
 
 ## Interactive Editing
