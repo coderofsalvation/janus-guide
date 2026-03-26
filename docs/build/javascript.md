@@ -1,4 +1,5 @@
 * [intro](/build/javascript.md#)
+* [example](/build/javascript.md#example)
 * [room object](/build/javascript.md#the-quotroomquot-object)
     * [methods](/build/javascript.md#methods)
     * [callback](/build/javascript.md#callbacks)
@@ -38,6 +39,54 @@ The Javascript Debugger can be brought up manually by inserting the "debugger;" 
 **Before You Begin...**
 
 Multiple scripts may be loaded into a room. JanusVR's Javascript language is essentially qtScript, which is equivalent to ECMAScript 3. Please see [this website](http://qt-project.org/doc/qt-5/ecmascript.html) for a reference of what is built in.
+
+***
+
+---
+
+# Example 
+
+scene.txt
+
+```xml
+
+JML can be detected/injected in any file (not bound to a filextension):
+
+<fireboxroom>
+  <assets>
+    <assetscript src="scene.js"/>
+    <assetshader src="frag.txt" vertex_src="vert.txt" id="myshader"/>
+    <assetobject src='foo.glb' id='foo'/>
+  </assets>
+  <room>
+    <object id='cube' js_id="mycube"/>  <!-- 'cube' is builtin primitive -->
+    <object id='foo' js_id="mymodel" shader_id="myshader"/>
+  </room>
+</fireboxroom>
+```
+
+scene.js
+
+```javascript
+// see https://coderofsalvation.github.io/janus-guide/#/build/room
+//     https://coderofsalvation.github.io/janus-guide/#/build/cheatsheet
+//     https://coderofsalvation.github.io/janus-guide/#/build/javascript
+const scene  = elation.engine.instances.default.systems.world.scene['world-3d'] // THREE scene
+let     cam  = player.camera // camera
+let renderer = janus.engine.systems.render.renderer // .xr etc
+
+
+room.addEventListener('janusweb_script_frame', function(e){  } )
+room.addEventListener('registerelement', function(e){ })
+room.addEventListener('room_load_complete',function(){
+  const   mycube = room.objects.mycube             // mycube (janusobject)
+  const shadermat = mycube.objects['3d'].material  // material (THREE)
+  
+})
+
+mycube.addEventListener('click', function(e){ } ); 
+room.addEventListener('click', function(e){ } );   
+```
 
 ***
 
