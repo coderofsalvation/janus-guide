@@ -334,11 +334,14 @@ room.onKeyDown = function(event)
 | `registerelement` | element being registered |
 | `janus_room_unload` | room being unloaded before loading a new one |
 | `skybox_update` | skybox change |
+| `room_disable` | room is disabled (usually when teleporting or forward button) |
 | `room_load_start` | new room URL is being requested |
 | `room_load_queued` | new room about to be processed (before translators) |
 | `room_load_processed` | after new room is processed |
-| `janus_room_scriptload` | triggered when assets are loaded. **NOTE**: might fire multiple times when loading on-the-fly `<assetscript>` | 
 | `room_load_complete_customelements` | all elements are registered |
+| `room_load_complete` | everything is loaded |
+| `room_enable` | room is loaded and enabled (after succesful teleport or forward button) |
+| `janus_room_scriptload` | triggered when assets are loaded. **NOTE**: might fire multiple times when loading on-the-fly `<assetscript>` | 
 | `room_active` | room + assets are loaded + scripts started |
 | `physics_collide` | triggered on collision |
 | `janus_room_collider_enter` | triggered on collision start |
