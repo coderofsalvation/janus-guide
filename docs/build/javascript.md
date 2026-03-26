@@ -46,6 +46,10 @@ Multiple scripts may be loaded into a room. JanusVR's Javascript language is ess
 
 # Example 
 
+The following scene will give you 2 cubes, of which one has a shader.
+
+> NOTE: files `foo.glb` (3D model) + THREE shader (`frag.txt` and `vert.txt`) are omitted
+
 scene.txt
 
 ```xml
@@ -58,11 +62,14 @@ JML can be detected/injected in any file (not bound to a filextension):
     <assetshader src="frag.txt" vertex_src="vert.txt" id="myshader"/>
     <assetobject src='foo.glb' id='foo'/>
   </assets>
-  <room>
+  <room pos="0 0 -4">
     <object id='cube' js_id="mycube"/>  <!-- 'cube' is builtin primitive -->
-    <object id='foo' js_id="mymodel" shader_id="myshader"/>
+    <custom pos='-2 0 0'>  
+      <object id='foo' js_id="mymodel" shader_id="myshader"/>
+    </custom>
   </room>
 </fireboxroom>
+
 ```
 
 scene.js
@@ -71,21 +78,28 @@ scene.js
 // see https://coderofsalvation.github.io/janus-guide/#/build/room
 //     https://coderofsalvation.github.io/janus-guide/#/build/cheatsheet
 //     https://coderofsalvation.github.io/janus-guide/#/build/javascript
-const scene  = elation.engine.instances.default.systems.world.scene['world-3d'] // THREE scene
-let     cam  = player.camera // camera
-let renderer = janus.engine.systems.render.renderer // .xr etc
-
 
 room.addEventListener('janusweb_script_frame', function(e){  } )
 room.addEventListener('registerelement', function(e){ })
 room.addEventListener('room_load_complete',function(){
-  const   mycube = room.objects.mycube             // mycube (janusobject)
-  const shadermat = mycube.objects['3d'].material  // material (THREE)
+  const scene  = elation.engine.instances.default.systems.world.scene['world-3d'] // THREE scene
+  const cam  = player.camera // camera
+  const renderer = janus.engine.systems.render.renderer // .xr etc
+
+  const mycube = room.objects.mycube             // mycube (janusobject)
+  //const shadermat = mycube.objects['3d'].material  // material (THREE)
   
+  mycube.addEventListener('click', function(e){ } ); 
+  room.addEventListener('click', function(e){ } );   
 })
 
-mycube.addEventListener('click', function(e){ } ); 
-room.addEventListener('click', function(e){ } );   
+// see https://coderofsalvation.github.io/janus-guide/#/wiki/customelements
+room.registerElement('custom', {
+  createChildren: function() {
+    room.createObject('object',{ id:"cube" },this)
+    console.log( this.children.length ) // 2
+  }
+})
 ```
 
 ***
