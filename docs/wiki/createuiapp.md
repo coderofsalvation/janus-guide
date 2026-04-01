@@ -57,6 +57,14 @@ elation.elements.define('myapp-confabulator', class extends elation.elements.bas
     this.done = true;
   }
 });
+
+// for non-gui apps (extensions e.g.) this can be a good starting point:
+// function run_extension(){
+//    // do stuff
+// }
+// if( room.loaded ) run_extension()
+// elation.events.add(null, 'room_load_complete', run_extension )
+
 ```
 #### myapp.css
 
