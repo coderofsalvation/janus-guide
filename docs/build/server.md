@@ -2,9 +2,41 @@
 
 There are various third-party tools made by the community:
 
+* [janusweb](https://github.com/jbaicoianu/janusweb) in-Browser browser of interlinked 3D files & Janus rooms
+* [janusxr.com](https://github.com/jbaicoianu/janusweb) browser/server-executable 
 * [janusxr-cli](https://github.com/coderofsalvation/janusxr-cli) Portable swiss-army knife to automate janusXR / JML things in the shell
 * [janus_bot](https://github.com/coderofsalvation/janus_bot)
 * [And more](https://github.com/search?q=janusvr%20janus&type=repositories)
+
+### janusxr.com
+
+This is the tiniest crossplatform executable with builtin server/(janusweb)client.<br>
+It allows viewing URLs as well as setting up a server-node (incl. LUA scripting).
+
+> To read more about <b>janusxr.com</b>, see the Janusweb [repository](https://github.com/jbaicoianu/janusweb)
+
+### Janusweb 
+
+[janusweb](https://github.com/jbaicoianu/janusweb) is an in-Browser browser for interlinked and can be used as javascript-library in HTML.
+
+* 3D files
+* Janus rooms
+
+### XRForge selfhostable platform
+
+Similar to Vesta, XRForge is a JanusXR-stack-in-a-docker including [janusweb](https://github.com/jbaicoianu/janusweb)
+
+<img alt="XRForge" target="_blank" src="_media/xrforge.png" width="100%"/>
+
+> Check the project website [here](https://xrforge.isvery.ninja) and [repository here](https://codeberg.org/coderofsalvation/xrforge)
+
+Or try it now:
+
+```bash
+$ docker run -p 8080:3214 -p 5566:5566 -p 5577:5577 codeberg.org/coderofsalvation/xrforge:latest
+```
+
+> now surf your browser to `https://localhost:8080`
 
 ### JANUSXR-CLI
 
