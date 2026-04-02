@@ -341,7 +341,7 @@ room.onKeyDown = function(event)
 | `room_load_complete_customelements` | all elements are registered |
 | `room_load_complete` | everything is loaded |
 | `room_enable` | room is loaded and enabled (after succesful teleport or forward button) |
-| `janus_room_scriptload` | triggered when assets are loaded. **NOTE**: might fire multiple times when loading on-the-fly `<assetscript>` | 
+| `janus_room_scriptload` | (fired many) triggered when assets are loaded. **NOTE**: also fires when loading on-the-fly `<assetscript>` | 
 | `room_active` | room + assets are loaded + scripts started |
 | `physics_collide` | triggered on collision |
 | `janus_room_collider_enter` | triggered on collision start |
@@ -351,6 +351,12 @@ room.onKeyDown = function(event)
 | `mouseup` | |
 | `mousemove` |  |
 | `mousedrag` | |
+| asset_load_queued     | (fired once) the object is first requested                               |          
+| asset_load_start      | (fired once) the browser has started fetching bytes for this object      |            
+| asset_load_progress   | (fired many) some amount of data for this object has loaded              |            
+| asset_load_processing | (fired once) all data for this object has finished loading and is about to be processed | 
+| asset_load_processed  | (fired once) data for this object has finished parsing                   |            
+| asset_load_complete   | (fired once) all of this object's children have fired load_complete      |            
 
 ---
 
