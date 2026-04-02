@@ -2,7 +2,6 @@
 
 There are various third-party tools made by the community:
 
-* [janusweb](https://github.com/jbaicoianu/janusweb) in-Browser browser of interlinked 3D files & Janus rooms
 * [janusxr.com](https://github.com/jbaicoianu/janusweb) browser/server-executable 
 * [janusxr-cli](https://github.com/coderofsalvation/janusxr-cli) Portable swiss-army knife to automate janusXR / JML things in the shell
 * [janus_bot](https://github.com/coderofsalvation/janus_bot)
@@ -13,14 +12,21 @@ There are various third-party tools made by the community:
 This is the tiniest crossplatform executable with builtin server/(janusweb)client.<br>
 It allows viewing URLs as well as setting up a server-node (incl. LUA scripting).
 
+```bash
+$ chmod +x janusxr.com          # only for non-windows users
+
+$ ./janusxr.com 
+I2026-01-19T15:41:10 (srvr) listen http://127.0.0.1:8080
+I2026-01-19T15:41:10 (srvr) listen http://192.168.1.168:8080
+Launching browser..
+
+```
+
+> Now your browser pops up and you can surf in 3D
+
+It also automatically serves rooms from the same directory, so it can act as a server-node too.
+
 > To read more about <b>janusxr.com</b>, see the Janusweb [repository](https://github.com/jbaicoianu/janusweb)
-
-### Janusweb 
-
-[janusweb](https://github.com/jbaicoianu/janusweb) is an in-Browser browser for interlinked and can be used as javascript-library in HTML.
-
-* 3D files
-* Janus rooms
 
 ### XRForge selfhostable platform
 
