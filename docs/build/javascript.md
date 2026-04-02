@@ -3,6 +3,7 @@
 * [room object](/build/javascript.md#the-quotroomquot-object)
     * [methods](/build/javascript.md#methods)
     * [callback](/build/javascript.md#callbacks)
+    * [events](/build/javascript.md#events)
     * [script objects](/build/javascript.md#script-objects)
 * [player object](/build/javascript.md#the-quotplayerquot-object)
 * [vector & misc functions](/build/javascript.md#vector-functions-amp-misc)
@@ -351,12 +352,6 @@ room.onKeyDown = function(event)
 | `mouseup` | |
 | `mousemove` |  |
 | `mousedrag` | |
-| asset_load_queued     | (fired once) the object is first requested                               |          
-| asset_load_start      | (fired once) the browser has started fetching bytes for this object      |            
-| asset_load_progress   | (fired many) some amount of data for this object has loaded              |            
-| asset_load_processing | (fired once) all data for this object has finished loading and is about to be processed | 
-| asset_load_processed  | (fired once) data for this object has finished parsing                   |            
-| asset_load_complete   | (fired once) all of this object's children have fired load_complete      |            
 
 ---
 
