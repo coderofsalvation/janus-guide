@@ -442,7 +442,7 @@ But you can also include basic HTML like this:
 **back_alpha** (default "1") - specify the opacity (non-transparency) of the background
 
 <video width="100%" height="500" controls>
-  <source src="../_media/paragraph-translators.mp4" type="video/mp4"/>
+  <source src="_media/paragraph-translators.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
