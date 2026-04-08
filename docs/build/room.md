@@ -417,6 +417,8 @@ But you can also include basic HTML like this:
 
 **selector** (default '') - CSS Selector (level1) to partially select HTML/XML inside `text`/`url`-attribute
 
+**css** (default '') - CSS definitions (`*{ color:red; border-radius:10px; }` e.g.)
+
 **fwd** (default "0 0 1") - specify the orientation (or use xdir, ydir, zdir, defaults "1 0 0", "0 1 0", "0 0 1")
 
 **rotation** - (default "0 0 0") Specifies an Eulerian rotation in degrees.
