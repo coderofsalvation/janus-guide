@@ -441,9 +441,13 @@ But you can also include basic HTML like this:
 
 **back_alpha** (default "1") - specify the opacity (non-transparency) of the background
 
-> Here's a demo of the `url` and `selector` attributes, which even allows displaying partial-content from its JML-container (the HTML-document e.g.)
+<video width="100%" height="500" controls>
+  <source src="../_media/paragraph-translators.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
 
-![](../_media/paragraph-translators.mp4)
+> Above is a demo of the `url` and `selector` attributes, which even allows displaying partial-content from its JML-container (the HTML-document e.g.)
+
 
 The builtin XMLtranslator allows:
 
