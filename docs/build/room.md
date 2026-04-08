@@ -377,6 +377,8 @@ The Paragraph tag allows the addition a generated image which contains text, use
 
 ![Paragraph](http://janusxr.org/docs/build/roomtag/img/paragraph.jpg)
 
+> `<paragraph> is essentially text-to-texture translator. It contains a builtin XMLtranslator, but can be extended with other translators via assetscripts.
+
 Example:
 
 Like with the text tag, the paragraph's text content is placed between the opening and closing Paragraph tags. Here is an example which adds a Paragraph to the room at position "5 5 5" and facing direction "0 0 1".
@@ -407,6 +409,14 @@ But you can also include basic HTML like this:
 
 **pos** (default "0 0 0") - specify the position (anchor point is centered horizontally, and at the bottom vertically)
 
+**text** (default '') - specify text as attribute (`<paragraph text="foo"/>` is alias of `<paragraph>foo</paragraph>`)
+
+**url** (default '') - specify url as source for `text`-attribute
+  
+**cycle** (default 0) - cycle between multiple matches of `selector` every X milliseconds 
+
+**selector** (default '') - CSS Selector (level1) to partially select HTML/XML inside `text`/`url`-attribute
+
 **fwd** (default "0 0 1") - specify the orientation (or use xdir, ydir, zdir, defaults "1 0 0", "0 1 0", "0 0 1")
 
 **rotation** - (default "0 0 0") Specifies an Eulerian rotation in degrees.
@@ -431,7 +441,50 @@ But you can also include basic HTML like this:
 
 **back_alpha** (default "1") - specify the opacity (non-transparency) of the background
 
+> Here's a demo of the `url` and `selector` attributes, which even allows displaying partial-content from its JML-container (the HTML-document e.g.)
+
+![](../_media/paragraph-translators.mp4)
+
+The builtin XMLtranslator allows:
+
+|                           | example |
+|---------------------------|---------|
+| inline html             | `<paragraph><![CDATA[ <b>hello world</b> ]]></paragraph>` |
+| inline html (partial)   | `<paragraph selector="span"><![CDATA[ <b>hello <span>world</span></b> ]]></paragraph>` |
+| external url            | `<paragraph url="https://janusxr.org"/>` |
+| external url (partials) | `<paragraph url="https://janusxr.org" selector=".infoText"/>` |
+| janusroom container html| `<paragraph selector=".someclass"/>` |
+| janusroom container xml | `<paragraph selector="tag subtag title"/>` |
+| RSS                     | `<paragraph url="https://my.org/foo.rss" selector="item description"/>` |
+| XML                     | `<paragraph url="https://my.org/bar.xml" selector="title"/>` |
+| any data- or selector-format via 'paragraph_translator' event | see below |
+
+Example Translator (for in assetscript):
+
+```javascript
+    room.addEventListener("paragraph_translator", function(e){
+      const {translator,paragraph} = e.detail
+      // now you can override the default translator
+      translator.fetch     = async (url) => this.text = "a response"    // my custom fetch function
+      translator.translate = async (   ) => ["<h1>head</h1>",this.text] // my x2html translator
+    }
+```
+ 
+NOTES:
+
+1. By default, selectors are done via `document.querySelectorAll`
+2. in case of multiple results:
+  2.1 clicking the paragraph with cycle through them
+  2.2 setting cycle="3000" allows for (3sec per item) slideshows
+  2.3 setting `rooms.objects.myparagraph.index++` cycles to next item
+3. width/height-attributes offers finer control of texture size
+4. ttl-attributes allows finer control of webrequest-cache (default 2 mins)
+5. setting `rooms.object.myparagraph.selector = "#section2"' allows for statemanagement
+6. separation of `this.text` (for JML) and `this.html` (for texture) is necessary (to not break JML/glb exports)
+
 ***
+
+
 
 ## Link
 
