@@ -377,7 +377,7 @@ The Paragraph tag allows the addition a generated image which contains text, use
 
 ![Paragraph](http://janusxr.org/docs/build/roomtag/img/paragraph.jpg)
 
-> `<paragraph> is essentially text-to-texture translator. It contains a builtin XMLtranslator, but can be extended with other translators via assetscripts.
+> `<paragraph>` is essentially a text-to-texture translator. It contains a builtin XMLtranslator, but can be extended with other translators via assetscripts.
 
 Example:
 
@@ -418,6 +418,16 @@ But you can also include basic HTML like this:
 **selector** (default '') - CSS Selector (level1) to partially select HTML/XML inside `text`/`url`-attribute
 
 **css** (default '') - CSS definitions (`*{ color:red; border-radius:10px; }` e.g.)
+
+**transparent** (default 'false') - allow text/html to be transparent 
+
+**width** (default 1024) - texture width 
+
+**height** (default 1024) - texture height 
+
+**index** (default 0) - show selector match (increments when cycle is set, or paragraph is clicked)
+
+**ttl** (default 120000) - webrequest time to live (decrease when `url` is set regularly for realtime updates)
 
 **fwd** (default "0 0 1") - specify the orientation (or use xdir, ydir, zdir, defaults "1 0 0", "0 1 0", "0 0 1")
 
