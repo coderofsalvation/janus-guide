@@ -446,7 +446,7 @@ But you can also include basic HTML like this:
   Your browser does not support the video tag.
 </video>
 
-> Above is a demo of the `url` and `selector` attributes, which even allows displaying partial-content from its JML-container (the HTML-document e.g.)
+> Above is a demo of the `url` and `selector` attributes, which even allows displaying partial-content from its JML-container (the HTML-document e.g.). See [the source here](https://github.com/jbaicoianu/janusweb/blob/master/tests/room/paragraph.xml)
 
 
 The builtin XMLtranslator allows:
