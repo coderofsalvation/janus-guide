@@ -20,7 +20,7 @@ You can test your room-URLs with any janusweb-viewer:
 | ❤️[archive.org](https://archive.org) | platform | anti-linkrot | add '/download' to your item ([https://archive.org/download/janusxr-1](https://archive.org/download/janusxr-1) e.g.) to get to the real URLs |
 | 🌐 [neocities.org](https://neocities.org) | platform | fun | cute community |
 | 🌐 [nekoweb.org](https://nekoweb.org) | platform | cats | cute community |
-| ❤️[janusxr.com](#/build/tools) | selfhost / desktop app | convenient | also supports lua (see [redbean](https://redbean.dev)) |
+| ❤️[janusxr.com](#/build/tools) | selfhost / desktop / intranet | convenient | also supports lua (see [redbean](https://redbean.dev)) |
 | 🌐 [tilde.club](https://tilde.club) | pubnix | commandline | put files in your www-directory |
 | 🌐 [tilde.team](https://tilde.team) | pubnix | commandline | put files in your www-directory |
 | 🌐 [tilde.institute](https://tilde.institute) | pubnix | commandline | put files in your www-directory |
