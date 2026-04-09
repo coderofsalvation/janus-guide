@@ -3,16 +3,17 @@
 On the open web, so you're in full control.<br>
 You can test your room-URLs with any janusweb-viewer:
 
-<input type="text" placeholder="https://your.url/foo.html"/><br>
-<select>
-  <option value="web.janusxr.org/#janus.url=">web.janusxr.org</option>
-  <option value="xrforge.isvery.ninja/view/index.html?profile=default#janus.url=">xrforge.isvery.ninja</option>
-</select>
-<button onclick="testURL()">test</button>
-<script>
-  function testURL(){ alert("hoi") }
-</script>
-<br><br>
+<input type="text" list="janusweb" />
+<datalist id="janusweb">
+  <option>web.janusxr.org/#janus.url=</option>
+  <option>xrforge.isvery.ninja/view/index.html#janus.url=</option>
+</datalist>
+
+1. select a server 
+2. enter your URL after `#janus.url=` 
+3. copy-paste the whole URL into your browser (+Profit!)
+
+<br>
 
 | How                   | type   | vibe | comment   |
 |-----------------------|--------|----------|-----------|
