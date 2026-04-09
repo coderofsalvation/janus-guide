@@ -21,9 +21,9 @@ You can test your room-URLs with any janusweb-viewer:
 | 🌐 [neocities.org](https://neocities.org) | platform | fun | cute community |
 | 🌐 [nekoweb.org](https://nekoweb.org) | platform | cats | cute community |
 | ❤️[janusxr.com](#/build/tools) | selfhost / desktop / intranet | convenient | also supports lua (see [redbean](https://redbean.dev)) |
-| 🌐 [tilde.club](https://tilde.club) | pubnix | commandline | put files in your www-directory |
-| 🌐 [tilde.team](https://tilde.team) | pubnix | commandline | put files in your www-directory |
-| 🌐 [tilde.institute](https://tilde.institute) | pubnix | commandline | put files in your www-directory |
+| 🌐 [tilde.club](https://tilde.club) | pubnix | unixy | put files in your www-directory |
+| 🌐 [tilde.team](https://tilde.team) | pubnix | unixy | put files in your www-directory |
+| 🌐 [tilde.institute](https://tilde.institute) | pubnix | unixy | put files in your www-directory |
 | ❤️[codeberg pages](https://codeberg.page) | git | developer | much easier, faster/instant deployments (compared to github) |
 | 🌐 [wordpress](https://wordpress.org) | blog | website | put files via the webdirectory |
 | 🌐 [hackmd.io](https://hackmd.io) | pastebin | temporary | append '/download' to your url ([https://hackmd.io/aRdwtgWxQZarY8nWhoLHgg/download](https://hackmd.io/aRdwtgWxQZarY8nWhoLHgg/download) e.g.) |
