@@ -14,7 +14,7 @@
   * [Room](build/room.md)
   * [Javascript](build/javascript.md)
   * [📜 Cheatsheet](build/cheatsheet.md)
-  * [Server](build/server.md) 
+  * [Servers / Hosting](build/server.md) 
   * [Tools](build/tools.md) 
   * [JanusXR Browsers](build/browser.md)
 * [JanusWeb](wiki/README.md)
