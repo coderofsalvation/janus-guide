@@ -17,14 +17,23 @@ You can test your room-URLs with any janusweb-viewer:
 
 | How                   | type   | vibe | comment   |
 |-----------------------|--------|----------|-----------|
-| [archive.org](https://archive.org) | platform | anti-linkrot | add '/download' to your item ([https://archive.org/download/janusxr-1](https://archive.org/download/janusxr-1) e.g.) to get to the real URLs |
-| [neocities.org](https://neocities.org) | platform | fun | cute community |
-| [nekoweb.org](https://nekoweb.org) | platform | cats | cute community |
-| [janusxr.com](#/build/tools) | selfhost / desktop app | convenient | also supports lua (see [redbean](https://redbean.dev)) |
-| [tilde.club](https://tilde.club) | pubnix | commandline | put files in your www-directory |
-| [wordpress](https://wordpress.org) | blog | website | put files via the webdirectory |
-| [hackmd.io](https://hackmd.io) | pastebin | temporary | append '/download' to your url ([https://hackmd.io/aRdwtgWxQZarY8nWhoLHgg/download](https://hackmd.io/aRdwtgWxQZarY8nWhoLHgg/download) e.g.) |
-| [pastebins](https://github.com/lorien/awesome-pastebins)  | selfhosted | temporary | not all of them support raw URL |
+| ❤️[archive.org](https://archive.org) | platform | anti-linkrot | add '/download' to your item ([https://archive.org/download/janusxr-1](https://archive.org/download/janusxr-1) e.g.) to get to the real URLs |
+| 🌐 [neocities.org](https://neocities.org) | platform | fun | cute community |
+| 🌐 [nekoweb.org](https://nekoweb.org) | platform | cats | cute community |
+| ❤️[janusxr.com](#/build/tools) | selfhost / desktop app | convenient | also supports lua (see [redbean](https://redbean.dev)) |
+| 🌐 [tilde.club](https://tilde.club) | pubnix | commandline | put files in your www-directory |
+| 🌐 [tilde.team](https://tilde.team) | pubnix | commandline | put files in your www-directory |
+| 🌐 [tilde.institute](https://tilde.institute) | pubnix | commandline | put files in your www-directory |
+| ❤️[codeberg pages](https://codeberg.page) | git | developer | much easier, faster/instant deployments (compared to github) |
+| 🌐 [wordpress](https://wordpress.org) | blog | website | put files via the webdirectory |
+| 🌐 [hackmd.io](https://hackmd.io) | pastebin | temporary | append '/download' to your url ([https://hackmd.io/aRdwtgWxQZarY8nWhoLHgg/download](https://hackmd.io/aRdwtgWxQZarY8nWhoLHgg/download) e.g.) |
+| 🌐 [pastebins](https://github.com/lorien/awesome-pastebins)  | selfhosted | temporary | not all of them support raw URL |
+| 🐌 [github pages](https://github.com) | git | developer | slower deployments / complex (choose git wiki strategy) |
+| 🐌 [gitlab pages](https://gitlab.org) | git | developer | slower deployments / complex |
+| 🐌 [bitbucket pages](https://bitbucket.com) | git | developer | slower deployments / complex |
+| 🌐 [infinity](https://www.infinityfree.com) | cms | website | |
+| 🪦 [sdf.org](https://sdf.org) | pubnix | unixy | perhaps online again soon? |
+| 🪦 [ircnow.org](https://ircnow.org) | pubnix | unixy | perhaps online again soon?|
 
 
 # Server protocol
