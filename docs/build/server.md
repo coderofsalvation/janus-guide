@@ -5,6 +5,7 @@ You can test your room-URLs with any janusweb-viewer:
 
 <input type="text" list="janusweb" style="width: 100%; max-width: 800px; padding: 10px; font-size: 21px; color: #888; border-radius: 8px;" placeholder="doubleclick to select server" />
 <datalist id="janusweb">
+  <option>coderofsalvation.github.io/janusweb/#janus.url=</option>
   <option>web.janusxr.org/#janus.url=</option>
   <option>xrforge.isvery.ninja/view/index.html#janus.url=</option>
 </datalist>
@@ -21,7 +22,7 @@ You can test your room-URLs with any janusweb-viewer:
 | 🌐 [neocities.org](https://neocities.org) | platform | fun | cute community |
 | 🌐 [nekoweb.org](https://nekoweb.org) | platform | cats | cute community |
 | ❤️[janusxr.com](tools.md) | selfhost / desktop / intranet | convenient | also supports lua (see [redbean](https://redbean.dev)) |
-| 🌐 [tilde.club](https://tilde.club) | pubnix | unixy | put files in your www-directory |
+| 🌐 [tilde.club](https://tilde.club) | pubnix | unixy | put files in your public_html-directory |
 | 🌐 [tilde.team](https://tilde.team) | pubnix | unixy | put files in your www-directory |
 | 🌐 [tilde.institute](https://tilde.institute) | pubnix | unixy | put files in your www-directory |
 | ❤️[codeberg pages](https://codeberg.page) | git | developer | much easier, faster/instant deployments (compared to github) |
