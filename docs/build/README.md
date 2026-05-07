@@ -1,11 +1,14 @@
 # Build Introduction
 
-JanusVR allows you to both browse and build immersive content. With an HTML-like language known as Janus Markup Language (JML), developers are able to easily create webspaces. Janus' Javascript support allows for dynamic and interactive webspaces. There are four main ways to build in JanusVR:
+JanusVR allows you to both browse and build immersive content. With an HTML-like language known as Janus Markup Language (JML), developers are able to easily create webspaces. Janus' Javascript support allows for dynamic and interactive webspaces. There are 4 main ways to build in JanusVR:
 
 1. Interactively drag and drop immersive content right into Janus.
 2. Modify existing template webspaces.
 3. Learn to build JML and JS with a live coding editor in Janus.
 4. Export content from various popular 3D game engines and modeling software.
+5. URL-only: Link 3D files (glTF from Blender e.g.) via (XR Fragment) [href's](https://xrfragment.org/#How%20it%20works) (\*)
+
+\* = janusweb can view/navigate 3D file-URLs directly without requiring JML thanks to [XR Fragments](https://xrfragment.org). See [addressibility](/wiki/addressibility.md).
 
 > Or in case you like scripting [see this](/build/javascript.md#example)
 
