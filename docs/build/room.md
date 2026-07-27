@@ -520,6 +520,14 @@ Here is an example Link.
 
 **url** (default "") - specify the URL to link to
 
+**url_pos** - optional: render a (nested) URL in the current room and offset its position (to the portal) via url_pos='0 1 0' e.g.
+
+**url_scale** - optional: scale the nested URL 
+
+**url_rotation** - optiona: rotate the nested URL 
+
+**open_collapse** - set this to 'true' if you want the portal to dissappear after clicking (useful with url_pos for ever-expanding rooms)
+
 **title** (default "") - a title for the page the URL links to (shown until it is loaded)
 
 **pos** (default "0 0 0") - specify the position (anchor point is centered horizontally, and at the bottom vertically)
