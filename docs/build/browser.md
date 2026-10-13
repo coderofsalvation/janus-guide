@@ -7,7 +7,7 @@ JanusXR features can vary based on device- and browser-capabilities:
 | JanusXR Browser                                                                  | `<assetscript>` | `<websurface>` | `<assetvideo>` | `<assetghost>` | `.glb` | `.dae` | `.obj` | `.dds` | `.mp3` | `.ogg` | shaders | portals | AR |
 |----------------------------------------------------------------------------------|-----------------|----------------|----------------|----------------|--------|--------|--------|--------|--------|--------|---------|---------|----|
 | [❤️JanusWeb](https://github.com/jbaicoianu/janusweb)                             | ↔️ evergreen ES |                | ↔️             |                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | glsl | ✅ jumplinks | ✅ |
-| [XURFER](https://codeberg.org/coderofsalvation/xurfer)                           | ↔️ lua          |                |                |                | ✅ |   | ✅ |  | ✅ | ✅ | glsl | ✅ jumplinks | planned |
+| [XURFER](https://codeberg.org/coderofsalvation/xurfer)                           | lua planned     |                |                |                | ✅ |   | ✅ |  | ✅ | ✅ | glsl | ✅ jumplinks | planned |
 | [Janus](https://github.com/janusvr/janus)                                        | ↔️ ES3          | ✅             | ↔️             | ✅  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | | 
 | [Steam](http://store.steampowered.com/app/602090/Janus_VR/)                      | ↔️ ES3          | ✅             | ↔️             | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils| |
 | [Oculus](https://www.oculus.com/experiences/rift/883825681716606/)               | ↔️ ES3          | ✅             | ↔️             | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |

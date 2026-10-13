@@ -10,6 +10,7 @@
 JanusXR transforms the internet into a place you can visit, complete with real-time physics, physically based rendering, spatialized audio, and a customizable interface. 
 
 * [❤️JanusWeb](https://github.com/jbaicoianu/janusweb)                             
+* [XURFER](https://codeberg.org/coderofsalvation/xurfer)
 * [Janus](https://github.com/janusvr/janus)                                        
 * [Steam](http://store.steampowered.com/app/602090/Janus_VR/)                      
 * [Oculus](https://www.oculus.com/experiences/rift/883825681716606/)              
@@ -19,4 +20,4 @@ JanusXR transforms the internet into a place you can visit, complete with real-t
 * [🪦Linux](http://builds.janusxr.org/janusvr_linux.tar.gz)                        
 * [🪦OSX](http://downloads.janusxr.org/janusvr.dmg)                                
 
-> See [build a JanusXR browser](#/build/browser.md) for a feature-matrix
+> See [Feature-matrix of their JML-support here](#/build/browser)
