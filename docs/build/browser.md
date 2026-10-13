@@ -1,6 +1,6 @@
 # Build a JanusXR browser
 
-> Anyone can build a JanusXR browser with just 3 ingredients: a XML-parser, a [media-parser](https://ffmpeg.org), and a [3d-parser](https://assimp.org).
+> Anyone can build a JanusXR browser with just 2 ingredients: an XML-parser, a [3d-parser](https://assimp.org), and a [media-parser](https://ffmpeg.org) or game-engine ([XURFER](https://codeberg.org/coderofsalvation/xurfer) demonstrates this to the extreme,by offering a textual lua-browser)
 
 JanusXR features can vary based on device- and browser-capabilities:
 
