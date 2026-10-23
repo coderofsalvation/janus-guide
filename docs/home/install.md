@@ -7,17 +7,21 @@
 
 ## JanusXR Browsers
 
-JanusXR transforms the internet into a place you can visit, complete with real-time physics, physically based rendering, spatialized audio, and a customizable interface. 
+These (JML) browsers can load JanusXR URLs:
 
-* [❤️JanusWeb](https://github.com/jbaicoianu/janusweb)                             
-* [XURFER](https://codeberg.org/coderofsalvation/xurfer)
-* [Janus](https://github.com/janusvr/janus)                                        
-* [Steam](http://store.steampowered.com/app/602090/Janus_VR/)                      
-* [Oculus](https://www.oculus.com/experiences/rift/883825681716606/)              
-* [🪦Viveport](https://www.viveport.com/apps/089021e5-d296-4f02-ae25-55e959cb56b2)
-* [🪦Android](https://play.google.com/store/apps/details?id=org.janusvr)           
-* [🪦Windows](http://builds.janusxr.org/janusvr_windows.exe)                       
-* [🪦Linux](http://builds.janusxr.org/janusvr_linux.tar.gz)                        
-* [🪦OSX](http://downloads.janusxr.org/janusvr.dmg)                                
+> 🌐=webxr/browser 🤖=server 💾=native W=windows L=linux M=Mac A=android AT=androidtermux
+
+* [❤️JanusWeb](https://github.com/jbaicoianu/janusweb) 🌐
+* [XRForge](https://xrforge.isvery.ninja) 🌐🤖💾BWLMAT
+* [XURFER](https://codeberg.org/coderofsalvation/xurfer) 💾WLMA
+* [JanusVR](https://github.com/janusvr/janus) 💾WLM                                       
+* [Janus Android](https://github.com/shadoxx/janus) 💾A
+* [Steam](http://store.steampowered.com/app/602090/Janus_VR) 💾WLM
+* [Oculus](https://www.oculus.com/experiences/rift/883825681716606/) 💾A
+* [🪦Viveport](https://www.viveport.com/apps/089021e5-d296-4f02-ae25-55e959cb56b2) 💾A
+* [🪦Android](https://play.google.com/store/apps/details?id=org.janusvr) 💾A
+* [🪦Windows](http://builds.janusxr.org/janusvr_windows.exe) 💾W                       
+* [🪦Linux](http://builds.janusxr.org/janusvr_linux.tar.gz) 💾L
+* [🪦OSX](http://downloads.janusxr.org/janusvr.dmg) 💾M                                
 
 > See [Feature-matrix of their JML-support here](/build/browser)
