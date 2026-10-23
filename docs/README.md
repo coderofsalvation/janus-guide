@@ -14,7 +14,8 @@ JanusXR is a 3D internet (hosted within the web, but not exclusively) where user
 - Talk, chat, and surf the 2D web in 3D environments with others!
 
 
+<br>
 <center>
-    <a href="docs/examples.md" class="border-color: var(--theme-color,#42b983); box-sizing: border-box; color: #42b983; color: var(--theme-color,#42b983); display: inline-block; font-size: 1.05rem; letter-spacing: .1rem; margin: .5rem 1rem;">View examples now!</a>
+    <a href="/examples/clusters.md" style="background: #CCC; padding: 20px; border-radius: 35px; text-decoration: none; color: #FFF; font-size: 25px;">View examples now!</a>
 </center>
 
