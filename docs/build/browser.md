@@ -24,15 +24,15 @@ Most JanusXR browsers support (but not require) presence-servers (like [janus-se
 ## Browser (non)standards
 
 JanusXR prioritizes **flexibility** over rigid standards (W3C e.g.) to prevent the technical bloat seen in modern HTML.<br>
-By emphasizing **browser flexibility** (not browser-wars), JanusXR ensures that developers can always build new JML browsers without managing excessive complexity.<br>
+By emphasizing **browser flexibility** (not browser-wars), JanusXR ensures that developers can alays build new JML browsers without managing excessive complexity.<br>
 
-> There is no single 'true' JanusXR browser, support **level1** is enough to call something a **JanusXR browser**. That way, embedding JanusXR inside a smartwatch-app or game is stays very cheap.
+> There is no single 'true' JanusXR browser, support **level0** is enough to call something a **JanusXR browser**. That way, embedding JanusXR inside a smartwatch-app or game is stays very cheap.
  
 | tag                 | JML0       | JML1       | JML2    | `fileformat` priority  | fallback |
 |---------------------|------------|------------|---------|------------------------|------------------|
 | `<assets>`          | ✅         | ✅         |         |                        |                  |
-| `<assetimage>`      | ✅ svg<br>(flat filled shapes)  | ✅ png     |         | `.png`>`.jpg`>`.gif`>`.svg`   | poll supported extensions or fallback image |
-| `<assetsound>`      | ✅ [SFXJ](https://github.com/agateau/sfxr-qt/blob/master/docs/file-formats.md) | ✅ ogg     |         | `.ogg`>`.mp3`>`.wav`   | poll supported extensions    |
+| `<assetimage>`      |            | ✅ png     |         | `.png`>`.jpg`>`.gif`>`.svg`   | poll supported extensions or fallback image |
+| `<assetsound>`      |            | ✅ ogg     |         | `.ogg`>`.mp3`>`.wav`   | poll supported extensions    |
 | `<assetobject>`     | ✅ glb     | ✅ glb     |         | `.glb`>`.dae`>`.obj`>`.stl` | poll supported extensions  |
 | `<assetvideo>`      |            |            | ✅ mp4  | `.mp4`>`.webm`>`...`   | poll supported extensions |
 | `<assetshader>`     |            |            | ✅      | glsl                   | fallback shader |
@@ -46,7 +46,7 @@ By emphasizing **browser flexibility** (not browser-wars), JanusXR ensures that 
 | `<object>`          | ✅ XRF     | ✅ XRF     | ✅ XRF  |                        | 1. camera-spawnpoints via [XR URI Fragments](https://xrfragment.org/#teleport%20camera%20spawnpoint) mapped to `js_id`<br>2. nesting/parenting of (empty) objects should be possible  |
 | `<text>`            | ✅         | ✅         |         |                        |  |
 | `<image>`           | ✅         | ✅         |         |                        |  |
-| `<paragraph>`       | ✅ text    | ✅ text    | html+domselector   | `.txt`>`.html`>`.rss`  | `strip html-tags |  |
+| `<paragraph>`       | ✅ text    | ✅ text    | html+domselector   | url: `.txt`>`.html`>`.rss`  | `strip html-tags |  |
 | `<link>`            | ✅ jumplink| ✅ jumplink| stencils|                        |  |
 | `<sound>`           |            |            | ✅      |                        |  |
 | `<video>`           |            |            | ✅      |                        |  |
