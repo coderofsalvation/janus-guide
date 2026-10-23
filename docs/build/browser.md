@@ -31,8 +31,8 @@ By emphasizing **browser flexibility** (not browser-wars), JanusXR ensures that 
 | tag                 | JML0       | JML1       | JML2    | `fileformat` priority  | fallback |
 |---------------------|------------|------------|---------|------------------------|------------------|
 | `<assets>`          | ✅         | ✅         |         |                        |                  |
-| `<assetimage>`      | ✅ png     | ✅ png     |         | `.png`>`.jpg`>`.gif`   | poll supported extensions or fallback image |
-| `<assetsound>`      | ✅ ogg     | ✅ ogg     |         | `.ogg`>`.mp3`>`.wav`   | poll supported extensions    |
+| `<assetimage>`      | ✅ svg<br>(flat filled shapes)  | ✅ png     |         | `.png`>`.jpg`>`.gif`>`.svg`   | poll supported extensions or fallback image |
+| `<assetsound>`      | ✅ [SFXJ](https://github.com/agateau/sfxr-qt/blob/master/docs/file-formats.md) | ✅ ogg     |         | `.ogg`>`.mp3`>`.wav`   | poll supported extensions    |
 | `<assetobject>`     | ✅ glb     | ✅ glb     |         | `.glb`>`.dae`>`.obj`>`.stl` | poll supported extensions  |
 | `<assetvideo>`      |            |            | ✅ mp4  | `.mp4`>`.webm`>`...`   | poll supported extensions |
 | `<assetshader>`     |            |            | ✅      | glsl                   | fallback shader |
@@ -41,9 +41,9 @@ By emphasizing **browser flexibility** (not browser-wars), JanusXR ensures that 
 | `<assetscript>`     |            |            | ✅      | ES2024 > ES3           |  |
 | `<assetrecording>`  |            |            | ✅      |                        |  |
 | `<room>`            | ✅         | ✅         |         |                        |  |
-| `  skybox=true`     | ✅         | ✅         | ✅      |                        | CSS equivalent: linear-gradient(#79c 20%,#DFF 56%,#FFF 60%)<br><div style="height:17px; linear-gradient(#79c 20%,#DFF 56%,#FFF 60%)"></div> |
+| `  skybox=true`     | ✅         | ✅         | ✅      |                        | CSS equivalent: linear-gradient(#79c 20%,#DFF 56%,#FFF 60%) |
 | `  skybox_*=str`    |            | ✅         | ✅      |                        |  |
-| `<object>`          | ✅         | ✅         | XR Fragments |                   | support [XR URI Fragments](https://xrfragment.org) for `js_id` of unnested `<object>`  |
+| `<object>`          | ✅ XRF     | ✅ XRF     | ✅ XRF  |                        | 1. camera-spawnpoints via [XR URI Fragments](https://xrfragment.org/#teleport%20camera%20spawnpoint) mapped to `js_id`<br>2. nesting/parenting of (empty) objects should be possible  |
 | `<text>`            | ✅         | ✅         |         |                        |  |
 | `<image>`           | ✅         | ✅         |         |                        |  |
 | `<paragraph>`       | ✅ text    | ✅ text    | html+domselector   | `.txt`>`.html`>`.rss`  | `strip html-tags |  |
