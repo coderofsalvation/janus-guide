@@ -7,7 +7,7 @@ You can test your room-URLs with any janusweb-viewer:
 <datalist id="janusweb">
   <option>coderofsalvation.github.io/janusweb/#janus.url=</option>
   <option>web.janusxr.org/#janus.url=</option>
-  <option>xrforge.isvery.ninja/view/index.html#janus.url=</option>
+  <option>xrforge.isvery.ninja/janusweb/index.html#janus.url=</option>
 </datalist>
 
 1. select a server above (doubleclick)
@@ -21,21 +21,27 @@ You can test your room-URLs with any janusweb-viewer:
 | ❤️[archive.org](https://archive.org) | platform | anti-linkrot | add '/download' to your item ([https://archive.org/download/janusxr-1](https://archive.org/download/janusxr-1) e.g.) to get to the real URLs |
 | 🌐 [neocities.org](https://neocities.org) | platform | fun | cute community |
 | 🌐 [nekoweb.org](https://nekoweb.org) | platform | cats | cute community |
-| ❤️[janusxr.com](tools.md) | selfhost / desktop / intranet | convenient | also supports lua (see [redbean](https://redbean.dev)) |
 | 🌐 [tilde.club](https://tilde.club) | pubnix | unixy | put files in your public_html-directory |
 | 🌐 [tilde.team](https://tilde.team) | pubnix | unixy | put files in your www-directory |
 | 🌐 [tilde.institute](https://tilde.institute) | pubnix | unixy | put files in your www-directory |
-| ❤️[codeberg pages](https://codeberg.page) | git | developer | much easier, faster/instant deployments (compared to github) |
 | 🌐 [wordpress](https://wordpress.org) | blog | website | put files via the webdirectory |
 | 🌐 [hackmd.io](https://hackmd.io) | pastebin | temporary | append '/download' to your url ([https://hackmd.io/aRdwtgWxQZarY8nWhoLHgg/download](https://hackmd.io/aRdwtgWxQZarY8nWhoLHgg/download) e.g.) |
 | 🌐 [pastebins](https://github.com/lorien/awesome-pastebins)  | selfhosted | temporary | not all of them support raw URL |
-| 🐌 [github pages](https://github.com) | git | developer | slower deployments / complex (choose git wiki strategy) |
-| 🐌 [gitlab pages](https://gitlab.org) | git | developer | slower deployments / complex |
-| 🐌 [bitbucket pages](https://bitbucket.com) | git | developer | slower deployments / complex |
 | 🌐 [infinity](https://www.infinityfree.com) | cms | website | |
 | 🪦 [sdf.org](https://sdf.org) | pubnix | unixy | perhaps online again soon? |
 | 🪦 [ircnow.org](https://ircnow.org) | pubnix | unixy | perhaps online again soon?|
+| ❤️[xrforge](https://xrforge.isvery.ninja) | selfhosted / desktop / intranet | convenient | also supports lua (see [redbean](https://redbean.dev)) |
+| 🌐 [forgejo](https://forgejo.org/) | selfhosted | git | use this [git hook](https://codeberg.org/coderofsalvation/forgejo-pages-diy) |
+| 🌐 [caddy](https://caddyserver.com) | selfhosted | auto SSL | |
 
+Due to AI scrapers, the following are not adviced anymore:
+
+| How                   | type   | vibe | comment   |
+|-----------------------|--------|----------|-----------|
+| 🐌[codeberg pages](https://codeberg.page) | git | developer | faster/instant deployments compared to github |
+| 🐌 [github pages](https://github.com) | git | developer | slower deployments / complex (choose git wiki strategy) |
+| 🐌 [gitlab pages](https://gitlab.org) | git | developer | slower deployments / complex |
+| 🐌 [bitbucket pages](https://bitbucket.com) | git | developer | slower deployments / complex |
 
 # Server protocol
 
