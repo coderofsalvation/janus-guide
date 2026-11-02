@@ -9,6 +9,7 @@
 - VR/AR made with open standards
 
 [GitHub](https://github.com/madjin/janus-guide/)
+[Discord]](https://discord.gg/7eyK2wE)
 [Get Started](home/about.md)
 
 <!-- background image -->
