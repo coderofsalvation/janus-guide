@@ -17,7 +17,7 @@ JanusXR features can vary based on device- and browser-capabilities:
 | [🪦Linux](http://builds.janusxr.org/janusvr_linux.tar.gz)                        | ↔️ ES3          | ✅             | ✅             | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |
 | [🪦OSX](http://downloads.janusxr.org/janusvr.dmg)                                | ↔️ ES3          | ✅             | ✅             | ↔️ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |  glsl | ✅ stencils | |
 
-🪦 = no capacity to maintain (maintenance is focused on JanusWeb for the time being)
+🪦 = needs maintenance (currently resources are focused on JanusWeb for the time being)
 ↔️ = depends on underlying OS/browser. Safe videoformats are `.webm` and `.mp4`. ECMAScript v3 is the lowest common denominator.
  
 Most JanusXR browsers support (but not require) presence-servers (like [janus-server](https://github.com/janusvr/janus-server)) which handles interaction between users from both Janus and JanusWeb across 2D displays and VR HMDs, via a network-agnostic open [JSON protocol](https://github.com/janusvr/janus-server/blob/master/API%20Documentation.md)
