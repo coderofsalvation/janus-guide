@@ -33,7 +33,7 @@ The JML-markup below, achieves the following 3 **VR-in-AR** examples: a door-, w
   </room>
 </fireboxroom>
 ```
-> NOTE: Please point `occluder.glb` to one of these files: [cubedoor.glb](/janus-guide/_media/asset/cubedoor.glb), [cubewindow.glb](/janus-guide/_media/asset/cubewindow.glb) or [hoop.glb](/janus-guide/_media/asset/hoop.glb)
+> NOTE: Please point `occluder.glb` to one of these files: <a href="/janus-guide/_media/asset/cubedoor.glb">cubedoor.glb</a>, <a href="/janus-guide/_media/asset/cubewindow.glb">cubewindow.glb</a> or <a href="/janus-guide/_media/asset/hoop.glb">hoop.glb</a>
 
 Janusweb-builds with recent [XR Fragments](https://xrfragments.org)-support, allow a shorthand of `<object id='occluder.glb' class='occludable'>` (see [XR hints](https://xrfragment.org/#%F0%9F%93%9Clevel3%3A%20XR%20hints))
 
