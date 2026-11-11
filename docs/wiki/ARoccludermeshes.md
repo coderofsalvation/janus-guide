@@ -8,11 +8,19 @@ In AR we often want partial immersion, usually in 3 ways:
 
 > NOTE: especially 3 are very useful for e-learning and workplace scenarios (which still enable access to the physical space).
 
-# Example
+# Examples
 
-The following JML-example achieves this:<br>
+The JML-markup below, achieves the following 3 **VR-in-AR** examples: a door-, window- and hoop-projection.
 
-> NOTE: Please point `occluder.glb` to one of these files: [cubedoor.glb](_media/asset/cubedoor.glb), [cubewindow.glb](_media/asset/cubewindow.glb) or [hoop.glb](_media/asset/hoop.glb)
+<a href="/janus-guide/_media/occluder_door.jpg">
+  <img alt="gallery1" target="_blank" src="/janus-guide/_media/occluder_door.jpg" height="190" width="32%">
+</a>
+<a href="/janus-guide/_media/occluder_window.jpg">
+  <img alt="gallery1" target="_blank" src="/janus-guide/_media/occluder_window.jpg" height="190" width="32%">
+</a>
+<a href="/janus-guide/_media/occluder_hoop.jpg">
+  <img alt="gallery1" target="_blank" src="/janus-guide/_media/occluder_hoop.jpg" height="190" width="32%">
+</a>
 
 ```xml
 <fireboxroom>
@@ -25,15 +33,6 @@ The following JML-example achieves this:<br>
   </room>
 </fireboxroom>
 ```
-> **NOTE**: janusweb-builds with [XR Fragments](https://xrfragments.org)-support, allow a shorthand of `<object id='occluder.glb' class='occludable'>` (see [XR hints](https://xrfragment.org/#%F0%9F%93%9Clevel3%3A%20XR%20hints))
+> NOTE: Please point `occluder.glb` to one of these files: [cubedoor.glb](_media/asset/cubedoor.glb), [cubewindow.glb](_media/asset/cubewindow.glb) or [hoop.glb](_media/asset/hoop.glb)
 
-<a href="/janus-guide/_media/occluder_door.jpg">
-  <img alt="gallery1" target="_blank" src="/janus-guide/_media/occluder_door.jpg" height="190" width="32%">
-</a>
-<a href="/janus-guide/_media/occluder_window.jpg">
-  <img alt="gallery1" target="_blank" src="/janus-guide/_media/occluder_window.jpg" height="190" width="32%">
-</a>
-<a href="/janus-guide/_media/occluder_hoop.jpg">
-  <img alt="gallery1" target="_blank" src="/janus-guide/_media/occluder_hoop.jpg" height="190" width="32%">
-</a>
-
+Janusweb-builds with recent [XR Fragments](https://xrfragments.org)-support, allow a shorthand of `<object id='occluder.glb' class='occludable'>` (see [XR hints](https://xrfragment.org/#%F0%9F%93%9Clevel3%3A%20XR%20hints))
