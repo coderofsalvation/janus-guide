@@ -41,8 +41,8 @@ Janusweb-builds with recent [XR Fragments](https://xrfragments.org)-support, all
 
 The player (usually spawned at pos='0 0 0') will stand inside the occluder mesh, which:<br>
 
-* has **no material** (important), which renders the physical space **in AR-mode**.
-* is invisible (color_write="false") but still blocks objects behind it (it still writes to the depthbuffer).
+* has **no material** (important), so it renders the physical space **in AR-mode**.
+* we emphasize invisibility (color_write="false") so it'll still **occlude** objects behind it (+writes to the depthbuffer).
 * With culling we can control how the occluder-mesh behaves when the player moves outside.
 * The renderorder of the occluder-mesh should be before anything else (layer="-1001")
 
