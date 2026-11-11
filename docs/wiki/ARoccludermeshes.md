@@ -6,7 +6,7 @@ In AR we often want partial immersion, usually in 3 ways:
 2. VR-in-AR: by projecting a VR scene via a window/door/screen e.g.222. 
 3. workspace 'hoop' (Dan Meeks™): VR except a radius around the center is AR
 
-> NOTE: especially 3 are very useful for e-learning and workplace scenarios (which still enable access to the physical space).
+> NOTE: especially 2 and 3 are very economic for e-learning and workplace scenarios, they allow reprojecting a VR experience in AR (while still enabling access to the physical space).
 
 # Examples
 
